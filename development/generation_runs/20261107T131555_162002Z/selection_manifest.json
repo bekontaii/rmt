@@ -1,0 +1,37 @@
+{
+  "purpose": "development_pilot",
+  "dataset_sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+  "final_selection_manifest_sha256": "d14c4e7b237cca2932b64143ca00e53dedf5e30d399fbab9417b2afc9358dec8",
+  "seed": 42,
+  "article_titles": [
+    "Warsaw",
+    "Martin_Luther",
+    "Teacher"
+  ],
+  "questions_per_article": 3,
+  "sampling_rule": "One local Random(seed); sample questions sequentially in the recorded article order",
+  "retrieval_question_ids": [
+    "57335ddbd058e614000b5933",
+    "57339902d058e614000b5e73",
+    "57336755d058e614000b5a3f",
+    "56f8a6969e9bad19000a025b",
+    "56f827caa6d7ea1400e17439",
+    "56f8225ea6d7ea1400e173f4",
+    "56e7611500c9c71400d77056",
+    "56e7578a37bdd419002c3ea9",
+    "56e7542f00c9c71400d76fbd"
+  ],
+  "generation_question_ids": [
+    "57335ddbd058e614000b5933",
+    "57339902d058e614000b5e73",
+    "57336755d058e614000b5a3f",
+    "56f8a6969e9bad19000a025b",
+    "56f827caa6d7ea1400e17439",
+    "56f8225ea6d7ea1400e173f4",
+    "56e7611500c9c71400d77056",
+    "56e7578a37bdd419002c3ea9",
+    "56e7542f00c9c71400d76fbd"
+  ],
+  "final_article_overlap": [],
+  "final_question_overlap": []
+}

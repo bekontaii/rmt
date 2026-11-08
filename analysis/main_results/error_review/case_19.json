@@ -1,0 +1,210 @@
+{
+  "review_index": 19,
+  "question_id": "57115ff82419e314009555c5",
+  "article": "Steam_engine",
+  "question": "What is another way of referring to stators?",
+  "references": [
+    "static discs",
+    "static discs)",
+    "static discs"
+  ],
+  "answer_spans": [
+    [
+      25088,
+      25100
+    ],
+    [
+      25088,
+      25101
+    ],
+    [
+      25088,
+      25100
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "cranks",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 3,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "engineers, mechanics and insurance inspectors. The engine indicator can also be used on internal combustion engines. See image of indicator diagram below (in Types of motor units section).\n\nWith two-cylinder compounds used in railway work, the pistons are connected to the cranks as with a two-cylinder simple at 90° out of phase with each other (quartered). When the double expansion group is duplicated, producing a 4-cylinder compound, the individual pistons within the group are usually balanced at 180°, the groups being set at 90° to each other. In one case (the first type of Vauclain compound), the pistons worked in\n\nlandlord). Thus, in a market economy, inequality is a reflection of the productivity gap between highly-paid professions and lower-paid professions.\n\nIn Marxian analysis, capitalist firms increasingly substitute capital equipment for labor inputs (workers) under competitive pressure to reduce costs and maximize profits. Over the long-term, this trend increases the organic composition of capital, meaning that less workers are required in proportion to capital inputs, increasing unemployment (the \"reserve army of labour\"). This process exerts a downward pressure on wages. The substitution of capital equipment for labor (mechanization and automation) raises the productivity of each worker, resulting in a situation of\n\nform in a compressor (as in the Carnot cycle). The cycle of a reciprocating steam engine differs from that of turbines because of condensation and re-evaporation occurring in the cylinder or in the steam inlet passages.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Steam_engine",
+          "start": 9585,
+          "end": 10209,
+          "text": "engineers, mechanics and insurance inspectors. The engine indicator can also be used on internal combustion engines. See image of indicator diagram below (in Types of motor units section).\n\nWith two-cylinder compounds used in railway work, the pistons are connected to the cranks as with a two-cylinder simple at 90° out of phase with each other (quartered). When the double expansion group is duplicated, producing a 4-cylinder compound, the individual pistons within the group are usually balanced at 180°, the groups being set at 90° to each other. In one case (the first type of Vauclain compound), the pistons worked in"
+        },
+        {
+          "rank": 2,
+          "article": "Economic_inequality",
+          "start": 2999,
+          "end": 3722,
+          "text": "landlord). Thus, in a market economy, inequality is a reflection of the productivity gap between highly-paid professions and lower-paid professions.\n\nIn Marxian analysis, capitalist firms increasingly substitute capital equipment for labor inputs (workers) under competitive pressure to reduce costs and maximize profits. Over the long-term, this trend increases the organic composition of capital, meaning that less workers are required in proportion to capital inputs, increasing unemployment (the \"reserve army of labour\"). This process exerts a downward pressure on wages. The substitution of capital equipment for labor (mechanization and automation) raises the productivity of each worker, resulting in a situation of"
+        },
+        {
+          "rank": 3,
+          "article": "Steam_engine",
+          "start": 34222,
+          "end": 34441,
+          "text": "form in a compressor (as in the Carnot cycle). The cycle of a reciprocating steam engine differs from that of turbines because of condensation and re-evaporation occurring in the cylinder or in the steam inlet passages."
+        },
+        {
+          "rank": 4,
+          "article": "Steam_engine",
+          "start": 16513,
+          "end": 17230,
+          "text": "typically direct connected to their driving turbines. In marine service, (pioneered on the Turbinia), steam turbines with reduction gearing (although the Turbinia has direct turbines to propellers with no reduction gearbox) dominated large ship propulsion throughout the late 20th century, being more efficient (and requiring far less maintenance) than reciprocating steam engines. In recent decades, reciprocating Diesel engines, and gas turbines, have almost entirely supplanted steam propulsion for marine applications.\n\nThe Rankine cycle is the fundamental thermodynamic underpinning of the steam engine. The cycle is an arrangement of components as is typically used for simple power production, and utilizes the"
+        },
+        {
+          "rank": 5,
+          "article": "Oxygen",
+          "start": 27027,
+          "end": 27703,
+          "text": "bulk liquid oxygen storage containers, which stand outside hospitals and other institutions with a need for large volumes of pure oxygen gas. Liquid oxygen is passed through heat exchangers, which convert the cryogenic liquid into gas before it enters the building. Oxygen is also stored and shipped in smaller cylinders containing the compressed gas; a form that is useful in certain portable medical applications and oxy-fuel welding and cutting.\n\nAmong the most important classes of organic compounds that contain oxygen are (where \"R\" is an organic group): alcohols (R-OH); ethers (R-O-R); ketones (R-CO-R); aldehydes (R-CO-H); carboxylic acids (R-COOH); esters (R-COO-R);"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/57115ff82419e314009555c5.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "static discs",
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "In this perspective, wages and profits are determined by the marginal value added of each economic actor (worker, capitalist/business owner, landlord). Thus, in a market economy, inequality is a reflection of the productivity gap between highly-paid professions and lower-paid professions.\n\nIn Marxian analysis, capitalist firms increasingly substitute capital equipment for labor inputs (workers) under competitive pressure to reduce costs and maximize profits. Over the long-term, this trend increases the organic composition of capital, meaning that less workers are required in proportion to capital inputs, increasing unemployment (the \"reserve army of labour\"). This process exerts a downward pressure on wages. The\n\nengine using a piston, and was used in 1712 for pumping in a mine.\n\nA steam turbine consists of one or more rotors (rotating discs) mounted on a drive shaft, alternating with a series of stators (static discs) fixed to the turbine casing. The rotors have a propeller-like arrangement of blades at the outer edge. Steam acts upon these blades, producing rotary motion. The stator consists of a similar, but fixed, series of blades that serve to redirect the steam flow onto the next rotor stage. A steam turbine often exhausts into a surface condenser that provides a vacuum. The\n\nmeasurement scale. Through experimentation, it is determined that laboratory measurements of forces are fully consistent with the conceptual definition of force offered by Newtonian mechanics.\n\nForces act in a particular direction and have sizes dependent upon how strong the push or pull is. Because of these characteristics, forces are classified as \"vector quantities\". This means that forces follow a different set of mathematical rules than physical quantities that do not have direction (denoted scalar quantities). For example, when determining what happens when two forces act on the same object, it is necessary to know both the magnitude and the direction",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Economic_inequality",
+          "start": 2858,
+          "end": 3579,
+          "text": "In this perspective, wages and profits are determined by the marginal value added of each economic actor (worker, capitalist/business owner, landlord). Thus, in a market economy, inequality is a reflection of the productivity gap between highly-paid professions and lower-paid professions.\n\nIn Marxian analysis, capitalist firms increasingly substitute capital equipment for labor inputs (workers) under competitive pressure to reduce costs and maximize profits. Over the long-term, this trend increases the organic composition of capital, meaning that less workers are required in proportion to capital inputs, increasing unemployment (the \"reserve army of labour\"). This process exerts a downward pressure on wages. The"
+        },
+        {
+          "rank": 2,
+          "article": "Steam_engine",
+          "start": 24892,
+          "end": 25470,
+          "text": "engine using a piston, and was used in 1712 for pumping in a mine.\n\nA steam turbine consists of one or more rotors (rotating discs) mounted on a drive shaft, alternating with a series of stators (static discs) fixed to the turbine casing. The rotors have a propeller-like arrangement of blades at the outer edge. Steam acts upon these blades, producing rotary motion. The stator consists of a similar, but fixed, series of blades that serve to redirect the steam flow onto the next rotor stage. A steam turbine often exhausts into a surface condenser that provides a vacuum. The"
+        },
+        {
+          "rank": 3,
+          "article": "Force",
+          "start": 9430,
+          "end": 10095,
+          "text": "measurement scale. Through experimentation, it is determined that laboratory measurements of forces are fully consistent with the conceptual definition of force offered by Newtonian mechanics.\n\nForces act in a particular direction and have sizes dependent upon how strong the push or pull is. Because of these characteristics, forces are classified as \"vector quantities\". This means that forces follow a different set of mathematical rules than physical quantities that do not have direction (denoted scalar quantities). For example, when determining what happens when two forces act on the same object, it is necessary to know both the magnitude and the direction"
+        },
+        {
+          "rank": 4,
+          "article": "Steam_engine",
+          "start": 34001,
+          "end": 34441,
+          "text": "condenser as a liquid not as a gas. Pumping the working fluid in liquid form during the cycle requires a small fraction of the energy to transport it compared to the energy needed to compress the working fluid in gaseous form in a compressor (as in the Carnot cycle). The cycle of a reciprocating steam engine differs from that of turbines because of condensation and re-evaporation occurring in the cylinder or in the steam inlet passages."
+        },
+        {
+          "rank": 5,
+          "article": "Oxygen",
+          "start": 27027,
+          "end": 27703,
+          "text": "bulk liquid oxygen storage containers, which stand outside hospitals and other institutions with a need for large volumes of pure oxygen gas. Liquid oxygen is passed through heat exchangers, which convert the cryogenic liquid into gas before it enters the building. Oxygen is also stored and shipped in smaller cylinders containing the compressed gas; a form that is useful in certain portable medical applications and oxy-fuel welding and cutting.\n\nAmong the most important classes of organic compounds that contain oxygen are (where \"R\" is an organic group): alcohols (R-OH); ethers (R-O-R); ketones (R-CO-R); aldehydes (R-CO-H); carboxylic acids (R-COOH); esters (R-COO-R);"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/57115ff82419e314009555c5.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "cranks",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 3,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "The instance is a number (e.g.\n\n[citation needed]\n\nOther components are often present; pumps (such as an injector) to supply water to the boiler during operation, condensers to recirculate the water and recover the latent heat of vaporisation, and superheaters to raise the temperature of the steam above its saturated vapour point, and various mechanisms to increase the draft for fireboxes. When coal is used, a chain or screw stoking mechanism and its drive engine or motor may be included to move the fuel from a supply bin (bunker) to the firebox.\n\nSee image of indicator diagram below (in Types of motor units section).\n\nWith two-cylinder compounds used in railway work, the pistons are connected to the cranks as with a two-cylinder simple at 90° out of phase with each other (quartered). When the double expansion group is duplicated, producing a 4-cylinder compound, the individual pistons within the group are usually balanced at 180°, the groups being set at 90° to each other.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Computational_complexity_theory",
+          "start": 2476,
+          "end": 2506,
+          "text": "The instance is a number (e.g."
+        },
+        {
+          "rank": 2,
+          "article": "Steam_engine",
+          "start": 31350,
+          "end": 31870,
+          "text": "[citation needed]\n\nOther components are often present; pumps (such as an injector) to supply water to the boiler during operation, condensers to recirculate the water and recover the latent heat of vaporisation, and superheaters to raise the temperature of the steam above its saturated vapour point, and various mechanisms to increase the draft for fireboxes. When coal is used, a chain or screw stoking mechanism and its drive engine or motor may be included to move the fuel from a supply bin (bunker) to the firebox."
+        },
+        {
+          "rank": 3,
+          "article": "Steam_engine",
+          "start": 9702,
+          "end": 10136,
+          "text": "See image of indicator diagram below (in Types of motor units section).\n\nWith two-cylinder compounds used in railway work, the pistons are connected to the cranks as with a two-cylinder simple at 90° out of phase with each other (quartered). When the double expansion group is duplicated, producing a 4-cylinder compound, the individual pistons within the group are usually balanced at 180°, the groups being set at 90° to each other."
+        },
+        {
+          "rank": 4,
+          "article": "Economic_inequality",
+          "start": 3321,
+          "end": 3885,
+          "text": "Over the long-term, this trend increases the organic composition of capital, meaning that less workers are required in proportion to capital inputs, increasing unemployment (the \"reserve army of labour\"). This process exerts a downward pressure on wages. The substitution of capital equipment for labor (mechanization and automation) raises the productivity of each worker, resulting in a situation of relatively stagnant wages for the working class amidst rising levels of property income for the capitalist class.\n\nIn a purely capitalist mode of production (i.e."
+        },
+        {
+          "rank": 5,
+          "article": "Steam_engine",
+          "start": 12023,
+          "end": 12484,
+          "text": "The Quasiturbine is a uniflow rotary steam engine where steam intakes in hot areas, while exhausting in cold areas.\n\nAn oscillating cylinder steam engine is a variant of the simple expansion steam engine which does not require valves to direct steam into and out of the cylinder. Instead of valves, the entire cylinder rocks, or oscillates, such that one or more holes in the cylinder line up with holes in a fixed port face or in the pivot mounting (trunnion)."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/57115ff82419e314009555c5.json"
+    }
+  ]
+}

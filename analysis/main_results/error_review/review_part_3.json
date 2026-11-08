@@ -1,0 +1,272 @@
+[
+  {
+    "question_id": "57274e145951b619008f87e7",
+    "strategy": "fixed",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches aided; visible text includes another occurrence, although the annotated source span was not retrieved.",
+    "possible_cause": "The span metric excludes this alternative occurrence; no EM failure.",
+    "example_short": "aided → aided"
+  },
+  {
+    "question_id": "57274e145951b619008f87e7",
+    "strategy": "overlap",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches aided; visible text includes another occurrence, although the annotated source span was not retrieved.",
+    "possible_cause": "The span metric excludes this alternative occurrence; no EM failure.",
+    "example_short": "aided → aided"
+  },
+  {
+    "question_id": "57274e145951b619008f87e7",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "Returns aided schools instead of aided; the reference span is visible and the added noun prevents exact match.",
+    "possible_cause": "Response granularity and strict lexical scoring may contribute.",
+    "example_short": "aided' schools → aided"
+  },
+  {
+    "question_id": "5729f1c13f37b319004785ea",
+    "strategy": "fixed",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "Thomas Sowell → Thomas Sowell"
+  },
+  {
+    "question_id": "5729f1c13f37b319004785ea",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns Allan Bloom while the annotated Thomas Sowell span is available in the index but absent from the top three fragments.",
+    "possible_cause": "Relevant evidence did not rank in the supplied context.",
+    "example_short": "Allan Bloom → Thomas Sowell"
+  },
+  {
+    "question_id": "5729f1c13f37b319004785ea",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns Allan Bloom from an author list; the annotated Thomas Sowell span is absent from the top three despite corpus coverage.",
+    "possible_cause": "Relevant evidence did not rank in the supplied context.",
+    "example_short": "Allan Bloom → Thomas Sowell"
+  },
+  {
+    "question_id": "56bf49993aeaaa14008c95b8",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns the Panthers' San Jose State facility; the Broncos' annotated Stanford location exists in the index but is absent from the top three.",
+    "possible_cause": "Missing retrieved reference evidence may contribute to team-location confusion.",
+    "example_short": "San Jose State practice facility → Stanford University"
+  },
+  {
+    "question_id": "56bf49993aeaaa14008c95b8",
+    "strategy": "overlap",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "Stanford University → Stanford University"
+  },
+  {
+    "question_id": "56bf49993aeaaa14008c95b8",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "Stanford University → Stanford University"
+  },
+  {
+    "question_id": "5728510f4b864d1900164936",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns United Methodist Church instead of the accrediting commission; the complete reference span exists but is not in the top three.",
+    "possible_cause": "Retrieved affiliation material does not supply the annotated accreditation evidence.",
+    "example_short": "United Methodist Church → Higher Learning Commission"
+  },
+  {
+    "question_id": "5728510f4b864d1900164936",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns American Council on Education; visible fragments discuss affiliation, while the annotated accreditor exists elsewhere in the index.",
+    "possible_cause": "Relevant accreditation evidence did not rank in the supplied context.",
+    "example_short": "American Council on Education → Higher Learning Commission"
+  },
+  {
+    "question_id": "5728510f4b864d1900164936",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns a Methodist-related association instead of the Higher Learning Commission; the indexed reference span is absent from the top three.",
+    "possible_cause": "Retrieved affiliation material may contribute to organisation substitution.",
+    "example_short": "Methodist-related association → Higher Learning Commission"
+  },
+  {
+    "question_id": "570d2d68fed7b91900d45cbd",
+    "strategy": "fixed",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "6,000 square kilometres → 6,000 square kilometres"
+  },
+  {
+    "question_id": "570d2d68fed7b91900d45cbd",
+    "strategy": "overlap",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "6,000 square kilometres → 6,000 square kilometres"
+  },
+  {
+    "question_id": "570d2d68fed7b91900d45cbd",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "Returns the correct quantity with introductory wording A further; the remaining word further prevents exact match after normalisation.",
+    "possible_cause": "Answer granularity and strict lexical scoring may contribute.",
+    "example_short": "A further 6,000 square kilometres → 6,000 square kilometres"
+  },
+  {
+    "question_id": "5730b9852461fd1900a9cff9",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns abortion from retrieved theological material; the annotated conscription span exists in the index but is absent from the top three.",
+    "possible_cause": "The supplied context lacks the annotated opposition statement.",
+    "example_short": "abortion → conscription"
+  },
+  {
+    "question_id": "5730b9852461fd1900a9cff9",
+    "strategy": "overlap",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "conscription → conscription"
+  },
+  {
+    "question_id": "5730b9852461fd1900a9cff9",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns Pentecostalism rather than conscription; the correct annotated span exists in the index but is absent from the supplied top three.",
+    "possible_cause": "The supplied context lacks the annotated opposition statement.",
+    "example_short": "Pentecostalism → conscription"
+  },
+  {
+    "question_id": "572f609ca23a5019007fc5af",
+    "strategy": "fixed",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "westward → westward"
+  },
+  {
+    "question_id": "572f609ca23a5019007fc5af",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns southward from a watershed-history fragment; the annotated westward statement exists in the index but is not in the top three.",
+    "possible_cause": "Missing route evidence may contribute to selecting another visible direction.",
+    "example_short": "southward → westward"
+  },
+  {
+    "question_id": "572f609ca23a5019007fc5af",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "westward → westward"
+  },
+  {
+    "question_id": "57309adb396df919000961fd",
+    "strategy": "fixed",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "St. George's United Methodist Church → St. George's United Methodist Church"
+  },
+  {
+    "question_id": "57309adb396df919000961fd",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "Returns only United Methodist Church, omitting St. George's; the visible leading fragment also lacks that distinguishing name prefix.",
+    "possible_cause": "Partial retrieved wording may contribute to incomplete name extraction.",
+    "example_short": "United Methodist Church → St. George's United Methodist Church"
+  },
+  {
+    "question_id": "57309adb396df919000961fd",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "St. George's United Methodist Church → St. George's United Methodist Church"
+  },
+  {
+    "question_id": "5726dcbddd62a815002e9321",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Returns a sentence about clinical pharmacists rather than the two legal codes; their complete annotated span exists but is absent from the top three.",
+    "possible_cause": "Relevant historical-code evidence did not rank in the supplied context.",
+    "example_short": "Clinical pharmacists care for patients… → Taihō Code; Yōrō Code"
+  },
+  {
+    "question_id": "5726dcbddd62a815002e9321",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "name_spelling_or_unicode_mismatch",
+    "observation": "Returns Taih and Yr where visible references contain Taihō and Yōrō; missing letters with macrons prevent exact match.",
+    "possible_cause": "An orthographic alteration is observable; model or tokenizer origin is unproven.",
+    "example_short": "Taih Code; Yr Code → Taihō Code; Yōrō Code"
+  },
+  {
+    "question_id": "5726dcbddd62a815002e9321",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "name_spelling_or_unicode_mismatch",
+    "observation": "Returns Taih and Yr instead of Taihō and Yōrō despite visible correct names; the spelling alterations reduce token overlap.",
+    "possible_cause": "An orthographic alteration is observable; model or tokenizer origin is unproven.",
+    "example_short": "Taih Code; Yr Code → Taihō Code; Yōrō Code"
+  },
+  {
+    "question_id": "57113c6da58dae1900cd6d33",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "wrong_entity_or_fact_selection",
+    "observation": "Returns generic inventors instead of Hero of Alexandria although the complete accepted name is visible in the supplied context.",
+    "possible_cause": "Answer selection or context interpretation may contribute; no internal mechanism is established.",
+    "example_short": "inventors → Hero of Alexandria"
+  },
+  {
+    "question_id": "57113c6da58dae1900cd6d33",
+    "strategy": "overlap",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "Hero of Alexandria → Hero of Alexandria"
+  },
+  {
+    "question_id": "57113c6da58dae1900cd6d33",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Matches an accepted frozen reference after normalisation.",
+    "possible_cause": "No EM failure.",
+    "example_short": "Hero of Alexandria → Hero of Alexandria"
+  }
+]

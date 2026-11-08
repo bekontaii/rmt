@@ -1,0 +1,210 @@
+{
+  "review_index": 16,
+  "question_id": "56bf6e7a3aeaaa14008c9621",
+  "article": "Super_Bowl_50",
+  "question": "Which smartphone customers were the only people who could stream the game on their phones?",
+  "references": [
+    "Verizon Wireless customers",
+    "Verizon",
+    "Verizon"
+  ],
+  "answer_spans": [
+    [
+      21284,
+      21310
+    ],
+    [
+      21202,
+      21209
+    ],
+    [
+      21202,
+      21209
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "Verizon Wireless customers",
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines. CBS introduced new features during the telecast, including pylon cameras and microphones along with EyeVision 360—an array of 36 cameras along the upper deck that can be used to provide a 360-degree view of plays and \"bullet time\" effects. (An earlier version of EyeVision was last used in Super Bowl XXXV; for Super Bowl 50, the cameras were upgraded to 5K resolution.)\n\nOn December 28, 2015, ESPN Deportes announced that they had reached an agreement with CBS and the NFL to be the exclusive Spanish-language broadcaster of\n\nof the game via CBSSports.com, and the CBS Sports apps on tablets, Windows 10, Xbox One and other digital media players (such as Chromecast and Roku). Due to Verizon Communications exclusivity, streaming on smartphones was only provided to Verizon Wireless customers via the NFL Mobile service. The ESPN Deportes Spanish broadcast was made available through WatchESPN.\n\nAs opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for\n\nthe game, marking the third dedicated Spanish-language broadcast of the Super Bowl. Unlike NBC and Fox, CBS does not have a Spanish-language outlet of its own that could broadcast the game (though per league policy, a separate Spanish play-by-play call was carried on CBS's second audio program channel for over-the-air viewers). The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe. ESPN Deportes broadcast pre-game and post-game coverage, while Martin, Allegre, and Sutcliffe contributed English-language reports for ESPN's SportsCenter and Mike & Mike.\n\nCBS provided digital streams",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Super_Bowl_50",
+          "start": 19756,
+          "end": 20362,
+          "text": "Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines. CBS introduced new features during the telecast, including pylon cameras and microphones along with EyeVision 360—an array of 36 cameras along the upper deck that can be used to provide a 360-degree view of plays and \"bullet time\" effects. (An earlier version of EyeVision was last used in Super Bowl XXXV; for Super Bowl 50, the cameras were upgraded to 5K resolution.)\n\nOn December 28, 2015, ESPN Deportes announced that they had reached an agreement with CBS and the NFL to be the exclusive Spanish-language broadcaster of"
+        },
+        {
+          "rank": 2,
+          "article": "Super_Bowl_50",
+          "start": 21044,
+          "end": 21676,
+          "text": "of the game via CBSSports.com, and the CBS Sports apps on tablets, Windows 10, Xbox One and other digital media players (such as Chromecast and Roku). Due to Verizon Communications exclusivity, streaming on smartphones was only provided to Verizon Wireless customers via the NFL Mobile service. The ESPN Deportes Spanish broadcast was made available through WatchESPN.\n\nAs opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for"
+        },
+        {
+          "rank": 3,
+          "article": "Super_Bowl_50",
+          "start": 20363,
+          "end": 21043,
+          "text": "the game, marking the third dedicated Spanish-language broadcast of the Super Bowl. Unlike NBC and Fox, CBS does not have a Spanish-language outlet of its own that could broadcast the game (though per league policy, a separate Spanish play-by-play call was carried on CBS's second audio program channel for over-the-air viewers). The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe. ESPN Deportes broadcast pre-game and post-game coverage, while Martin, Allegre, and Sutcliffe contributed English-language reports for ESPN's SportsCenter and Mike & Mike.\n\nCBS provided digital streams"
+        },
+        {
+          "rank": 4,
+          "article": "American_Broadcasting_Company",
+          "start": 81840,
+          "end": 82515,
+          "text": "to providing full-length episodes of ABC programs, the service allows live programming streams of local ABC affiliates in select markets (the first such offering by a U.S. broadcast network). Similar to sister network ESPN's WatchESPN service (which originated the \"WATCH\" brand used by the streaming services of Disney's television networks), live streams of ABC stations are only available to authenticated subscribers of participating pay television providers in certain markets. New York City O&O WABC-TV and Philadelphia O&O WPVI-TV were the first stations to offer streams of their programming on the service (with a free preview for non-subscribers through June 2013),"
+        },
+        {
+          "rank": 5,
+          "article": "Super_Bowl_50",
+          "start": 21677,
+          "end": 22262,
+          "text": "late local programming, CBS also aired a special episode of The Late Late Show with James Corden.\n\nCBS set the base rate for a 30-second advertisement at $5,000,000, a record high price for a Super Bowl ad. As of January 26, the advertisements had not yet sold out. CBS mandated that all advertisers purchase a package covering time on both the television and digital broadcasts of the game, meaning that for the first time, digital streams of the game would carry all national advertising in pattern with the television broadcast. This would be the final year in a multi-year contract"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/56bf6e7a3aeaaa14008c9621.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "Verizon Wireless",
+      "exact_match": 0.0,
+      "f1": 0.8,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 3,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "was carried on CBS's second audio program channel for over-the-air viewers). The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe. ESPN Deportes broadcast pre-game and post-game coverage, while Martin, Allegre, and Sutcliffe contributed English-language reports for ESPN's SportsCenter and Mike & Mike.\n\nCBS provided digital streams of the game via CBSSports.com, and the CBS Sports apps on tablets, Windows 10, Xbox One and other digital media players (such as Chromecast and Roku). Due to Verizon Communications exclusivity, streaming on smartphones was only provided to Verizon Wireless\n\nplayers (such as Chromecast and Roku). Due to Verizon Communications exclusivity, streaming on smartphones was only provided to Verizon Wireless customers via the NFL Mobile service. The ESPN Deportes Spanish broadcast was made available through WatchESPN.\n\nAs opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.\n\nCBS set the\n\nbetween the three main broadcast television partners of the NFL. The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines. CBS introduced new features during the telecast, including pylon cameras and microphones along with EyeVision 360—an array of 36 cameras along the upper deck that can be used to provide a 360-degree view of plays and \"bullet time\" effects. (An earlier version of EyeVision was last used in Super Bowl XXXV; for Super Bowl 50, the cameras were upgraded to 5K resolution.)\n\nOn December 28, 2015, ESPN",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Super_Bowl_50",
+          "start": 20616,
+          "end": 21300,
+          "text": "was carried on CBS's second audio program channel for over-the-air viewers). The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe. ESPN Deportes broadcast pre-game and post-game coverage, while Martin, Allegre, and Sutcliffe contributed English-language reports for ESPN's SportsCenter and Mike & Mike.\n\nCBS provided digital streams of the game via CBSSports.com, and the CBS Sports apps on tablets, Windows 10, Xbox One and other digital media players (such as Chromecast and Roku). Due to Verizon Communications exclusivity, streaming on smartphones was only provided to Verizon Wireless"
+        },
+        {
+          "rank": 2,
+          "article": "Super_Bowl_50",
+          "start": 21156,
+          "end": 21787,
+          "text": "players (such as Chromecast and Roku). Due to Verizon Communications exclusivity, streaming on smartphones was only provided to Verizon Wireless customers via the NFL Mobile service. The ESPN Deportes Spanish broadcast was made available through WatchESPN.\n\nAs opposed to broadcasts of primetime series, CBS broadcast special episodes of its late night talk shows as its lead-out programs for Super Bowl 50, beginning with a special episode of The Late Show with Stephen Colbert following the game. Following a break for late local programming, CBS also aired a special episode of The Late Late Show with James Corden.\n\nCBS set the"
+        },
+        {
+          "rank": 3,
+          "article": "Super_Bowl_50",
+          "start": 19635,
+          "end": 20235,
+          "text": "between the three main broadcast television partners of the NFL. The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines. CBS introduced new features during the telecast, including pylon cameras and microphones along with EyeVision 360—an array of 36 cameras along the upper deck that can be used to provide a 360-degree view of plays and \"bullet time\" effects. (An earlier version of EyeVision was last used in Super Bowl XXXV; for Super Bowl 50, the cameras were upgraded to 5K resolution.)\n\nOn December 28, 2015, ESPN"
+        },
+        {
+          "rank": 4,
+          "article": "Super_Bowl_50",
+          "start": 20124,
+          "end": 20743,
+          "text": "in Super Bowl XXXV; for Super Bowl 50, the cameras were upgraded to 5K resolution.)\n\nOn December 28, 2015, ESPN Deportes announced that they had reached an agreement with CBS and the NFL to be the exclusive Spanish-language broadcaster of the game, marking the third dedicated Spanish-language broadcast of the Super Bowl. Unlike NBC and Fox, CBS does not have a Spanish-language outlet of its own that could broadcast the game (though per league policy, a separate Spanish play-by-play call was carried on CBS's second audio program channel for over-the-air viewers). The game was called by ESPN Deportes' Monday Night"
+        },
+        {
+          "rank": 5,
+          "article": "Super_Bowl_50",
+          "start": 24607,
+          "end": 25164,
+          "text": "the rest of the stations in the Broncos and Panthers radio networks will either carry the Westwood One feed or not carry the game at all.\n\nIn the United Kingdom, BBC Radio 5 Live and 5 Live Sports Extra will carry the contest. The BBC will carry its own British English broadcast, with Greg Brady, Darren Fletcher and Rocky Boiman on commentary.\n\nIn honor of the 50th Super Bowl, the pregame ceremony featured the on-field introduction of 39 of the 43 previous Super Bowl Most Valuable Players. Bart Starr (MVP of Super Bowls I and II) and Chuck Howley (MVP"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/56bf6e7a3aeaaa14008c9621.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "Verizon Wireless customers",
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe. ESPN Deportes broadcast pre-game and post-game coverage, while Martin, Allegre, and Sutcliffe contributed English-language reports for ESPN's SportsCenter and Mike & Mike.\n\nCBS provided digital streams of the game via CBSSports.com, and the CBS Sports apps on tablets, Windows 10, Xbox One and other digital media players (such as Chromecast and Roku). Due to Verizon Communications exclusivity, streaming on smartphones was only provided to Verizon Wireless customers via the NFL Mobile service.\n\nIn the United States, the game was televised by CBS, as part of a cycle between the three main broadcast television partners of the NFL. The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines. CBS introduced new features during the telecast, including pylon cameras and microphones along with EyeVision 360—an array of 36 cameras along the upper deck that can be used to provide a 360-degree view of plays and \"bullet time\" effects.\n\nThe ESPN Deportes Spanish broadcast was made available through WatchESPN.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Super_Bowl_50",
+          "start": 20693,
+          "end": 21338,
+          "text": "The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe. ESPN Deportes broadcast pre-game and post-game coverage, while Martin, Allegre, and Sutcliffe contributed English-language reports for ESPN's SportsCenter and Mike & Mike.\n\nCBS provided digital streams of the game via CBSSports.com, and the CBS Sports apps on tablets, Windows 10, Xbox One and other digital media players (such as Chromecast and Roku). Due to Verizon Communications exclusivity, streaming on smartphones was only provided to Verizon Wireless customers via the NFL Mobile service."
+        },
+        {
+          "rank": 2,
+          "article": "Super_Bowl_50",
+          "start": 19563,
+          "end": 20076,
+          "text": "In the United States, the game was televised by CBS, as part of a cycle between the three main broadcast television partners of the NFL. The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines. CBS introduced new features during the telecast, including pylon cameras and microphones along with EyeVision 360—an array of 36 cameras along the upper deck that can be used to provide a 360-degree view of plays and \"bullet time\" effects."
+        },
+        {
+          "rank": 3,
+          "article": "Super_Bowl_50",
+          "start": 21339,
+          "end": 21412,
+          "text": "The ESPN Deportes Spanish broadcast was made available through WatchESPN."
+        },
+        {
+          "rank": 4,
+          "article": "American_Broadcasting_Company",
+          "start": 82032,
+          "end": 82600,
+          "text": "Similar to sister network ESPN's WatchESPN service (which originated the \"WATCH\" brand used by the streaming services of Disney's television networks), live streams of ABC stations are only available to authenticated subscribers of participating pay television providers in certain markets. New York City O&O WABC-TV and Philadelphia O&O WPVI-TV were the first stations to offer streams of their programming on the service (with a free preview for non-subscribers through June 2013), with the six remaining ABC O&Os offering streams by the start of the 2013–14 season."
+        },
+        {
+          "rank": 5,
+          "article": "Super_Bowl_50",
+          "start": 20077,
+          "end": 20692,
+          "text": "(An earlier version of EyeVision was last used in Super Bowl XXXV; for Super Bowl 50, the cameras were upgraded to 5K resolution.)\n\nOn December 28, 2015, ESPN Deportes announced that they had reached an agreement with CBS and the NFL to be the exclusive Spanish-language broadcaster of the game, marking the third dedicated Spanish-language broadcast of the Super Bowl. Unlike NBC and Fox, CBS does not have a Spanish-language outlet of its own that could broadcast the game (though per league policy, a separate Spanish play-by-play call was carried on CBS's second audio program channel for over-the-air viewers)."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/56bf6e7a3aeaaa14008c9621.json"
+    }
+  ]
+}

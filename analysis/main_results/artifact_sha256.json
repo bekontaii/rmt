@@ -1,0 +1,12 @@
+{
+  "retrieval_figure.png": "249b0cd706db6349206e83ccb38973fe0cb03820b98e130847351dc35a7aa163",
+  "generation_article_metrics.csv": "da382cb6a193cf6bf07f23a6718ab5de86dfed5b1226cb53c9d95ac1b75d5756",
+  "per_question_metrics.csv": "0cc8fce07e0eb0b738950c5e7a55a3d7dd79df8ccf2da5cb4696c156fca97e84",
+  "paired_differences.csv": "7d6bb83a82e82104abae6e0576148cef5f14779972db0cb47f95d30765de6aef",
+  "retrieval_table.csv": "a1f8c24d207709ba1684a29a9b4400c411c16f48f9c6c9c1c2fe190c1e4dd678",
+  "generation_table.csv": "6ff45eaa245b9948d27f2e3c279c786bb4073bde9d36d7515e449b5efbeed58d",
+  "retrieval_article_metrics.csv": "c47f00148123adf5610a4271da4116e464efbb0f4c2e4965840b6997ac082301",
+  "pending_error_review.csv": "76b467a9632713c3a29947338d62591d8905b586bbcc191c696196454d2baa50",
+  "generation_figure.png": "7cb6f7795c2759c766ba719f197590d494791129955d336653d88a495a68cf74",
+  "analysis.json": "9c4d91f7610226e1ea84f79f854febc3297c0262d433b11ab7ef089a33be9fdf"
+}

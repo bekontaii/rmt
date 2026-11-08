@@ -1,0 +1,227 @@
+[
+  {
+    "id": "57335ddbd058e614000b5933",
+    "article": "Warsaw",
+    "question": "What type of forested areas can be found on the highest terrace?",
+    "answers": [
+      "pine",
+      "pine",
+      "pine"
+    ],
+    "answer_spans": [
+      [
+        25027,
+        25031
+      ],
+      [
+        25027,
+        25031
+      ],
+      [
+        25027,
+        25031
+      ]
+    ],
+    "for_generation": true
+  },
+  {
+    "id": "57339902d058e614000b5e73",
+    "article": "Warsaw",
+    "question": "Who designed the garden for the University Library?",
+    "answers": [
+      "Irena Bajerska",
+      "Irena Bajerska",
+      "Irena Bajerska"
+    ],
+    "answer_spans": [
+      [
+        4728,
+        4742
+      ],
+      [
+        4728,
+        4742
+      ],
+      [
+        4728,
+        4742
+      ]
+    ],
+    "for_generation": true
+  },
+  {
+    "id": "57336755d058e614000b5a3f",
+    "article": "Warsaw",
+    "question": "What is a popular strolling destination for the Varsovians?",
+    "answers": [
+      "Krasiński Palace Garden",
+      "Krasiński Palace Garden",
+      "Krasiński Palace Garden"
+    ],
+    "answer_spans": [
+      [
+        1103,
+        1126
+      ],
+      [
+        1103,
+        1126
+      ],
+      [
+        1103,
+        1126
+      ]
+    ],
+    "for_generation": true
+  },
+  {
+    "id": "56f8a6969e9bad19000a025b",
+    "article": "Martin_Luther",
+    "question": "What do the Ten Commandments teach Christians how to do?",
+    "answers": [
+      "ought to live",
+      "live",
+      "how the Christian ought to live"
+    ],
+    "answer_spans": [
+      [
+        51451,
+        51464
+      ],
+      [
+        51460,
+        51464
+      ],
+      [
+        51433,
+        51464
+      ]
+    ],
+    "for_generation": true
+  },
+  {
+    "id": "56f827caa6d7ea1400e17439",
+    "article": "Martin_Luther",
+    "question": "How was the fate of Luther decided?",
+    "answers": [
+      "private conferences",
+      "private conferences",
+      "conferences"
+    ],
+    "answer_spans": [
+      [
+        16834,
+        16853
+      ],
+      [
+        16834,
+        16853
+      ],
+      [
+        16842,
+        16853
+      ]
+    ],
+    "for_generation": true
+  },
+  {
+    "id": "56f8225ea6d7ea1400e173f4",
+    "article": "Martin_Luther",
+    "question": "Who presided over the assembly?",
+    "answers": [
+      "Emperor Charles V",
+      "Emperor Charles V",
+      "Emperor Charles V"
+    ],
+    "answer_spans": [
+      [
+        15616,
+        15633
+      ],
+      [
+        15616,
+        15633
+      ],
+      [
+        15616,
+        15633
+      ]
+    ],
+    "for_generation": true
+  },
+  {
+    "id": "56e7611500c9c71400d77056",
+    "article": "Teacher",
+    "question": "What is the atmosphere in a school using popularly based authority?",
+    "answers": [
+      "persuasion and negotiation",
+      "persuasion and negotiation",
+      "persuasion and negotiation"
+    ],
+    "answer_spans": [
+      [
+        11704,
+        11730
+      ],
+      [
+        11704,
+        11730
+      ],
+      [
+        11704,
+        11730
+      ]
+    ],
+    "for_generation": true
+  },
+  {
+    "id": "56e7578a37bdd419002c3ea9",
+    "article": "Teacher",
+    "question": "What was the usual type of school discipline?",
+    "answers": [
+      "corporal punishment",
+      "corporal punishment",
+      "corporal"
+    ],
+    "answer_spans": [
+      [
+        7188,
+        7207
+      ],
+      [
+        7188,
+        7207
+      ],
+      [
+        7188,
+        7196
+      ]
+    ],
+    "for_generation": true
+  },
+  {
+    "id": "56e7542f00c9c71400d76fbd",
+    "article": "Teacher",
+    "question": "In what areas does most of the learning take place?",
+    "answers": [
+      "self-study and problem solving",
+      "classroom",
+      "in self-study and problem solving"
+    ],
+    "answer_spans": [
+      [
+        5083,
+        5113
+      ],
+      [
+        4481,
+        4490
+      ],
+      [
+        5080,
+        5113
+      ]
+    ],
+    "for_generation": true
+  }
+]

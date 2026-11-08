@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "execution_requested_upload_unverified",
+  "recorded_at_utc": "2026-11-08T17:16:29.383216+00:00",
+  "user_request": "давай уже запустим основной эксперимент на 2000 вопросов для поиска и 1000 для генерации, а потом сделаем отчёт по реальным результатам",
+  "moodle_upload_verified": false,
+  "moodle_receipt_available": false,
+  "upload_chronology_verified": false,
+  "reported_upload_time_unverified": "2026-11-08T10:00:00+05:00",
+  "chronology_note": "User-reported upload time predates local seal at 2026-11-08T10:56:03+05:00; receipt and uploaded bytes have not been checked.",
+  "sealed_plan_sha256": "f6eb422dccd5051ef4c11d1bb4985bbf5a73a35966af7ff501a79a15a7482cb3",
+  "protocol_sha256": "d6f050101bd771f94d5360565d516813946f8eb82295d3c5f5580c440a9b0369",
+  "execution_launcher_sha256": "cc070ad2917fdc61eecddca0dc609c53e70898454dfc2b5a10b228b3a554e2a6",
+  "deviation": "Execution proceeded at the user explicit request without verified Moodle upload evidence. Original sealed data, models, prompts, chunking, metrics and analysis plan are unchanged. This record does not establish compliance with the assignment prior-upload requirement."
+}

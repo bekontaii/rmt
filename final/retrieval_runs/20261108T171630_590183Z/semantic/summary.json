@@ -1,0 +1,25 @@
+{
+  "all_retrieval": {
+    "n_questions": 2000,
+    "hit_at_1": 0.6345,
+    "hit_at_1_count": 1269,
+    "hit_at_3": 0.8325,
+    "hit_at_3_count": 1665,
+    "hit_at_5": 0.8875,
+    "hit_at_5_count": 1775
+  },
+  "generation_subset": {
+    "n_questions": 1000,
+    "hit_at_1": 0.623,
+    "hit_at_1_count": 623,
+    "hit_at_3": 0.832,
+    "hit_at_3_count": 832,
+    "hit_at_5": 0.891,
+    "hit_at_5_count": 891
+  },
+  "chunk_statistics": {
+    "n_chunks": 1565,
+    "max_words": 100,
+    "mean_words": 73.20575079872205
+  }
+}

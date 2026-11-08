@@ -1,0 +1,38 @@
+{
+  "recorded_at_utc": "2026-11-08T18:33:29.715580+00:00",
+  "authors": [
+    "Bekarys Uzbekbayev",
+    "Yerassyl Kuanyshov"
+  ],
+  "amendment_scope": "Post-execution author metadata and team-reported testing; experimental settings and results unchanged",
+  "report_file": "Assignment4_Uzbekbayev_Kuanyshov.docx",
+  "report_sha256": "275523069553759c7c1698adaf7b71e69d271809d42b0094e568408ef643bdc1",
+  "team_protocol_file": "protocol/Protocol_Freeze_Uzbekbayev_Kuanyshov.docx",
+  "team_protocol_sha256": "75f7beb2d7c0b45c750312cd6f2cb254952fff0620325056322b8874d301aea3",
+  "original_sealed_protocol_sha256": "d6f050101bd771f94d5360565d516813946f8eb82295d3c5f5580c440a9b0369",
+  "original_sealed_protocol_preserved": true,
+  "team_test": {
+    "tester": "Yerassyl Kuanyshov",
+    "source": "Bekarys Uzbekbayev report in conversation, including the follow-up date and Linux OS",
+    "reported_result": "Project tested successfully and working",
+    "test_date": "2026-11-08",
+    "operating_system": "Linux",
+    "machine_specifications": null,
+    "test_environment": null,
+    "exact_commands": null,
+    "numerical_table_equality_documented": false
+  },
+  "repository_url": "https://github.com/bekontaii/rmt",
+  "repository_observed_status": "Created, empty when checked",
+  "commit": null,
+  "release_tag": "assignment-4 not yet recorded",
+  "moodle_upload_verified": false,
+  "changed_report_slots": [
+    "frontline",
+    "declaration",
+    "repro_repository",
+    "appendix_author",
+    "appendix_amendment",
+    "appendix_c"
+  ]
+}

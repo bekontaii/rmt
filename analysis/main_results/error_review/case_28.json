@@ -1,0 +1,210 @@
+{
+  "review_index": 28,
+  "question_id": "5726dcbddd62a815002e9321",
+  "article": "Pharmacy",
+  "question": "In which two codes were the roles of pharmacists codified?",
+  "references": [
+    "the Taihō Code (701) and re-stated in the Yōrō Code (718)",
+    "Taihō Code (701) and re-stated in the Yōrō Code",
+    "Taihō Code (701) and re-stated in the Yōrō Code"
+  ],
+  "answer_spans": [
+    [
+      3189,
+      3246
+    ],
+    [
+      3193,
+      3240
+    ],
+    [
+      3193,
+      3240
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "Clinical pharmacists care for patients in all health care settings",
+      "exact_match": 0.0,
+      "f1": 0.1111111111111111,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 12,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "for storage conditions, compulsory texts, equipment, etc., specified in legislation. Where it was once the case that pharmacists stayed within the dispensary compounding/dispensing medications, there has been an increasing trend towards the use of trained pharmacy technicians while the pharmacist spends more time communicating with patients. Pharmacy technicians are now more dependent upon automation to assist them in their new role dealing with patients' prescriptions and patient safety issues.\n\nBecause of the complexity of medications including specific indications, effectiveness of treatment regimens, safety of medications (i.e., drug interactions) and patient compliance issues (in the hospital and at home) many pharmacists\n\nare remunerated by their provincial government for expanded services such as medications reviews (Medschecks in Ontario). In the United Kingdom, pharmacists who undertake additional training are obtaining prescribing rights and this is because of pharmacy education. They are also being paid for by the government for medicine use reviews. In Scotland the pharmacist can write prescriptions for Scottish registered patients of their regular medications, for the majority of drugs, except for controlled drugs, when the patient is unable to see their doctor, as could happen if they are away from home or the doctor is unavailable. In the United States,\n\npatient-care outcomes and patient safety, make it imperative that hospital pharmacies perform at the highest level possible.\n\nPharmacists provide direct patient care services that optimizes the use of medication and promotes health, wellness, and disease prevention. Clinical pharmacists care for patients in all health care settings, but the clinical pharmacy movement initially began inside hospitals and clinics. Clinical pharmacists often collaborate with physicians and other healthcare professionals to improve pharmaceutical care. Clinical pharmacists are now an integral part of the interdisciplinary approach to patient care. They often participate in patient care rounds drug product selection.\n\nThe clinical pharmacist's role involves",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Pharmacy",
+          "start": 6457,
+          "end": 7193,
+          "text": "for storage conditions, compulsory texts, equipment, etc., specified in legislation. Where it was once the case that pharmacists stayed within the dispensary compounding/dispensing medications, there has been an increasing trend towards the use of trained pharmacy technicians while the pharmacist spends more time communicating with patients. Pharmacy technicians are now more dependent upon automation to assist them in their new role dealing with patients' prescriptions and patient safety issues.\n\nBecause of the complexity of medications including specific indications, effectiveness of treatment regimens, safety of medications (i.e., drug interactions) and patient compliance issues (in the hospital and at home) many pharmacists"
+        },
+        {
+          "rank": 2,
+          "article": "Pharmacy",
+          "start": 18623,
+          "end": 19275,
+          "text": "are remunerated by their provincial government for expanded services such as medications reviews (Medschecks in Ontario). In the United Kingdom, pharmacists who undertake additional training are obtaining prescribing rights and this is because of pharmacy education. They are also being paid for by the government for medicine use reviews. In Scotland the pharmacist can write prescriptions for Scottish registered patients of their regular medications, for the majority of drugs, except for controlled drugs, when the patient is unable to see their doctor, as could happen if they are away from home or the doctor is unavailable. In the United States,"
+        },
+        {
+          "rank": 3,
+          "article": "Pharmacy",
+          "start": 8717,
+          "end": 9462,
+          "text": "patient-care outcomes and patient safety, make it imperative that hospital pharmacies perform at the highest level possible.\n\nPharmacists provide direct patient care services that optimizes the use of medication and promotes health, wellness, and disease prevention. Clinical pharmacists care for patients in all health care settings, but the clinical pharmacy movement initially began inside hospitals and clinics. Clinical pharmacists often collaborate with physicians and other healthcare professionals to improve pharmaceutical care. Clinical pharmacists are now an integral part of the interdisciplinary approach to patient care. They often participate in patient care rounds drug product selection.\n\nThe clinical pharmacist's role involves"
+        },
+        {
+          "rank": 4,
+          "article": "Pharmacy",
+          "start": 9463,
+          "end": 10154,
+          "text": "creating a comprehensive drug therapy plan for patient-specific problems, identifying goals of therapy, and reviewing all prescribed medications prior to dispensing and administration to the patient. The review process often involves an evaluation of the appropriateness of the drug therapy (e.g., drug choice, dose, route, frequency, and duration of therapy) and its efficacy. The pharmacist must also monitor for potential drug interactions, adverse drug reactions, and assess patient drug allergies while designing and initiating a drug therapy plan.\n\nIn the U.S. federal health care system (including the VA, the Indian Health Service, and NIH) ambulatory care pharmacists are given full"
+        },
+        {
+          "rank": 5,
+          "article": "Pharmacy",
+          "start": 1888,
+          "end": 2550,
+          "text": "to them to manage the pharmacy department and specialised areas in pharmacy practice allowing pharmacists the time to specialise in their expert field as medication consultants spending more time working with patients and in research. A pharmacy technician once qualified has to register as a professional on the General Pharmaceutical Council (GPhC) register. The GPhC is the governing body for pharmacy health care professionals and this is who regulates the practice of pharmacists and pharmacy technicians.\n\nIn Ancient Greece, Diocles of Carystus (4th century BC) was one of several men studying the medicinal properties of plants. He wrote several treatises"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/5726dcbddd62a815002e9321.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "Taih Code (701) and re-stated in the Yr Code (718)",
+      "exact_match": 0.0,
+      "f1": 0.7777777777777778,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 25,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "period (710–794), the men who fulfilled roles similar to those of modern pharmacists were highly respected. The place of pharmacists in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718). Ranked positions in the pre-Heian Imperial court were established; and this organizational structure remained largely intact until the Meiji Restoration (1868). In this highly stable hierarchy, the pharmacists—and even pharmacist assistants—were assigned status superior to all others in health-related fields such as physicians and acupuncturists. In the Imperial household, the pharmacist was even ranked above the two personal physicians of the Emperor.\n\nThe\n\nprovide lab monitoring, adherence counseling, and assist patients with cost-containment strategies needed to obtain their expensive specialty drugs. It is currently the fastest growing sector of the pharmaceutical industry with 19 of 28 newly FDA approved medications in 2013 being specialty drugs.\n\nIn most jurisdictions (such as the United States), pharmacists are regulated separately from physicians. These jurisdictions also usually specify that only pharmacists may supply scheduled pharmaceuticals to the public, and that pharmacists cannot form business partnerships with physicians or give them \"kickback\" payments. However, the American Medical Association (AMA) Code of Ethics provides that physicians may dispense drugs\n\npharmacists who undertake additional training are obtaining prescribing rights and this is because of pharmacy education. They are also being paid for by the government for medicine use reviews. In Scotland the pharmacist can write prescriptions for Scottish registered patients of their regular medications, for the majority of drugs, except for controlled drugs, when the patient is unable to see their doctor, as could happen if they are away from home or the doctor is unavailable. In the United States, pharmaceutical care or clinical pharmacy has had an evolving influence on the practice of pharmacy. Moreover, the Doctor of Pharmacy",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Pharmacy",
+          "start": 3020,
+          "end": 3709,
+          "text": "period (710–794), the men who fulfilled roles similar to those of modern pharmacists were highly respected. The place of pharmacists in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718). Ranked positions in the pre-Heian Imperial court were established; and this organizational structure remained largely intact until the Meiji Restoration (1868). In this highly stable hierarchy, the pharmacists—and even pharmacist assistants—were assigned status superior to all others in health-related fields such as physicians and acupuncturists. In the Imperial household, the pharmacist was even ranked above the two personal physicians of the Emperor.\n\nThe"
+        },
+        {
+          "rank": 2,
+          "article": "Pharmacy",
+          "start": 15461,
+          "end": 16192,
+          "text": "provide lab monitoring, adherence counseling, and assist patients with cost-containment strategies needed to obtain their expensive specialty drugs. It is currently the fastest growing sector of the pharmaceutical industry with 19 of 28 newly FDA approved medications in 2013 being specialty drugs.\n\nIn most jurisdictions (such as the United States), pharmacists are regulated separately from physicians. These jurisdictions also usually specify that only pharmacists may supply scheduled pharmaceuticals to the public, and that pharmacists cannot form business partnerships with physicians or give them \"kickback\" payments. However, the American Medical Association (AMA) Code of Ethics provides that physicians may dispense drugs"
+        },
+        {
+          "rank": 3,
+          "article": "Pharmacy",
+          "start": 18768,
+          "end": 19408,
+          "text": "pharmacists who undertake additional training are obtaining prescribing rights and this is because of pharmacy education. They are also being paid for by the government for medicine use reviews. In Scotland the pharmacist can write prescriptions for Scottish registered patients of their regular medications, for the majority of drugs, except for controlled drugs, when the patient is unable to see their doctor, as could happen if they are away from home or the doctor is unavailable. In the United States, pharmaceutical care or clinical pharmacy has had an evolving influence on the practice of pharmacy. Moreover, the Doctor of Pharmacy"
+        },
+        {
+          "rank": 4,
+          "article": "Pharmacy",
+          "start": 997,
+          "end": 1653,
+          "text": "\"medicine\" (or \"poison\").[n 1]\n\nPharmacists are healthcare professionals with specialised education and training who perform various roles to ensure optimal health outcomes for their patients through the quality use of medicines. Pharmacists may also be small-business proprietors, owning the pharmacy in which they practice. Since pharmacists know about the mode of action of a particular drug, and its metabolism and physiological effects on the human body in great detail, they play an important role in optimisation of a drug treatment for an individual.\n\nA Pharmacy Technician in the UK is considered a health care professional and often does not work"
+        },
+        {
+          "rank": 5,
+          "article": "Pharmacy",
+          "start": 9754,
+          "end": 10460,
+          "text": "(e.g., drug choice, dose, route, frequency, and duration of therapy) and its efficacy. The pharmacist must also monitor for potential drug interactions, adverse drug reactions, and assess patient drug allergies while designing and initiating a drug therapy plan.\n\nIn the U.S. federal health care system (including the VA, the Indian Health Service, and NIH) ambulatory care pharmacists are given full independent prescribing authority. In some states such North Carolina and New Mexico these pharmacist clinicians are given collaborative prescriptive and diagnostic authority. In 2011 the board of Pharmaceutical Specialties approved ambulatory care pharmacy practice as a separate board certification. The"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/5726dcbddd62a815002e9321.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "Taih Code (701) and re-stated in the Yr Code (718)",
+      "exact_match": 0.0,
+      "f1": 0.7777777777777778,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 25,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "In Japan, at the end of the Asuka period (538–710) and the early Nara period (710–794), the men who fulfilled roles similar to those of modern pharmacists were highly respected. The place of pharmacists in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718).\n\n[n 1]\n\nPharmacists are healthcare professionals with specialised education and training who perform various roles to ensure optimal health outcomes for their patients through the quality use of medicines. Pharmacists may also be small-business proprietors, owning the pharmacy in which they practice. Since pharmacists know about the mode of action of a particular drug, and its metabolism and physiological effects on the human body in great detail, they play an important role in optimisation of a drug treatment for an individual.\n\nClinical pharmacists care for patients in all health care settings, but the clinical pharmacy movement initially began inside hospitals and clinics. Clinical pharmacists often collaborate with physicians and other healthcare professionals to improve pharmaceutical care. Clinical pharmacists are now an integral part of the interdisciplinary approach to patient care. They often participate in patient care rounds drug product selection.\n\nThe clinical pharmacist's role involves creating a comprehensive drug therapy plan for patient-specific problems, identifying goals of therapy, and reviewing all prescribed medications prior to dispensing and administration to the patient.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Pharmacy",
+          "start": 2950,
+          "end": 3247,
+          "text": "In Japan, at the end of the Asuka period (538–710) and the early Nara period (710–794), the men who fulfilled roles similar to those of modern pharmacists were highly respected. The place of pharmacists in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718)."
+        },
+        {
+          "rank": 2,
+          "article": "Pharmacy",
+          "start": 1022,
+          "end": 1555,
+          "text": "[n 1]\n\nPharmacists are healthcare professionals with specialised education and training who perform various roles to ensure optimal health outcomes for their patients through the quality use of medicines. Pharmacists may also be small-business proprietors, owning the pharmacy in which they practice. Since pharmacists know about the mode of action of a particular drug, and its metabolism and physiological effects on the human body in great detail, they play an important role in optimisation of a drug treatment for an individual."
+        },
+        {
+          "rank": 3,
+          "article": "Pharmacy",
+          "start": 8984,
+          "end": 9662,
+          "text": "Clinical pharmacists care for patients in all health care settings, but the clinical pharmacy movement initially began inside hospitals and clinics. Clinical pharmacists often collaborate with physicians and other healthcare professionals to improve pharmaceutical care. Clinical pharmacists are now an integral part of the interdisciplinary approach to patient care. They often participate in patient care rounds drug product selection.\n\nThe clinical pharmacist's role involves creating a comprehensive drug therapy plan for patient-specific problems, identifying goals of therapy, and reviewing all prescribed medications prior to dispensing and administration to the patient."
+        },
+        {
+          "rank": 4,
+          "article": "Pharmacy",
+          "start": 18963,
+          "end": 19577,
+          "text": "In Scotland the pharmacist can write prescriptions for Scottish registered patients of their regular medications, for the majority of drugs, except for controlled drugs, when the patient is unable to see their doctor, as could happen if they are away from home or the doctor is unavailable. In the United States, pharmaceutical care or clinical pharmacy has had an evolving influence on the practice of pharmacy. Moreover, the Doctor of Pharmacy (Pharm. D.) degree is now required before entering practice and some pharmacists now complete one or two years of residency or fellowship training following graduation."
+        },
+        {
+          "rank": 5,
+          "article": "Pharmacy",
+          "start": 6369,
+          "end": 6957,
+          "text": "In most countries, the dispensary is subject to pharmacy legislation; with requirements for storage conditions, compulsory texts, equipment, etc., specified in legislation. Where it was once the case that pharmacists stayed within the dispensary compounding/dispensing medications, there has been an increasing trend towards the use of trained pharmacy technicians while the pharmacist spends more time communicating with patients. Pharmacy technicians are now more dependent upon automation to assist them in their new role dealing with patients' prescriptions and patient safety issues."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/5726dcbddd62a815002e9321.json"
+    }
+  ]
+}

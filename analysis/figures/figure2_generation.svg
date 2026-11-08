@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="576" height="360" preserveAspectRatio="xMinYMin meet" viewBox="0 0 576 360" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="576" height="360"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-360)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="576" height="360" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<g transform="">
+				<path d="M 42,58 L 278.5,58 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 42,106.4 L 278.5,106.4 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 42,154.8 L 278.5,154.8 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 42,203.2 L 278.5,203.2 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 42,251.6 L 278.5,251.6 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 42,300 L 278.5,300 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<g transform="">
+					<rect x="59.51851851851852" y="58.0" width="43.79629629629629" height="165.044" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(80%,80%,80%); fill-rule: evenodd;"/>
+					<rect x="138.35185185185185" y="58.0" width="43.796296296296305" height="169.15800000000002" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(60%,60%,60%); fill-rule: evenodd;"/>
+					<rect x="217.18518518518516" y="58.0" width="43.796296296296305" height="179.806" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(35%,35%,35%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 42,58 L 278.5,58 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+					</g>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,81.416667,45)">
+							<text x="-14.05875" y="-11.5" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-23) scale(1,-1)">Fixed</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,160.25,45)">
+							<text x="-20.13075" y="-11.5" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-23) scale(1,-1)">Overlap</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,239.083333,45)">
+							<text x="-23.966" y="-11.5" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-23) scale(1,-1)">Semantic</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 42,58 L 42,300 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+					</g>
+					<g transform="">
+						<path d="M 42,58 L 39,58 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 42,106.4 L 39,106.4 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 42,154.8 L 39,154.8 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 42,203.2 L 39,203.2 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 42,251.6 L 39,251.6 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 42,300 L 39,300 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,37,58)">
+							<text x="-15.172500000000001" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,37,106.4)">
+							<text x="-21.0105" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">20%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,37,154.8)">
+							<text x="-21.0105" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">40%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,37,203.2)">
+							<text x="-21.0105" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">60%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,37,251.6)">
+							<text x="-21.0105" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">80%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,37,300)">
+							<text x="-26.848499999999998" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">100%</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="108.513" y="333" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,666) scale(1,-1)">(a) Exact match</text>
+			<path d="M 81.416667,212.396 L 81.416667,232.966 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 76.416667,212.396 L 86.416667,212.396 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 76.416667,232.966 L 86.416667,232.966 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="67.03016666666667" y="240.96599999999995" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,481) scale(1,-1)">68.20</text>
+			<path d="M 160.25,218.688 L 160.25,235.87605 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 155.25,218.688 L 165.25,218.688 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 155.25,235.87605 L 165.25,235.87605 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="145.8635" y="243.87605" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,487) scale(1,-1)">69.90</text>
+			<path d="M 239.083333,227.158 L 239.083333,247.728 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 234.083333,227.158 L 244.083333,227.158 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 234.083333,247.728 L 244.083333,247.728 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="224.6968333333333" y="255.728" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,511) scale(1,-1)">74.30</text>
+			<g transform="">
+				<path d="M 323.5,58 L 560,58 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 323.5,106.4 L 560,106.4 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 323.5,154.8 L 560,154.8 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 323.5,203.2 L 560,203.2 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 323.5,251.6 L 560,251.6 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 323.5,300 L 560,300 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<g transform="">
+					<rect x="341.01851851851853" y="58.0" width="43.796296296296305" height="181.34667216912356" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(80%,80%,80%); fill-rule: evenodd;"/>
+					<rect x="419.85185185185185" y="58.0" width="43.796296296296305" height="186.2525972012611" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(60%,60%,60%); fill-rule: evenodd;"/>
+					<rect x="498.68518518518516" y="58.0" width="43.79629629629625" height="195.32064164471726" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.5; fill: rgb(35%,35%,35%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 323.5,58 L 560,58 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+					</g>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,362.916667,45)">
+							<text x="-14.05875" y="-11.5" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-23) scale(1,-1)">Fixed</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,441.75,45)">
+							<text x="-20.13075" y="-11.5" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-23) scale(1,-1)">Overlap</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,520.583333,45)">
+							<text x="-23.966" y="-11.5" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-23) scale(1,-1)">Semantic</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 323.5,58 L 323.5,300 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+					</g>
+					<g transform="">
+						<path d="M 323.5,58 L 320.5,58 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 323.5,106.4 L 320.5,106.4 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 323.5,154.8 L 320.5,154.8 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 323.5,203.2 L 320.5,203.2 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 323.5,251.6 L 320.5,251.6 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+						<path d="M 323.5,300 L 320.5,300 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.6;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,318.5,58)">
+							<text x="-15.172500000000001" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,318.5,106.4)">
+							<text x="-21.0105" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">20%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,318.5,154.8)">
+							<text x="-21.0105" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">40%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,318.5,203.2)">
+							<text x="-21.0105" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">60%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,318.5,251.6)">
+							<text x="-21.0105" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">80%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,318.5,300)">
+							<text x="-26.848499999999998" y="-4.2" style="font-family: Helvetica; font-size: 10.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">100%</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="400.135" y="333" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,666) scale(1,-1)">(b) Token F1</text>
+			<path d="M 362.916667,231.267672 L 362.916667,247.102137 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 357.916667,231.267672 L 367.916667,231.267672 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 357.916667,247.102137 L 367.916667,247.102137 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="348.5301666666667" y="255.10213749578475" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,510) scale(1,-1)">74.94</text>
+			<path d="M 441.75,237.738787 L 441.75,250.969946 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 436.75,237.738787 L 446.75,237.738787 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 436.75,250.969946 L 446.75,250.969946 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="427.3635" y="258.9699462713198" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,517) scale(1,-1)">76.96</text>
+			<path d="M 520.583333,245.814782 L 520.583333,260.830397 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 515.583333,245.814782 L 525.583333,245.814782 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 515.583333,260.830397 L 525.583333,260.830397 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="506.19683333333325" y="268.8303965415687" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,537) scale(1,-1)">80.71</text>
+		</g>
+	</g>
+</svg>

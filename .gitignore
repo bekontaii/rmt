@@ -1,0 +1,8 @@
+.venv/
+.venv_python39_backup/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+node_modules/

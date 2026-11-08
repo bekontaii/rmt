@@ -1,0 +1,272 @@
+[
+  {
+    "question_id": "572f57c704bcaa1900d76870",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "name_spelling_or_unicode_mismatch",
+    "observation": "The response says Esel instead of Isel. Both appear in the visible sentence; Esel is glossed as donkey, while Isel is the requested local form.",
+    "possible_cause": "Nearby similar spellings and pronunciation wording may contribute; the origin of the substitution is unproven.",
+    "example_short": "Esel → Isel"
+  },
+  {
+    "question_id": "572f57c704bcaa1900d76870",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "name_spelling_or_unicode_mismatch",
+    "observation": "The response says Esel instead of Isel. The visible context includes both spellings and explicitly gives Isel as the local singular pronunciation.",
+    "possible_cause": "The adjacent similar word may contribute to this orthographic substitution; internal selection is not established.",
+    "example_short": "Esel → Isel"
+  },
+  {
+    "question_id": "572f57c704bcaa1900d76870",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "name_spelling_or_unicode_mismatch",
+    "observation": "The short visible context contains Isel and Esel together. The answer uses Esel, differing from the requested and referenced Isel; EOS is present.",
+    "possible_cause": "Similar spelling and shared pronunciation may contribute; the model's internal cause is unknown.",
+    "example_short": "Esel → Isel"
+  },
+  {
+    "question_id": "56e0ccaa7aa994140058e719",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The answer repeats a warning about death through overwork. The drowned-in-the-Mur-River reference span exists in the index but is absent from the top three.",
+    "possible_cause": "The supplied context lacks the annotated event; another biographical event may have guided the response.",
+    "example_short": "killed through overwork → drowned in the Mur River"
+  },
+  {
+    "question_id": "56e0ccaa7aa994140058e719",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The response uses the overwork warning visible in context instead of the friends' drowning belief. The complete reference span is available but not retrieved in the top three.",
+    "possible_cause": "Reference evidence did not rank in the supplied context; the internal answer-selection mechanism is unproven.",
+    "example_short": "killed through overwork → drowned in the Mur River"
+  },
+  {
+    "question_id": "56e0ccaa7aa994140058e719",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "The response exactly matches an accepted drowning reference. The corresponding complete span is present in the raw and visible top-three context.",
+    "possible_cause": "No EM failure is observed.",
+    "example_short": "drowned in the Mur River → drowned in the Mur River"
+  },
+  {
+    "question_id": "56bf48cc3aeaaa14008c95ae",
+    "strategy": "fixed",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Atlanta Falcons matches an accepted reference. The visible context explicitly links that opponent to Denver's Super Bowl XXXIII victory.",
+    "possible_cause": "No EM failure is observed.",
+    "example_short": "Atlanta Falcons → Atlanta Falcons"
+  },
+  {
+    "question_id": "56bf48cc3aeaaa14008c95ae",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The response names New England Patriots from the supplied context. The Falcons reference span is available in the index but missing from the top three.",
+    "possible_cause": "Context about a different Broncos game may contribute; the reference passage did not rank in the top three.",
+    "example_short": "New England Patriots → Atlanta Falcons"
+  },
+  {
+    "question_id": "56bf48cc3aeaaa14008c95ae",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The visible context discusses the Patriots in an AFC Championship Game, and the response names them. The Super Bowl XXXIII reference span is not in the top three.",
+    "possible_cause": "Retrieved passages concern a different game; internal selection is not established.",
+    "example_short": "New England Patriots → Atlanta Falcons"
+  },
+  {
+    "question_id": "5733cff84776f419006612b5",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The answer describes how colonists named the war, rather than how it began. The dispute-over-control reference span is available but absent from the top three.",
+    "possible_cause": "The supplied naming passages may contribute to answering a different question; reference evidence was not retrieved.",
+    "example_short": "colonists named the war → dispute over control"
+  },
+  {
+    "question_id": "5733cff84776f419006612b5",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The answer repeats the war-naming explanation. The visible top-three passages do not contain the annotated territorial-dispute span, although the index has it.",
+    "possible_cause": "Reference evidence did not rank in the supplied context; the internal answer-selection mechanism is unproven.",
+    "example_short": "colonists named the war → dispute over control"
+  },
+  {
+    "question_id": "5733cff84776f419006612b5",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "The answer matches an accepted reference about the Allegheny and Monongahela confluence dispute. That statement is visible in the supplied context.",
+    "possible_cause": "No EM failure is observed.",
+    "example_short": "dispute over control of the confluence → accepted reference"
+  },
+  {
+    "question_id": "572657d9dd62a815002e8234",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The response says deformation. The heat-and-pressure reference span is available in the index but absent from the top three, which discuss analyses and deformation.",
+    "possible_cause": "The annotated causal statement did not rank in the supplied context; internal selection is not determined.",
+    "example_short": "deformation → heat and pressure"
+  },
+  {
+    "question_id": "572657d9dd62a815002e8234",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The answer names metamorphic processes from visible context. The complete heat-and-pressure reference span exists in the index but is absent from the top three.",
+    "possible_cause": "Related mineral-process passages may contribute; the annotated reference evidence was not retrieved.",
+    "example_short": "metamorphic processes → heat and pressure"
+  },
+  {
+    "question_id": "572657d9dd62a815002e8234",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The answer names igneous and metamorphic processes. Related process descriptions are visible, but the complete annotated heat-and-pressure span is absent from the top three.",
+    "possible_cause": "The supplied passages discuss related processes rather than the annotated causal expression; internal selection is unproven.",
+    "example_short": "igneous and metamorphic processes → heat and pressure"
+  },
+  {
+    "question_id": "5711669550c2381900b54ae2",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The answer repeats constant temperature instead of giving isothermal. The annotated term is available in the index but not in the visible or raw top three.",
+    "possible_cause": "The required technical term did not rank in the supplied context; question repetition may reflect that omission.",
+    "example_short": "constant temperature → isothermal"
+  },
+  {
+    "question_id": "5711669550c2381900b54ae2",
+    "strategy": "overlap",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "The answer exactly matches isothermal. The visible context explicitly pairs isothermal with constant temperature in its Carnot-cycle description.",
+    "possible_cause": "No EM failure is observed.",
+    "example_short": "isothermal → isothermal"
+  },
+  {
+    "question_id": "5711669550c2381900b54ae2",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The response says absolute. The visible context discusses absolute ages and heat, while the indexed isothermal reference span is missing from the top three.",
+    "possible_cause": "Unrelated retrieved terminology may contribute; the reference term was not supplied.",
+    "example_short": "absolute → isothermal"
+  },
+  {
+    "question_id": "57113f83b654c5140001fc2a",
+    "strategy": "fixed",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "The answer matches expansions. The visible context explicitly states that the compound-engine stages were called expansions.",
+    "possible_cause": "No EM failure is observed.",
+    "example_short": "expansions → expansions"
+  },
+  {
+    "question_id": "57113f83b654c5140001fc2a",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The answer lists four cycle events instead of the compound-engine stage name. The expansions reference span exists in the index but is absent from the top three.",
+    "possible_cause": "The visible engine-cycle description may contribute to a scope mismatch; reference evidence did not rank in the top three.",
+    "example_short": "admission, expansion, exhaust, compression → expansions"
+  },
+  {
+    "question_id": "57113f83b654c5140001fc2a",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "The answer uses expansion stages, wording present in visible context, instead of expansions. The singular form and added word receive no token overlap with the frozen reference.",
+    "possible_cause": "Wording granularity and singular/plural lexical differences may explain the zero token score; references remain unchanged.",
+    "example_short": "expansion stages → expansions"
+  },
+  {
+    "question_id": "56e11c24e3433e1400422c1b",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The response names Tomingaj, a location in visible context. The annotated New York City span is available in the index but absent from the top three.",
+    "possible_cause": "The vague question and retrieved residence passages may contribute; the underlying mechanism is not established.",
+    "example_short": "Tomingaj → New York City"
+  },
+  {
+    "question_id": "56e11c24e3433e1400422c1b",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The response names Maribor from the supplied biography passage. No top-three fragment contains the available New York City reference span.",
+    "possible_cause": "A different residence passage was supplied; the vague question may contribute to retrieval mismatch.",
+    "example_short": "Maribor → New York City"
+  },
+  {
+    "question_id": "56e11c24e3433e1400422c1b",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The response names Maribor, explicitly mentioned in context. The top three omit the indexed New York City reference span and include an unrelated burial passage.",
+    "possible_cause": "The available reference evidence did not rank in the supplied context; internal selection is unproven.",
+    "example_short": "Maribor → New York City"
+  },
+  {
+    "question_id": "5733cf61d058e614000b62ec",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "annotation_or_alternative_answer_ambiguity",
+    "observation": "The visible context explicitly gives British settlers a population of about 1.5 million, matching the response. Frozen references instead say 2 million; that annotated span is not retrieved.",
+    "possible_cause": "Different population statements and unspecified time or scope may contribute; references and scores remain unchanged.",
+    "example_short": "1.5 million → 2 million"
+  },
+  {
+    "question_id": "5733cf61d058e614000b62ec",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The response uses approximately 80,000 from a passage about French Canada and Acadia. The indexed 2-million British-colonies reference span is absent from the top three.",
+    "possible_cause": "A population for a different group is visible while the reference evidence is absent; internal selection remains unproven.",
+    "example_short": "approximately 80,000 → 2 million"
+  },
+  {
+    "question_id": "5733cf61d058e614000b62ec",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "annotation_or_alternative_answer_ambiguity",
+    "observation": "The response repeats the visible statement that British settlers numbered about 1.5 million. This conflicts with the frozen 2-million reference, whose annotated span is absent from the top three.",
+    "possible_cause": "Different population statements and unspecified time or scope may contribute; references and scores remain unchanged.",
+    "example_short": "1.5 million → 2 million"
+  },
+  {
+    "question_id": "56dfb6d17aa994140058e056",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "The response says splitting. The supplied passages discuss atoms and unrelated biographies, while the complete sparking reference span is available but missing from the top three.",
+    "possible_cause": "The reference design passage did not rank in the supplied context; internal answer selection is not determined.",
+    "example_short": "splitting → sparking"
+  },
+  {
+    "question_id": "56dfb6d17aa994140058e056",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "The response gives the supported maintenance clause but omits sparking. Visible context contains both; the longer accepted reference includes sparking and receives F1 0.9 against this partial answer.",
+    "possible_cause": "Response granularity and omission of one listed effect may explain EM failure; the internal mechanism is unknown.",
+    "example_short": "high maintenance…mechanical brushes → sparking and the high maintenance…"
+  },
+  {
+    "question_id": "56dfb6d17aa994140058e056",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "The response matches the accepted short reference sparking. The visible context explicitly states that the commutator-free design avoided sparking and maintenance.",
+    "possible_cause": "No EM failure is observed.",
+    "example_short": "sparking → sparking"
+  }
+]

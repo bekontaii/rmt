@@ -1,0 +1,26 @@
+{
+  "fixed": {
+    "n_questions": 9,
+    "exact_match": 0.5555555555555556,
+    "f1": 0.712962962962963,
+    "hit_at_3": 0.8888888888888888,
+    "visible_evidence_hit": 0.8888888888888888,
+    "context_truncated_count": 0
+  },
+  "overlap": {
+    "n_questions": 9,
+    "exact_match": 0.4444444444444444,
+    "f1": 0.7314814814814814,
+    "hit_at_3": 0.7777777777777778,
+    "visible_evidence_hit": 0.7777777777777778,
+    "context_truncated_count": 0
+  },
+  "semantic": {
+    "n_questions": 9,
+    "exact_match": 0.5555555555555556,
+    "f1": 0.787037037037037,
+    "hit_at_3": 0.8888888888888888,
+    "visible_evidence_hit": 0.8888888888888888,
+    "context_truncated_count": 0
+  }
+}

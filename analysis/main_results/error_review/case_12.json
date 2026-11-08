@@ -1,0 +1,210 @@
+{
+  "review_index": 12,
+  "question_id": "56de49a8cffd8e1900b4b7a9",
+  "article": "Normans",
+  "question": "Who sold the rights?",
+  "references": [
+    "Maciot de Bethencourt",
+    "Maciot de Bethencourt",
+    "Maciot de Bethencourt"
+  ],
+  "answer_spans": [
+    [
+      24474,
+      24495
+    ],
+    [
+      24474,
+      24495
+    ],
+    [
+      24474,
+      24495
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "NBC",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 3,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "Disney's first television collaboration ended in 1961 (the network would resume its relationship with Disney in 1985, when the anthology series returned to the network for a three-season run as the Disney Sunday Movie until it lost the rights to NBC again in 1988; the Disney anthology series would return to ABC in 1996, following the company's purchase of the future Capital Cities/ABC, as The Wonderful World of Disney).\n\nIn 2000, ABC launched a web-based promotional campaign focused around its circle logo, also called \"the dot\", in which comic book character Little Dot prompted visitors to \"download the dot\", a\n\nParamount Television prior to 1986 (as Miller-Milkis, and later, Miller-Milkis-Boyett Productions), had earlier produced Happy Days and its various spinoffs among other series for the network.\n\nIn 1968, ABC took advantage of new FCC ownership regulations that allowed broadcasting companies to own a maximum of seven radio stations nationwide in order to purchase Houston radio stations KXYZ and KXYZ-FM for $1 million in shares and $1.5 million in bonds. That year, Roone Arledge was named president of ABC Sports; the company also founded ABC Pictures, a film production company which released its first picture that year, the Ralph Nelson-directed Charly.\n\nafter the start of the network's bond with the Disney studio, James Lewis Baughman, who worked as a columnist at that time, observed that \"at ABC's headquarters in New York, the secretaries [were now] wearing hats with Mickey Mouse ears\".\n\nWalt Disney and his brother Roy contacted Goldenson at the end of 1953 for ABC to agree to finance part of the Disneyland project in exchange for producing a television program for the network. Walt wanted ABC to invest $500,000 and accrued a guarantee of $4.5 million in additional loans, a third of the budget intended for the park. Around",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "American_Broadcasting_Company",
+          "start": 20722,
+          "end": 21340,
+          "text": "Disney's first television collaboration ended in 1961 (the network would resume its relationship with Disney in 1985, when the anthology series returned to the network for a three-season run as the Disney Sunday Movie until it lost the rights to NBC again in 1988; the Disney anthology series would return to ABC in 1996, following the company's purchase of the future Capital Cities/ABC, as The Wonderful World of Disney).\n\nIn 2000, ABC launched a web-based promotional campaign focused around its circle logo, also called \"the dot\", in which comic book character Little Dot prompted visitors to \"download the dot\", a"
+        },
+        {
+          "rank": 2,
+          "article": "American_Broadcasting_Company",
+          "start": 78725,
+          "end": 79383,
+          "text": "Paramount Television prior to 1986 (as Miller-Milkis, and later, Miller-Milkis-Boyett Productions), had earlier produced Happy Days and its various spinoffs among other series for the network.\n\nIn 1968, ABC took advantage of new FCC ownership regulations that allowed broadcasting companies to own a maximum of seven radio stations nationwide in order to purchase Houston radio stations KXYZ and KXYZ-FM for $1 million in shares and $1.5 million in bonds. That year, Roone Arledge was named president of ABC Sports; the company also founded ABC Pictures, a film production company which released its first picture that year, the Ralph Nelson-directed Charly."
+        },
+        {
+          "rank": 3,
+          "article": "American_Broadcasting_Company",
+          "start": 34987,
+          "end": 35568,
+          "text": "after the start of the network's bond with the Disney studio, James Lewis Baughman, who worked as a columnist at that time, observed that \"at ABC's headquarters in New York, the secretaries [were now] wearing hats with Mickey Mouse ears\".\n\nWalt Disney and his brother Roy contacted Goldenson at the end of 1953 for ABC to agree to finance part of the Disneyland project in exchange for producing a television program for the network. Walt wanted ABC to invest $500,000 and accrued a guarantee of $4.5 million in additional loans, a third of the budget intended for the park. Around"
+        },
+        {
+          "rank": 4,
+          "article": "American_Broadcasting_Company",
+          "start": 4469,
+          "end": 5071,
+          "text": "Los Angeles and Washington D.C.), contracts with actors, and the brand associated with the Blue Network. Investment firm Dillon, Read & Co. (which was later acquired by the Swiss Bank Corporation in 1997) offered $7.5 million to purchase the network, but the offer was rejected by Woods and RCA president David Sarnoff.\n\nEdward John Noble, the owner of Life Savers candy, drugstore chain Rexall and New York City radio station WMCA, purchased the network for $8 million. Due to FCC ownership rules, the transaction, which was to include the purchase of three RCA stations by Noble, would require him to"
+        },
+        {
+          "rank": 5,
+          "article": "American_Broadcasting_Company",
+          "start": 49731,
+          "end": 50413,
+          "text": "acquired it in 1999, and has most recently been absorbed into CBS Television Distribution, a unit of CBS Corporation. Nonetheless, Worldvision sold portions of its catalog, including the Ruby-Spears and Hanna-Barbera libraries, to Turner Broadcasting System in 1990. With Disney's 1996 purchase of ABC, ABC Circle Films was absorbed into Touchstone Television, a Disney subsidiary which in turn was renamed ABC Studios in 2007.\n\nAlso part of the library is the aforementioned Selznick library, the Cinerama Productions/Palomar theatrical library and the Selmur Productions catalog that the network acquired some years back, and the in-house productions it continues to produce (such"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/56de49a8cffd8e1900b4b7a9.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "Woods",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 3,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "The newly separated NBC Red and NBC Blue divided their respective corporate assets. Between 1942 and 1943, Woods offered to sell the entire NBC Blue Network, a package that included leases on landlines, three pending television licenses (WJZ-TV in New York City, KGO-TV in San Francisco and WENR-TV in Chicago), 60 affiliates, four operations facilities (in New York City, Chicago, Los Angeles and Washington D.C.), contracts with actors, and the brand associated with the Blue Network. Investment firm Dillon, Read & Co. (which was later acquired by the Swiss Bank Corporation in 1997) offered $7.5 million to purchase the network,\n\nafter the start of the network's bond with the Disney studio, James Lewis Baughman, who worked as a columnist at that time, observed that \"at ABC's headquarters in New York, the secretaries [were now] wearing hats with Mickey Mouse ears\".\n\nWalt Disney and his brother Roy contacted Goldenson at the end of 1953 for ABC to agree to finance part of the Disneyland project in exchange for producing a television program for the network. Walt wanted ABC to invest $500,000 and accrued a guarantee of $4.5 million in additional loans, a third of the budget intended for the park. Around\n\n& Co. (which was later acquired by the Swiss Bank Corporation in 1997) offered $7.5 million to purchase the network, but the offer was rejected by Woods and RCA president David Sarnoff.\n\nEdward John Noble, the owner of Life Savers candy, drugstore chain Rexall and New York City radio station WMCA, purchased the network for $8 million. Due to FCC ownership rules, the transaction, which was to include the purchase of three RCA stations by Noble, would require him to resell his station with the FCC's approval. The Commission authorized the transaction on October 12, 1943. Soon afterward, the Blue",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "American_Broadcasting_Company",
+          "start": 4087,
+          "end": 4719,
+          "text": "The newly separated NBC Red and NBC Blue divided their respective corporate assets. Between 1942 and 1943, Woods offered to sell the entire NBC Blue Network, a package that included leases on landlines, three pending television licenses (WJZ-TV in New York City, KGO-TV in San Francisco and WENR-TV in Chicago), 60 affiliates, four operations facilities (in New York City, Chicago, Los Angeles and Washington D.C.), contracts with actors, and the brand associated with the Blue Network. Investment firm Dillon, Read & Co. (which was later acquired by the Swiss Bank Corporation in 1997) offered $7.5 million to purchase the network,"
+        },
+        {
+          "rank": 2,
+          "article": "American_Broadcasting_Company",
+          "start": 34987,
+          "end": 35568,
+          "text": "after the start of the network's bond with the Disney studio, James Lewis Baughman, who worked as a columnist at that time, observed that \"at ABC's headquarters in New York, the secretaries [were now] wearing hats with Mickey Mouse ears\".\n\nWalt Disney and his brother Roy contacted Goldenson at the end of 1953 for ABC to agree to finance part of the Disneyland project in exchange for producing a television program for the network. Walt wanted ABC to invest $500,000 and accrued a guarantee of $4.5 million in additional loans, a third of the budget intended for the park. Around"
+        },
+        {
+          "rank": 3,
+          "article": "American_Broadcasting_Company",
+          "start": 4603,
+          "end": 5203,
+          "text": "& Co. (which was later acquired by the Swiss Bank Corporation in 1997) offered $7.5 million to purchase the network, but the offer was rejected by Woods and RCA president David Sarnoff.\n\nEdward John Noble, the owner of Life Savers candy, drugstore chain Rexall and New York City radio station WMCA, purchased the network for $8 million. Due to FCC ownership rules, the transaction, which was to include the purchase of three RCA stations by Noble, would require him to resell his station with the FCC's approval. The Commission authorized the transaction on October 12, 1943. Soon afterward, the Blue"
+        },
+        {
+          "rank": 4,
+          "article": "American_Broadcasting_Company",
+          "start": 9177,
+          "end": 9814,
+          "text": "also cited interest in Japan in the early 1950s, acquiring a 5% stake in two new domestic networks, the Mainichi Broadcasting System in 1951 and Nihon Educational Television in 1957. Goldenson also invested in broadcasting properties in Beirut in the mid-1960s.\n\nABC currently holds the broadcast rights to the Academy Awards, Emmy Awards (which are rotated across all four major networks on a year-to-year basis), American Music Awards, Disney Parks Christmas Day Parade, Tournament of Roses Parade, Country Music Association Awards and the CMA Music Festival. Since 2000, ABC has also owned the television rights to most of the Peanuts"
+        },
+        {
+          "rank": 5,
+          "article": "American_Broadcasting_Company",
+          "start": 79016,
+          "end": 79638,
+          "text": "to own a maximum of seven radio stations nationwide in order to purchase Houston radio stations KXYZ and KXYZ-FM for $1 million in shares and $1.5 million in bonds. That year, Roone Arledge was named president of ABC Sports; the company also founded ABC Pictures, a film production company which released its first picture that year, the Ralph Nelson-directed Charly. It was renamed ABC Motion Pictures in 1979; the unit was dissolved in 1985. The studio also operated two subsidiaries, Palomar Pictures International and Selmur Pictures. In July 1968, ABC continued its acquisitions in the amusement parks sector with the"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/56de49a8cffd8e1900b4b7a9.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "Woods",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 3,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "Nonetheless, Worldvision sold portions of its catalog, including the Ruby-Spears and Hanna-Barbera libraries, to Turner Broadcasting System in 1990. With Disney's 1996 purchase of ABC, ABC Circle Films was absorbed into Touchstone Television, a Disney subsidiary which in turn was renamed ABC Studios in 2007.\n\nBetween 1942 and 1943, Woods offered to sell the entire NBC Blue Network, a package that included leases on landlines, three pending television licenses (WJZ-TV in New York City, KGO-TV in San Francisco and WENR-TV in Chicago), 60 affiliates, four operations facilities (in New York City, Chicago, Los Angeles and Washington D.C.), contracts with actors, and the brand associated with the Blue Network. Investment firm Dillon, Read & Co. (which was later acquired by the Swiss Bank Corporation in 1997) offered $7.5 million to purchase the network, but the offer was rejected by Woods and RCA president David Sarnoff.\n\nIn 1972, the new rules resulted in the company's decision to split ABC Films into two separate companies: the existing Worldvision Enterprises, which would produce and distribute programming for U.S. syndication, and ABC Circle Films as a production unit. Worldvision was sold to a consortium of ABC executives for nearly $10 million.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "American_Broadcasting_Company",
+          "start": 49849,
+          "end": 50158,
+          "text": "Nonetheless, Worldvision sold portions of its catalog, including the Ruby-Spears and Hanna-Barbera libraries, to Turner Broadcasting System in 1990. With Disney's 1996 purchase of ABC, ABC Circle Films was absorbed into Touchstone Television, a Disney subsidiary which in turn was renamed ABC Studios in 2007."
+        },
+        {
+          "rank": 2,
+          "article": "American_Broadcasting_Company",
+          "start": 4171,
+          "end": 4788,
+          "text": "Between 1942 and 1943, Woods offered to sell the entire NBC Blue Network, a package that included leases on landlines, three pending television licenses (WJZ-TV in New York City, KGO-TV in San Francisco and WENR-TV in Chicago), 60 affiliates, four operations facilities (in New York City, Chicago, Los Angeles and Washington D.C.), contracts with actors, and the brand associated with the Blue Network. Investment firm Dillon, Read & Co. (which was later acquired by the Swiss Bank Corporation in 1997) offered $7.5 million to purchase the network, but the offer was rejected by Woods and RCA president David Sarnoff."
+        },
+        {
+          "rank": 3,
+          "article": "American_Broadcasting_Company",
+          "start": 38901,
+          "end": 39235,
+          "text": "In 1972, the new rules resulted in the company's decision to split ABC Films into two separate companies: the existing Worldvision Enterprises, which would produce and distribute programming for U.S. syndication, and ABC Circle Films as a production unit. Worldvision was sold to a consortium of ABC executives for nearly $10 million."
+        },
+        {
+          "rank": 4,
+          "article": "American_Broadcasting_Company",
+          "start": 49224,
+          "end": 49848,
+          "text": "When the FCC imposed its fin-syn rules in 1970, ABC proactively created two companies: Worldvision Enterprises as a syndication distributor, and ABC Circle Films as a production company. However, between the publication and implementation of these regulations, the separation of the network's catalog was made in 1973. The broadcast rights to pre-1973 productions were transferred to Worldvision, which became independent in the same year. The company has been sold several times since Paramount Television acquired it in 1999, and has most recently been absorbed into CBS Television Distribution, a unit of CBS Corporation."
+        },
+        {
+          "rank": 5,
+          "article": "American_Broadcasting_Company",
+          "start": 78919,
+          "end": 79554,
+          "text": "In 1968, ABC took advantage of new FCC ownership regulations that allowed broadcasting companies to own a maximum of seven radio stations nationwide in order to purchase Houston radio stations KXYZ and KXYZ-FM for $1 million in shares and $1.5 million in bonds. That year, Roone Arledge was named president of ABC Sports; the company also founded ABC Pictures, a film production company which released its first picture that year, the Ralph Nelson-directed Charly. It was renamed ABC Motion Pictures in 1979; the unit was dissolved in 1985. The studio also operated two subsidiaries, Palomar Pictures International and Selmur Pictures."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/56de49a8cffd8e1900b4b7a9.json"
+    }
+  ]
+}

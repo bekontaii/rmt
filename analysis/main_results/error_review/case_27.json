@@ -1,0 +1,210 @@
+{
+  "review_index": 27,
+  "question_id": "57309adb396df919000961fd",
+  "article": "United_Methodist_Church",
+  "question": "What is the oldest Methodist church in continuous use in the United States?",
+  "references": [
+    "St. George's United Methodist Church",
+    "St. George's United Methodist Church",
+    "St. George's United Methodist Church"
+  ],
+  "answer_spans": [
+    [
+      3591,
+      3627
+    ],
+    [
+      3591,
+      3627
+    ],
+    [
+      3591,
+      3627
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "St. George's United Methodist Church",
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 9,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "(bishop) to organize a separate Methodist Society. Together with Coke, Wesley sent a revision of the Anglican Prayerbook and the Articles of Religion which were received and adopted by the Baltimore Christmas Conference of 1784, officially establishing the Methodist Episcopal Church. The conference was held at the Lovely Lane Methodist Church, considered the Mother Church of American Methodism.\n\nSt. George's United Methodist Church, located at the corner of 4th and New Streets, in the Old City neighborhood of Philadelphia, is the oldest Methodist church in continuous use in the United States, beginning in 1769. The congregation was founded in 1767,\n\nThe United Methodist Church (UMC) is a mainline Protestant Methodist denomination. In the 19th century its main predecessor was a leader in Evangelicalism. Founded in 1968 by the union of the Methodist Church (USA) and the Evangelical United Brethren Church, the UMC traces its roots back to the revival movement of John and Charles Wesley in England as well as the Great Awakening in the United States. As such, the church's theological orientation is decidedly Wesleyan. It embraces both liturgical and evangelical elements.\n\nThe United Methodist Church is the largest denomination within the wider Methodist movement, which has approximately 80\n\nthe International Association of Methodist-related Schools, Colleges, and Universities. The church operates three hundred sixty schools and institutions overseas.\n\nThe first Methodist clergy were ordained by John Wesley, a priest of the Church of England, because of the crisis caused by the American Revolution which isolated the Methodists in the States from the Church of England and its sacraments. Today, the clergy includes men and women who are ordained by bishops as elders and deacons and are appointed to various ministries. Elders in the United Methodist Church itenerate and are subject to the authority and appointment of their bishops. They",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "United_Methodist_Church",
+          "start": 3192,
+          "end": 3848,
+          "text": "(bishop) to organize a separate Methodist Society. Together with Coke, Wesley sent a revision of the Anglican Prayerbook and the Articles of Religion which were received and adopted by the Baltimore Christmas Conference of 1784, officially establishing the Methodist Episcopal Church. The conference was held at the Lovely Lane Methodist Church, considered the Mother Church of American Methodism.\n\nSt. George's United Methodist Church, located at the corner of 4th and New Streets, in the Old City neighborhood of Philadelphia, is the oldest Methodist church in continuous use in the United States, beginning in 1769. The congregation was founded in 1767,"
+        },
+        {
+          "rank": 2,
+          "article": "United_Methodist_Church",
+          "start": 0,
+          "end": 647,
+          "text": "The United Methodist Church (UMC) is a mainline Protestant Methodist denomination. In the 19th century its main predecessor was a leader in Evangelicalism. Founded in 1968 by the union of the Methodist Church (USA) and the Evangelical United Brethren Church, the UMC traces its roots back to the revival movement of John and Charles Wesley in England as well as the Great Awakening in the United States. As such, the church's theological orientation is decidedly Wesleyan. It embraces both liturgical and evangelical elements.\n\nThe United Methodist Church is the largest denomination within the wider Methodist movement, which has approximately 80"
+        },
+        {
+          "rank": 3,
+          "article": "United_Methodist_Church",
+          "start": 29499,
+          "end": 30153,
+          "text": "the International Association of Methodist-related Schools, Colleges, and Universities. The church operates three hundred sixty schools and institutions overseas.\n\nThe first Methodist clergy were ordained by John Wesley, a priest of the Church of England, because of the crisis caused by the American Revolution which isolated the Methodists in the States from the Church of England and its sacraments. Today, the clergy includes men and women who are ordained by bishops as elders and deacons and are appointed to various ministries. Elders in the United Methodist Church itenerate and are subject to the authority and appointment of their bishops. They"
+        },
+        {
+          "rank": 4,
+          "article": "United_Methodist_Church",
+          "start": 3849,
+          "end": 4449,
+          "text": "meeting initially in a sail loft on Dock Street, and in 1769 it purchased the shell of a building which had been erected in 1763 by a German Reformed congregation. At this time, Methodists had not yet broken away from the Anglican Church and the Methodist Episcopal Church was not founded until 1784.\n\nRichard Allen and Absalom Jones became the first African Americans ordained by the Methodist Church. They were licensed by St. George's Church in 1784. Three years later, protesting racial segregation in the worship services, Allen led most of the black members out of St. George's; eventually they"
+        },
+        {
+          "rank": 5,
+          "article": "United_Methodist_Church",
+          "start": 22942,
+          "end": 23604,
+          "text": "Saints Day, Ash Wednesday, Maundy Thursday, Good Friday, and Easter Vigil. These services are contained in The United Methodist Hymnal and The United Methodist Book of Worship (1992). Many of these liturgies are derived from the Anglican tradition's Book of Common Prayer. In most cases, congregations also use other elements of liturgical worship, such as candles, vestments, paraments, banners, and liturgical art.\n\nMethodist institutions may be named after a biblical figure (e.g., \"St. James UMC\"). Methodists also honor notable heroes and heroines of the Christian faith and look to these prominent saints as providing examples of holy living and commitment"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/57309adb396df919000961fd.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "United Methodist Church",
+      "exact_match": 0.0,
+      "f1": 0.75,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "United Methodist Church, located at the corner of 4th and New Streets, in the Old City neighborhood of Philadelphia, is the oldest Methodist church in continuous use in the United States, beginning in 1769. The congregation was founded in 1767, meeting initially in a sail loft on Dock Street, and in 1769 it purchased the shell of a building which had been erected in 1763 by a German Reformed congregation. At this time, Methodists had not yet broken away from the Anglican Church and the Methodist Episcopal Church was not founded until 1784.\n\nRichard Allen and Absalom Jones became the\n\nestablished and is affiliated with around one hundred colleges and universities in the United States, including Syracuse University, Boston University, Emory University, Duke University, Drew University, University of Denver, University of Evansville, and Southern Methodist University. Most are members of the International Association of Methodist-related Schools, Colleges, and Universities. The church operates three hundred sixty schools and institutions overseas.\n\nThe first Methodist clergy were ordained by John Wesley, a priest of the Church of England, because of the crisis caused by the American Revolution which isolated the Methodists in the States from the Church of England and its sacraments. Today,\n\nThe United Methodist Church (UMC) is a mainline Protestant Methodist denomination. In the 19th century its main predecessor was a leader in Evangelicalism. Founded in 1968 by the union of the Methodist Church (USA) and the Evangelical United Brethren Church, the UMC traces its roots back to the revival movement of John and Charles Wesley in England as well as the Great Awakening in the United States. As such, the church's theological orientation is decidedly Wesleyan. It embraces both liturgical and evangelical elements.\n\nThe United Methodist Church is the largest denomination within the wider Methodist movement, which has approximately 80",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "United_Methodist_Church",
+          "start": 3604,
+          "end": 4193,
+          "text": "United Methodist Church, located at the corner of 4th and New Streets, in the Old City neighborhood of Philadelphia, is the oldest Methodist church in continuous use in the United States, beginning in 1769. The congregation was founded in 1767, meeting initially in a sail loft on Dock Street, and in 1769 it purchased the shell of a building which had been erected in 1763 by a German Reformed congregation. At this time, Methodists had not yet broken away from the Anglican Church and the Methodist Episcopal Church was not founded until 1784.\n\nRichard Allen and Absalom Jones became the"
+        },
+        {
+          "rank": 2,
+          "article": "United_Methodist_Church",
+          "start": 29192,
+          "end": 29908,
+          "text": "established and is affiliated with around one hundred colleges and universities in the United States, including Syracuse University, Boston University, Emory University, Duke University, Drew University, University of Denver, University of Evansville, and Southern Methodist University. Most are members of the International Association of Methodist-related Schools, Colleges, and Universities. The church operates three hundred sixty schools and institutions overseas.\n\nThe first Methodist clergy were ordained by John Wesley, a priest of the Church of England, because of the crisis caused by the American Revolution which isolated the Methodists in the States from the Church of England and its sacraments. Today,"
+        },
+        {
+          "rank": 3,
+          "article": "United_Methodist_Church",
+          "start": 0,
+          "end": 647,
+          "text": "The United Methodist Church (UMC) is a mainline Protestant Methodist denomination. In the 19th century its main predecessor was a leader in Evangelicalism. Founded in 1968 by the union of the Methodist Church (USA) and the Evangelical United Brethren Church, the UMC traces its roots back to the revival movement of John and Charles Wesley in England as well as the Great Awakening in the United States. As such, the church's theological orientation is decidedly Wesleyan. It embraces both liturgical and evangelical elements.\n\nThe United Methodist Church is the largest denomination within the wider Methodist movement, which has approximately 80"
+        },
+        {
+          "rank": 4,
+          "article": "United_Methodist_Church",
+          "start": 5536,
+          "end": 6169,
+          "text": "1968, the United Methodist Church was created when the Evangelical United Brethren Church (represented by Bishop Reuben H. Mueller) and The Methodist Church (represented by Bishop Lloyd Christ Wicke) joined hands at the constituting General Conference in Dallas, Texas. With the words, \"Lord of the Church, we are united in Thee, in Thy Church and now in The United Methodist Church\" the new denomination was given birth by the two churches that had distinguished histories and influential ministries in various parts of the world.\n\nThe United Methodist Church understands itself to be part of the holy catholic (or universal) church"
+        },
+        {
+          "rank": 5,
+          "article": "United_Methodist_Church",
+          "start": 22942,
+          "end": 23604,
+          "text": "Saints Day, Ash Wednesday, Maundy Thursday, Good Friday, and Easter Vigil. These services are contained in The United Methodist Hymnal and The United Methodist Book of Worship (1992). Many of these liturgies are derived from the Anglican tradition's Book of Common Prayer. In most cases, congregations also use other elements of liturgical worship, such as candles, vestments, paraments, banners, and liturgical art.\n\nMethodist institutions may be named after a biblical figure (e.g., \"St. James UMC\"). Methodists also honor notable heroes and heroines of the Christian faith and look to these prominent saints as providing examples of holy living and commitment"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/57309adb396df919000961fd.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "St. George's United Methodist Church",
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 9,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "St. George's United Methodist Church, located at the corner of 4th and New Streets, in the Old City neighborhood of Philadelphia, is the oldest Methodist church in continuous use in the United States, beginning in 1769. The congregation was founded in 1767, meeting initially in a sail loft on Dock Street, and in 1769 it purchased the shell of a building which had been erected in 1763 by a German Reformed congregation. At this time, Methodists had not yet broken away from the Anglican Church and the Methodist Episcopal Church was not founded until 1784.\n\nIn 2015, Pew Research estimated that 3.6% of the U.S population, or 9 million adult adherents, self-identify with the United Methodist Church revealing a much larger number of adherents than registered membership.\n\nThe movement which would become The United Methodist Church began in the mid-18th century within the Church of England. A small group of students, including John Wesley, Charles Wesley and George Whitefield, met on the Oxford University campus. They focused on Bible study, methodical study of scripture and living a holy life.\n\nIn the more than 220 years since 1784, Methodism in the United States, like many other Protestant denominations, has seen a number of divisions and mergers. In 1830, the Methodist Protestant Church split from the Methodist Episcopal Church over the issue of laity having a voice and vote in the administration of the church, insisting that clergy should not be the only ones to have any determination in how the church was to be operated.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "United_Methodist_Church",
+          "start": 3591,
+          "end": 4149,
+          "text": "St. George's United Methodist Church, located at the corner of 4th and New Streets, in the Old City neighborhood of Philadelphia, is the oldest Methodist church in continuous use in the United States, beginning in 1769. The congregation was founded in 1767, meeting initially in a sail loft on Dock Street, and in 1769 it purchased the shell of a building which had been erected in 1763 by a German Reformed congregation. At this time, Methodists had not yet broken away from the Anglican Church and the Methodist Episcopal Church was not founded until 1784."
+        },
+        {
+          "rank": 2,
+          "article": "United_Methodist_Church",
+          "start": 1129,
+          "end": 1671,
+          "text": "In 2015, Pew Research estimated that 3.6% of the U.S population, or 9 million adult adherents, self-identify with the United Methodist Church revealing a much larger number of adherents than registered membership.\n\nThe movement which would become The United Methodist Church began in the mid-18th century within the Church of England. A small group of students, including John Wesley, Charles Wesley and George Whitefield, met on the Oxford University campus. They focused on Bible study, methodical study of scripture and living a holy life."
+        },
+        {
+          "rank": 3,
+          "article": "United_Methodist_Church",
+          "start": 4911,
+          "end": 5349,
+          "text": "In the more than 220 years since 1784, Methodism in the United States, like many other Protestant denominations, has seen a number of divisions and mergers. In 1830, the Methodist Protestant Church split from the Methodist Episcopal Church over the issue of laity having a voice and vote in the administration of the church, insisting that clergy should not be the only ones to have any determination in how the church was to be operated."
+        },
+        {
+          "rank": 4,
+          "article": "United_Methodist_Church",
+          "start": 528,
+          "end": 1128,
+          "text": "The United Methodist Church is the largest denomination within the wider Methodist movement, which has approximately 80 million adherents across the world. In the United States, the UMC ranks as the largest mainline Protestant denomination, the largest Protestant church after the Southern Baptist Convention, and the third largest Christian denomination. As of 2014, worldwide membership was about 12 million: 7.2 million in the United States, and 4.4 million in Africa, Asia and Europe. It is a member of the World Council of Churches, the World Methodist Council, and other religious associations."
+        },
+        {
+          "rank": 5,
+          "article": "United_Methodist_Church",
+          "start": 29479,
+          "end": 29661,
+          "text": "Most are members of the International Association of Methodist-related Schools, Colleges, and Universities. The church operates three hundred sixty schools and institutions overseas."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/57309adb396df919000961fd.json"
+    }
+  ]
+}

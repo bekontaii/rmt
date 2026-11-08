@@ -1,0 +1,77 @@
+{
+  "fixed": {
+    "all_retrieval": {
+      "n_questions": 2000,
+      "hit_at_1": 0.5485,
+      "hit_at_1_count": 1097,
+      "hit_at_3": 0.776,
+      "hit_at_3_count": 1552,
+      "hit_at_5": 0.8375,
+      "hit_at_5_count": 1675
+    },
+    "generation_subset": {
+      "n_questions": 1000,
+      "hit_at_1": 0.551,
+      "hit_at_1_count": 551,
+      "hit_at_3": 0.777,
+      "hit_at_3_count": 777,
+      "hit_at_5": 0.842,
+      "hit_at_5_count": 842
+    },
+    "chunk_statistics": {
+      "n_chunks": 1155,
+      "max_words": 100,
+      "mean_words": 99.14891774891775
+    }
+  },
+  "overlap": {
+    "all_retrieval": {
+      "n_questions": 2000,
+      "hit_at_1": 0.5925,
+      "hit_at_1_count": 1185,
+      "hit_at_3": 0.808,
+      "hit_at_3_count": 1616,
+      "hit_at_5": 0.8705,
+      "hit_at_5_count": 1741
+    },
+    "generation_subset": {
+      "n_questions": 1000,
+      "hit_at_1": 0.575,
+      "hit_at_1_count": 575,
+      "hit_at_3": 0.801,
+      "hit_at_3_count": 801,
+      "hit_at_5": 0.873,
+      "hit_at_5_count": 873
+    },
+    "chunk_statistics": {
+      "n_chunks": 1435,
+      "max_words": 100,
+      "mean_words": 99.52404181184669
+    }
+  },
+  "semantic": {
+    "all_retrieval": {
+      "n_questions": 2000,
+      "hit_at_1": 0.6345,
+      "hit_at_1_count": 1269,
+      "hit_at_3": 0.8325,
+      "hit_at_3_count": 1665,
+      "hit_at_5": 0.8875,
+      "hit_at_5_count": 1775
+    },
+    "generation_subset": {
+      "n_questions": 1000,
+      "hit_at_1": 0.623,
+      "hit_at_1_count": 623,
+      "hit_at_3": 0.832,
+      "hit_at_3_count": 832,
+      "hit_at_5": 0.891,
+      "hit_at_5_count": 891
+    },
+    "chunk_statistics": {
+      "n_chunks": 1565,
+      "max_words": 100,
+      "mean_words": 73.20575079872205
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "created_report": "/Users/bekarysuzbekbaev/Documents/Codex/2026-10-17/lfdf/outputs/assignment4_report/Assignment4_Uzbekbayev_Kuanyshov.docx",
+  "report_sha256": "275523069553759c7c1698adaf7b71e69d271809d42b0094e568408ef643bdc1",
+  "analysis_sha256": "9c4d91f7610226e1ea84f79f854febc3297c0262d433b11ab7ef089a33be9fdf",
+  "core_results_and_discussion_words": 1877,
+  "final_retrieval_records": 6000,
+  "final_generated_answers": 3000,
+  "reviewed_error_records": 90,
+  "selected_error_questions": 30,
+  "protocol_sha256": "d6f050101bd771f94d5360565d516813946f8eb82295d3c5f5580c440a9b0369",
+  "moodle_upload_verified": false,
+  "external_reproduction": "team_reported_success; exact commands and numerical table match not documented",
+  "public_repository": "https://github.com/bekontaii/rmt",
+  "authors": [
+    "Bekarys Uzbekbayev",
+    "Yerassyl Kuanyshov"
+  ],
+  "team_protocol_sha256": "75f7beb2d7c0b45c750312cd6f2cb254952fff0620325056322b8874d301aea3",
+  "team_test_date": "2026-11-08",
+  "team_test_operating_system": "Linux",
+  "repository_url": "https://github.com/bekontaii/rmt",
+  "repository_release_status": "Code upload, commit and assignment-4 tag not yet recorded"
+}

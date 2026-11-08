@@ -1,0 +1,210 @@
+{
+  "review_index": 7,
+  "question_id": "56e11c24e3433e1400422c1b",
+  "article": "Nikola_Tesla",
+  "question": "Where did he live while he was looking good?",
+  "references": [
+    "New York City",
+    "New York City",
+    "New York City"
+  ],
+  "answer_spans": [
+    [
+      41952,
+      41965
+    ],
+    [
+      41952,
+      41965
+    ],
+    [
+      41952,
+      41965
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "Tomingaj",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 5,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "Sant'Eufemia. There they continued the tradition of singing.\n\nafter he arrived, Tesla contracted cholera; he was bedridden for nine months and was near death multiple times. Tesla's father, in a moment of despair, promised to send him to the best engineering school if he recovered from the illness (his father had originally wanted him to enter the priesthood).\n\nIn 1874, Tesla evaded being drafted into the Austro-Hungarian Army in Smiljan by running away to Tomingaj, near Gračac. There, he explored the mountains in hunter's garb. Tesla said that this contact with nature made him stronger, both physically and mentally. He read many books while in Tomingaj, and later\n\n9:00 a.m. until 6:00 p.m. or later, with dinner from exactly 8:10 p.m., at Delmonico's restaurant and later the Waldorf-Astoria Hotel. Tesla would telephone his dinner order to the headwaiter, who also could be the only one to serve him. \"The meal was required to be ready at eight o'clock ... He dined alone, except on the rare occasions when he would give a dinner to a group to meet his social obligations. Tesla would then resume his work, often until 3:00 a.m.\":283, 286\n\nFor exercise, Tesla walked between 8 to 10 miles per day. He squished his toes one",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Normans",
+          "start": 29614,
+          "end": 29674,
+          "text": "Sant'Eufemia. There they continued the tradition of singing."
+        },
+        {
+          "rank": 2,
+          "article": "Nikola_Tesla",
+          "start": 3813,
+          "end": 4423,
+          "text": "after he arrived, Tesla contracted cholera; he was bedridden for nine months and was near death multiple times. Tesla's father, in a moment of despair, promised to send him to the best engineering school if he recovered from the illness (his father had originally wanted him to enter the priesthood).\n\nIn 1874, Tesla evaded being drafted into the Austro-Hungarian Army in Smiljan by running away to Tomingaj, near Gračac. There, he explored the mountains in hunter's garb. Tesla said that this contact with nature made him stronger, both physically and mentally. He read many books while in Tomingaj, and later"
+        },
+        {
+          "rank": 3,
+          "article": "Nikola_Tesla",
+          "start": 40376,
+          "end": 40935,
+          "text": "9:00 a.m. until 6:00 p.m. or later, with dinner from exactly 8:10 p.m., at Delmonico's restaurant and later the Waldorf-Astoria Hotel. Tesla would telephone his dinner order to the headwaiter, who also could be the only one to serve him. \"The meal was required to be ready at eight o'clock ... He dined alone, except on the rare occasions when he would give a dinner to a group to meet his social obligations. Tesla would then resume his work, often until 3:00 a.m.\":283, 286\n\nFor exercise, Tesla walked between 8 to 10 miles per day. He squished his toes one"
+        },
+        {
+          "rank": 4,
+          "article": "Nikola_Tesla",
+          "start": 49499,
+          "end": 49729,
+          "text": "cover. The cover caption \"All the world's his power house\" noted his contribution to electrical power generation. He received congratulatory letters from more than 70 pioneers in science and engineering, including Albert Einstein."
+        },
+        {
+          "rank": 5,
+          "article": "Nikola_Tesla",
+          "start": 8035,
+          "end": 8671,
+          "text": "June 1884, he relocated to New York City:57–60 where he was hired by Thomas Edison to work at his Edison Machine Works on Manhattan's lower east side. Tesla's work for Edison began with simple electrical engineering and quickly progressed to solving more difficult problems.\n\nTesla was offered the task of completely redesigning the Edison Company's direct current generators. In 1885, he said that he could redesign Edison's inefficient motor and generators, making an improvement in both service and economy. According to Tesla, Edison remarked, \"There's fifty thousand dollars in it for you—if you can do it.\":54–57 :64 This has been"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/56e11c24e3433e1400422c1b.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "Maribor",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 3,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "the last semester.\n\nIn December 1878, Tesla left Graz and severed all relations with his family to hide the fact that he dropped out of school. His friends thought that he had drowned in the Mur River. Tesla went to Maribor (now in Slovenia), where he worked as a draftsman for 60 florins a month. He spent his spare time playing cards with local men on the streets. In March 1879, Milutin Tesla went to Maribor to beg his son to return home, but Nikola refused. Nikola suffered a nervous breakdown at around the same time.\n\nOn 24 March 1879,\n\ncover. The cover caption \"All the world's his power house\" noted his contribution to electrical power generation. He received congratulatory letters from more than 70 pioneers in science and engineering, including Albert Einstein.\n\nchildhood, Tesla had frequent flashbacks to events that had happened previously in his life.:33\n\nDuring his second year of study at Graz, Tesla developed a passion for (and became very proficient at) billiards, chess and card-playing, sometimes spending more than 48 hours in a stretch at a gaming table.:43, 301 On one occasion at his laboratory, Tesla worked for a period of 84 hours without sleep or rest.:208 Kenneth Swezey, a journalist whom Tesla had befriended, confirmed that Tesla rarely slept. Swezey recalled one morning when Tesla called him at 3 a.m.: \"I was sleeping in my room like one",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Nikola_Tesla",
+          "start": 5978,
+          "end": 6520,
+          "text": "the last semester.\n\nIn December 1878, Tesla left Graz and severed all relations with his family to hide the fact that he dropped out of school. His friends thought that he had drowned in the Mur River. Tesla went to Maribor (now in Slovenia), where he worked as a draftsman for 60 florins a month. He spent his spare time playing cards with local men on the streets. In March 1879, Milutin Tesla went to Maribor to beg his son to return home, but Nikola refused. Nikola suffered a nervous breakdown at around the same time.\n\nOn 24 March 1879,"
+        },
+        {
+          "rank": 2,
+          "article": "Nikola_Tesla",
+          "start": 49499,
+          "end": 49729,
+          "text": "cover. The cover caption \"All the world's his power house\" noted his contribution to electrical power generation. He received congratulatory letters from more than 70 pioneers in science and engineering, including Albert Einstein."
+        },
+        {
+          "rank": 3,
+          "article": "Nikola_Tesla",
+          "start": 43093,
+          "end": 43693,
+          "text": "childhood, Tesla had frequent flashbacks to events that had happened previously in his life.:33\n\nDuring his second year of study at Graz, Tesla developed a passion for (and became very proficient at) billiards, chess and card-playing, sometimes spending more than 48 hours in a stretch at a gaming table.:43, 301 On one occasion at his laboratory, Tesla worked for a period of 84 hours without sleep or rest.:208 Kenneth Swezey, a journalist whom Tesla had befriended, confirmed that Tesla rarely slept. Swezey recalled one morning when Tesla called him at 3 a.m.: \"I was sleeping in my room like one"
+        },
+        {
+          "rank": 4,
+          "article": "Nikola_Tesla",
+          "start": 43590,
+          "end": 44169,
+          "text": "slept. Swezey recalled one morning when Tesla called him at 3 a.m.: \"I was sleeping in my room like one dead ... Suddenly, the telephone ring awakened me ... [Tesla] spoke animatedly, with pauses, [as he] ... work[ed] out a problem, comparing one theory to another, commenting; and when he felt he had arrived at the solution, he suddenly closed the telephone.\"\n\nTesla never married; he said his chastity was very helpful to his scientific abilities.:33 However, toward the end of his life, he told a reporter, \"Sometimes I feel that by not marrying, I made too great a sacrifice"
+        },
+        {
+          "rank": 5,
+          "article": "Nikola_Tesla",
+          "start": 40244,
+          "end": 40825,
+          "text": "countries around the globe.:62 Many inventions developed by Tesla were not put into patent protection.\n\nTesla worked every day from 9:00 a.m. until 6:00 p.m. or later, with dinner from exactly 8:10 p.m., at Delmonico's restaurant and later the Waldorf-Astoria Hotel. Tesla would telephone his dinner order to the headwaiter, who also could be the only one to serve him. \"The meal was required to be ready at eight o'clock ... He dined alone, except on the rare occasions when he would give a dinner to a group to meet his social obligations. Tesla would then resume his work, often"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/56e11c24e3433e1400422c1b.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "Maribor",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 3,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "Tesla went to Maribor (now in Slovenia), where he worked as a draftsman for 60 florins a month. He spent his spare time playing cards with local men on the streets.\n\nAfter he died, his body was returned to Mongolia and presumably to his birthplace in Khentii Aimag, where many assume he is buried somewhere close to the Onon River and the Burkhan Khaldun mountain (part of the Kentii mountain range). According to legend, the funeral escort killed anyone and anything across their path to conceal where he was finally buried.\n\nIn 1874, Tesla evaded being drafted into the Austro-Hungarian Army in Smiljan by running away to Tomingaj, near Gračac. There, he explored the mountains in hunter's garb.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Nikola_Tesla",
+          "start": 6180,
+          "end": 6344,
+          "text": "Tesla went to Maribor (now in Slovenia), where he worked as a draftsman for 60 florins a month. He spent his spare time playing cards with local men on the streets."
+        },
+        {
+          "rank": 2,
+          "article": "Genghis_Khan",
+          "start": 26857,
+          "end": 27216,
+          "text": "After he died, his body was returned to Mongolia and presumably to his birthplace in Khentii Aimag, where many assume he is buried somewhere close to the Onon River and the Burkhan Khaldun mountain (part of the Kentii mountain range). According to legend, the funeral escort killed anyone and anything across their path to conceal where he was finally buried."
+        },
+        {
+          "rank": 3,
+          "article": "Nikola_Tesla",
+          "start": 4115,
+          "end": 4285,
+          "text": "In 1874, Tesla evaded being drafted into the Austro-Hungarian Army in Smiljan by running away to Tomingaj, near Gračac. There, he explored the mountains in hunter's garb."
+        },
+        {
+          "rank": 4,
+          "article": "Nikola_Tesla",
+          "start": 9897,
+          "end": 10141,
+          "text": "He had to work at various electrical repair jobs and even as a ditch digger for $2 per day. Tesla considered the winter of 1886/1887 as a time of \"terrible headaches and bitter tears.\" During this time, he questioned the value of his education."
+        },
+        {
+          "rank": 5,
+          "article": "Nikola_Tesla",
+          "start": 5700,
+          "end": 6179,
+          "text": "Tesla said that he \"conquered [his] passion then and there,\" but later he was known to play billiards in the US. When exam time came, Tesla was unprepared and asked for an extension to study, but was denied. He never graduated from the university and did not receive grades for the last semester.\n\nIn December 1878, Tesla left Graz and severed all relations with his family to hide the fact that he dropped out of school. His friends thought that he had drowned in the Mur River."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/56e11c24e3433e1400422c1b.json"
+    }
+  ]
+}

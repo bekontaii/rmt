@@ -1,0 +1,210 @@
+{
+  "review_index": 5,
+  "question_id": "5711669550c2381900b54ae2",
+  "article": "Steam_engine",
+  "question": "What is a term that means constant temperature?",
+  "references": [
+    "isothermal",
+    "isothermal",
+    "isothermal"
+  ],
+  "answer_spans": [
+    [
+      33836,
+      33846
+    ],
+    [
+      33836,
+      33846
+    ],
+    [
+      33836,
+      33846
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "constant temperature",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 3,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "world that is moving with a constant speed in the opposite direction. Since there is no experiment that can distinguish whether it is the vehicle that is at rest or the outside world that is at rest, the two situations are considered to be physically indistinguishable. Inertia therefore applies equally well to constant velocity motion as it does to rest.\n\nThe concept of inertia can be further generalized to explain the tendency of objects to continue in many different forms of constant motion, even those that are not strictly constant velocity. The rotational inertia of planet Earth is what fixes\n\nof the turbine power and contributes to a much higher efficiency for a real cycle. The benefit of this is lost somewhat due to the lower heat addition temperature. Gas turbines, for instance, have turbine entry temperatures approaching 1500 °C. Nonetheless, the efficiencies of actual large steam cycles and large modern gas turbines are fairly well matched.[citation needed]\n\nOther components are often present; pumps (such as an injector) to supply water to the boiler during operation, condensers to recirculate the water and recover the latent heat of vaporisation, and superheaters to raise the temperature of the steam above its saturated\n\nof lava and volcanic ash layers found within a stratigraphic sequence can provide absolute age data for sedimentary rock units which do not contain radioactive isotopes and calibrate relative dating techniques. These methods can also be used to determine ages of pluton emplacement. Thermochemical techniques can be used to determine temperature profiles within the crust, the uplift of mountain ranges, and paleotopography.\n\nWhen rock units are placed under horizontal compression, they shorten and become thicker. Because rock units, other than muds, do not significantly change in volume, this is accomplished in two primary ways: through faulting and folding. In the",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Force",
+          "start": 5576,
+          "end": 6179,
+          "text": "world that is moving with a constant speed in the opposite direction. Since there is no experiment that can distinguish whether it is the vehicle that is at rest or the outside world that is at rest, the two situations are considered to be physically indistinguishable. Inertia therefore applies equally well to constant velocity motion as it does to rest.\n\nThe concept of inertia can be further generalized to explain the tendency of objects to continue in many different forms of constant motion, even those that are not strictly constant velocity. The rotational inertia of planet Earth is what fixes"
+        },
+        {
+          "rank": 2,
+          "article": "Steam_engine",
+          "start": 30992,
+          "end": 31636,
+          "text": "of the turbine power and contributes to a much higher efficiency for a real cycle. The benefit of this is lost somewhat due to the lower heat addition temperature. Gas turbines, for instance, have turbine entry temperatures approaching 1500 °C. Nonetheless, the efficiencies of actual large steam cycles and large modern gas turbines are fairly well matched.[citation needed]\n\nOther components are often present; pumps (such as an injector) to supply water to the boiler during operation, condensers to recirculate the water and recover the latent heat of vaporisation, and superheaters to raise the temperature of the steam above its saturated"
+        },
+        {
+          "rank": 3,
+          "article": "Geology",
+          "start": 7451,
+          "end": 8121,
+          "text": "of lava and volcanic ash layers found within a stratigraphic sequence can provide absolute age data for sedimentary rock units which do not contain radioactive isotopes and calibrate relative dating techniques. These methods can also be used to determine ages of pluton emplacement. Thermochemical techniques can be used to determine temperature profiles within the crust, the uplift of mountain ranges, and paleotopography.\n\nWhen rock units are placed under horizontal compression, they shorten and become thicker. Because rock units, other than muds, do not significantly change in volume, this is accomplished in two primary ways: through faulting and folding. In the"
+        },
+        {
+          "rank": 4,
+          "article": "Steam_engine",
+          "start": 0,
+          "end": 641,
+          "text": "Steam engines are external combustion engines, where the working fluid is separate from the combustion products. Non-combustion heat sources such as solar power, nuclear power or geothermal energy may be used. The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle. In the cycle, water is heated and transforms into steam within a boiler operating at a high pressure. When expanded through pistons or turbines, mechanical work is done. The reduced-pressure steam is then condensed and pumped back into the boiler.\n\nThe first commercially successful true engine, in that it could generate power and transmit it"
+        },
+        {
+          "rank": 5,
+          "article": "Economic_inequality",
+          "start": 3723,
+          "end": 4311,
+          "text": "relatively stagnant wages for the working class amidst rising levels of property income for the capitalist class.\n\nIn a purely capitalist mode of production (i.e. where professional and labor organizations cannot limit the number of workers) the workers wages will not be controlled by these organizations, or by the employer, but rather by the market. Wages work in the same way as prices for any other good. Thus, wages can be considered as a function of market price of skill. And therefore, inequality is driven by this price. Under the law of supply and demand, the price of skill is"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/5711669550c2381900b54ae2.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "isothermal",
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "of the system, and are often associated with the transfer of heat. According to the Second law of thermodynamics, nonconservative forces necessarily result in energy transformations within closed systems from ordered to more random conditions as entropy increases.\n\nThe pound-force has a metric counterpart, less commonly used than the newton: the kilogram-force (kgf) (sometimes kilopond), is the force exerted by standard gravity on one kilogram of mass. The kilogram-force leads to an alternate, but rarely used unit of mass: the metric slug (sometimes mug or hyl) is that mass that accelerates at 1 m·s−2 when subjected to a force of\n\nneeded]\n\nThe Rankine cycle is sometimes referred to as a practical Carnot cycle because, when an efficient turbine is used, the TS diagram begins to resemble the Carnot cycle. The main difference is that heat addition (in the boiler) and rejection (in the condenser) are isobaric (constant pressure) processes in the Rankine cycle and isothermal (constant temperature) processes in the theoretical Carnot cycle. In this cycle a pump is used to pressurize the working fluid which is received from the condenser as a liquid not as a gas. Pumping the working fluid in liquid form during the cycle requires a\n\nwith an appropriate supply of air in a closed space (called variously combustion chamber, firebox). In some cases the heat source is a nuclear reactor, geothermal energy, solar energy or waste heat from an internal combustion engine or industrial process. In the case of model or toy steam engines, the heat source can be an electric heating element.\n\nThe most useful instrument for analyzing the performance of steam engines is the steam engine indicator. Early versions were in use by 1851, but the most successful indicator was developed for the high speed engine inventor and manufacturer Charles Porter by Charles",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Force",
+          "start": 36401,
+          "end": 37038,
+          "text": "of the system, and are often associated with the transfer of heat. According to the Second law of thermodynamics, nonconservative forces necessarily result in energy transformations within closed systems from ordered to more random conditions as entropy increases.\n\nThe pound-force has a metric counterpart, less commonly used than the newton: the kilogram-force (kgf) (sometimes kilopond), is the force exerted by standard gravity on one kilogram of mass. The kilogram-force leads to an alternate, but rarely used unit of mass: the metric slug (sometimes mug or hyl) is that mass that accelerates at 1 m·s−2 when subjected to a force of"
+        },
+        {
+          "rank": 2,
+          "article": "Steam_engine",
+          "start": 33501,
+          "end": 34105,
+          "text": "needed]\n\nThe Rankine cycle is sometimes referred to as a practical Carnot cycle because, when an efficient turbine is used, the TS diagram begins to resemble the Carnot cycle. The main difference is that heat addition (in the boiler) and rejection (in the condenser) are isobaric (constant pressure) processes in the Rankine cycle and isothermal (constant temperature) processes in the theoretical Carnot cycle. In this cycle a pump is used to pressurize the working fluid which is received from the condenser as a liquid not as a gas. Pumping the working fluid in liquid form during the cycle requires a"
+        },
+        {
+          "rank": 3,
+          "article": "Steam_engine",
+          "start": 8716,
+          "end": 9334,
+          "text": "with an appropriate supply of air in a closed space (called variously combustion chamber, firebox). In some cases the heat source is a nuclear reactor, geothermal energy, solar energy or waste heat from an internal combustion engine or industrial process. In the case of model or toy steam engines, the heat source can be an electric heating element.\n\nThe most useful instrument for analyzing the performance of steam engines is the steam engine indicator. Early versions were in use by 1851, but the most successful indicator was developed for the high speed engine inventor and manufacturer Charles Porter by Charles"
+        },
+        {
+          "rank": 4,
+          "article": "Geology",
+          "start": 7451,
+          "end": 8121,
+          "text": "of lava and volcanic ash layers found within a stratigraphic sequence can provide absolute age data for sedimentary rock units which do not contain radioactive isotopes and calibrate relative dating techniques. These methods can also be used to determine ages of pluton emplacement. Thermochemical techniques can be used to determine temperature profiles within the crust, the uplift of mountain ranges, and paleotopography.\n\nWhen rock units are placed under horizontal compression, they shorten and become thicker. Because rock units, other than muds, do not significantly change in volume, this is accomplished in two primary ways: through faulting and folding. In the"
+        },
+        {
+          "rank": 5,
+          "article": "Force",
+          "start": 5934,
+          "end": 6581,
+          "text": "The concept of inertia can be further generalized to explain the tendency of objects to continue in many different forms of constant motion, even those that are not strictly constant velocity. The rotational inertia of planet Earth is what fixes the constancy of the length of a day and the length of a year. Albert Einstein extended the principle of inertia further when he explained that reference frames subject to constant acceleration, such as those free-falling toward a gravitating object, were physically equivalent to inertial reference frames. This is why, for example, astronauts experience weightlessness when in free-fall orbit around"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/5711669550c2381900b54ae2.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "absolute",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 2,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "In macroscopic closed systems, nonconservative forces act to change the internal energies of the system, and are often associated with the transfer of heat. According to the Second law of thermodynamics, nonconservative forces necessarily result in energy transformations within closed systems from ordered to more random conditions as entropy increases.\n\nWith isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.\n\nFor many geologic applications, isotope ratios of radioactive elements are measured in minerals that give the amount of time that has passed since a rock passed through its particular closure temperature, the point at which different radiometric isotopes stop diffusing into and out of the crystal lattice. These are used in geochronologic and thermochronologic studies.\n\nSteam turbines were extensively applied for propulsion of large ships throughout most of the 20th century.\n\nThe heat required for boiling the water and supplying the steam can be derived from various sources, most commonly from burning combustible materials with an appropriate supply of air in a closed space (called variously combustion chamber, firebox). In some cases the heat source is a nuclear reactor, geothermal energy, solar energy or waste heat from an internal combustion engine or industrial process. In the case of model or toy steam engines, the heat source can be an electric heating element.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Force",
+          "start": 36311,
+          "end": 36665,
+          "text": "In macroscopic closed systems, nonconservative forces act to change the internal energies of the system, and are often associated with the transfer of heat. According to the Second law of thermodynamics, nonconservative forces necessarily result in energy transformations within closed systems from ordered to more random conditions as entropy increases."
+        },
+        {
+          "rank": 2,
+          "article": "Geology",
+          "start": 6669,
+          "end": 7274,
+          "text": "With isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.\n\nFor many geologic applications, isotope ratios of radioactive elements are measured in minerals that give the amount of time that has passed since a rock passed through its particular closure temperature, the point at which different radiometric isotopes stop diffusing into and out of the crystal lattice. These are used in geochronologic and thermochronologic studies."
+        },
+        {
+          "rank": 3,
+          "article": "Steam_engine",
+          "start": 8458,
+          "end": 9066,
+          "text": "Steam turbines were extensively applied for propulsion of large ships throughout most of the 20th century.\n\nThe heat required for boiling the water and supplying the steam can be derived from various sources, most commonly from burning combustible materials with an appropriate supply of air in a closed space (called variously combustion chamber, firebox). In some cases the heat source is a nuclear reactor, geothermal energy, solar energy or waste heat from an internal combustion engine or industrial process. In the case of model or toy steam engines, the heat source can be an electric heating element."
+        },
+        {
+          "rank": 4,
+          "article": "Steam_engine",
+          "start": 17122,
+          "end": 17618,
+          "text": "The cycle is an arrangement of components as is typically used for simple power production, and utilizes the phase change of water (boiling water producing steam, condensing exhaust steam, producing liquid water)) to provide a practical heat/power conversion system. The heat is supplied externally to a closed loop with some of the heat added being converted to work and the waste heat being removed in a condenser. The Rankine cycle is used in virtually all steam power production applications."
+        },
+        {
+          "rank": 5,
+          "article": "Oxygen",
+          "start": 16500,
+          "end": 17095,
+          "text": "Paleoclimatologists measure the ratio of oxygen-18 and oxygen-16 in the shells and skeletons of marine organisms to determine what the climate was like millions of years ago (see oxygen isotope ratio cycle). Seawater molecules that contain the lighter isotope, oxygen-16, evaporate at a slightly faster rate than water molecules containing the 12% heavier oxygen-18; this disparity increases at lower temperatures. During periods of lower global temperatures, snow and rain from that evaporated water tends to be higher in oxygen-16, and the seawater left behind tends to be higher in oxygen-18."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/5711669550c2381900b54ae2.json"
+    }
+  ]
+}

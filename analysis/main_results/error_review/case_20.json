@@ -1,0 +1,210 @@
+{
+  "review_index": 20,
+  "question_id": "57274e145951b619008f87e7",
+  "article": "Private_school",
+  "question": "What is a term for schools that receive government assistance?",
+  "references": [
+    "aided",
+    "aided",
+    "aided"
+  ],
+  "answer_spans": [
+    [
+      10392,
+      10397
+    ],
+    [
+      10392,
+      10397
+    ],
+    [
+      10392,
+      10397
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "aided",
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "the government, it can be an aided or an unaided school. So, in a strict sense, a private school is an unaided independent school. For the purpose of this definition, only receipt of financial aid is considered, not land purchased from the government at a subsidized rate. It is within the power of both the union government and the state governments to govern schools since Education appears in the Concurrent list of legislative subjects in the constitution. The practice has been for the union government to provide the broad policy directions while the states create their own rules and regulations\n\nPrivate schools, also known as independent schools, non-governmental, or nonstate schools, are not administered by local, state or national governments; thus, they retain the right to select their students and are funded in whole or in part by charging their students tuition, rather than relying on mandatory taxation through public (government) funding; at some private schools students may be able to get a scholarship, which makes the cost cheaper, depending on a talent the student may have (e.g. sport scholarship, art scholarship, academic scholarship), financial need, or tax credit scholarships that might be available.\n\nIn the United Kingdom and several\n\noption of the school, and by issuing the revised Manual of Regulations for Private Schools in August 1992.\n\nThe Education Service Contracting scheme of the government provides financial assistance for tuition and other school fees of students turned away from public high schools because of enrollment overflows. The Tuition Fee Supplement is geared to students enrolled in priority courses in post-secondary and non-degree programmes, including vocational and technical courses. The Private Education Student Financial Assistance is made available to underprivileged, but deserving high school graduates, who wish to pursue college/technical education in private colleges and universities.\n\nSome of the oldest",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Private_school",
+          "start": 6694,
+          "end": 7296,
+          "text": "the government, it can be an aided or an unaided school. So, in a strict sense, a private school is an unaided independent school. For the purpose of this definition, only receipt of financial aid is considered, not land purchased from the government at a subsidized rate. It is within the power of both the union government and the state governments to govern schools since Education appears in the Concurrent list of legislative subjects in the constitution. The practice has been for the union government to provide the broad policy directions while the states create their own rules and regulations"
+        },
+        {
+          "rank": 2,
+          "article": "Private_school",
+          "start": 0,
+          "end": 663,
+          "text": "Private schools, also known as independent schools, non-governmental, or nonstate schools, are not administered by local, state or national governments; thus, they retain the right to select their students and are funded in whole or in part by charging their students tuition, rather than relying on mandatory taxation through public (government) funding; at some private schools students may be able to get a scholarship, which makes the cost cheaper, depending on a talent the student may have (e.g. sport scholarship, art scholarship, academic scholarship), financial need, or tax credit scholarships that might be available.\n\nIn the United Kingdom and several"
+        },
+        {
+          "rank": 3,
+          "article": "Private_school",
+          "start": 13805,
+          "end": 14515,
+          "text": "option of the school, and by issuing the revised Manual of Regulations for Private Schools in August 1992.\n\nThe Education Service Contracting scheme of the government provides financial assistance for tuition and other school fees of students turned away from public high schools because of enrollment overflows. The Tuition Fee Supplement is geared to students enrolled in priority courses in post-secondary and non-degree programmes, including vocational and technical courses. The Private Education Student Financial Assistance is made available to underprivileged, but deserving high school graduates, who wish to pursue college/technical education in private colleges and universities.\n\nSome of the oldest"
+        },
+        {
+          "rank": 4,
+          "article": "Private_school",
+          "start": 17702,
+          "end": 18446,
+          "text": "migrated to the academies, while public schools became in turn more heavily concentrated with African-American students (see List of private schools in Mississippi). The academic content of the academies was usually College Preparatory. Since the 1970s, many of these \"segregation academies\" have shut down, although some continue to operate.[citation needed]\n\nFunding for private schools is generally provided through student tuition, endowments, scholarship/voucher funds, and donations and grants from religious organizations or private individuals. Government funding for religious schools is either subject to restrictions or possibly forbidden, according to the courts' interpretation of the Establishment Clause of the First Amendment or"
+        },
+        {
+          "rank": 5,
+          "article": "Private_school",
+          "start": 11122,
+          "end": 11777,
+          "text": "for around 28,000 students or 3.7% of the entire student population. Private school numbers have been in decline since the mid-1970s as a result of many private schools opting to become state-integrated schools, mostly due of financial difficulties stemming from changes in student numbers and/or the economy. State-integrated schools keep their private school special character and receives state funds in return for having to operate like a state school, e.g. they must teach the state curriculum, they must employ registered teachers, and they can't charge tuition fees (they can charge \"attendance dues\" for the upkeep on the still-private school land"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/57274e145951b619008f87e7.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "aided",
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "schools in Mississippi). The academic content of the academies was usually College Preparatory. Since the 1970s, many of these \"segregation academies\" have shut down, although some continue to operate.[citation needed]\n\nFunding for private schools is generally provided through student tuition, endowments, scholarship/voucher funds, and donations and grants from religious organizations or private individuals. Government funding for religious schools is either subject to restrictions or possibly forbidden, according to the courts' interpretation of the Establishment Clause of the First Amendment or individual state Blaine Amendments. Non-religious private schools theoretically could qualify for such funding without hassle, preferring the advantages of independent\n\nPrivate schools, also known as independent schools, non-governmental, or nonstate schools, are not administered by local, state or national governments; thus, they retain the right to select their students and are funded in whole or in part by charging their students tuition, rather than relying on mandatory taxation through public (government) funding; at some private schools students may be able to get a scholarship, which makes the cost cheaper, depending on a talent the student may have (e.g. sport scholarship, art scholarship, academic scholarship), financial need, or tax credit scholarships that might be available.\n\nIn the United Kingdom and several\n\neducation system. Ergänzungsschulen have the freedom to operate outside of government regulation and are funded in whole by charging their students tuition fees.\n\nIn India, private schools are called independent schools, but since some private schools receive financial aid from the government, it can be an aided or an unaided school. So, in a strict sense, a private school is an unaided independent school. For the purpose of this definition, only receipt of financial aid is considered, not land purchased from the government at a subsidized rate. It is within the power of both the union government and the state",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Private_school",
+          "start": 17843,
+          "end": 18614,
+          "text": "schools in Mississippi). The academic content of the academies was usually College Preparatory. Since the 1970s, many of these \"segregation academies\" have shut down, although some continue to operate.[citation needed]\n\nFunding for private schools is generally provided through student tuition, endowments, scholarship/voucher funds, and donations and grants from religious organizations or private individuals. Government funding for religious schools is either subject to restrictions or possibly forbidden, according to the courts' interpretation of the Establishment Clause of the First Amendment or individual state Blaine Amendments. Non-religious private schools theoretically could qualify for such funding without hassle, preferring the advantages of independent"
+        },
+        {
+          "rank": 2,
+          "article": "Private_school",
+          "start": 0,
+          "end": 663,
+          "text": "Private schools, also known as independent schools, non-governmental, or nonstate schools, are not administered by local, state or national governments; thus, they retain the right to select their students and are funded in whole or in part by charging their students tuition, rather than relying on mandatory taxation through public (government) funding; at some private schools students may be able to get a scholarship, which makes the cost cheaper, depending on a talent the student may have (e.g. sport scholarship, art scholarship, academic scholarship), financial need, or tax credit scholarships that might be available.\n\nIn the United Kingdom and several"
+        },
+        {
+          "rank": 3,
+          "article": "Private_school",
+          "start": 6415,
+          "end": 7032,
+          "text": "education system. Ergänzungsschulen have the freedom to operate outside of government regulation and are funded in whole by charging their students tuition fees.\n\nIn India, private schools are called independent schools, but since some private schools receive financial aid from the government, it can be an aided or an unaided school. So, in a strict sense, a private school is an unaided independent school. For the purpose of this definition, only receipt of financial aid is considered, not land purchased from the government at a subsidized rate. It is within the power of both the union government and the state"
+        },
+        {
+          "rank": 4,
+          "article": "Private_school",
+          "start": 9961,
+          "end": 10618,
+          "text": "the schools. While Chinese primary schools were allowed to retain Chinese as the medium of instruction, Chinese secondary schools are required to change into English-medium schools. Over 60 schools converted to become National Type schools.\n\nThe other category of schools are those run and partly or fully funded by private individuals, private organizations and religious groups. The ones that accept government funds are called 'aided' schools. The private 'un-aided' schools are fully funded by private parties. The standard and the quality of education is quite high. Technically, these would be categorized as private schools, but many of them have the"
+        },
+        {
+          "rank": 5,
+          "article": "Private_school",
+          "start": 1606,
+          "end": 2293,
+          "text": "the school's financial endowment. High tuition, schools claim, is used to pay higher salaries for the best teachers and also used to provide enriched learning environments, including a low student to teacher ratio, small class sizes and services, such as libraries, science laboratories and computers. Some private schools are boarding schools and many military academies are privately owned or operated as well.\n\nReligiously affiliated and denominational schools form a subcategory of private schools. Some such schools teach religious education, together with the usual academic subjects to impress their particular faith's beliefs and traditions in the students who attend. Others use"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/57274e145951b619008f87e7.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "aided' schools",
+      "exact_match": 0.0,
+      "f1": 0.6666666666666666,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 6,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "Private schools, also known as independent schools, non-governmental, or nonstate schools, are not administered by local, state or national governments; thus, they retain the right to select their students and are funded in whole or in part by charging their students tuition, rather than relying on mandatory taxation through public (government) funding; at some private schools students may be able to get a scholarship, which makes the cost cheaper, depending on a talent the student may have (e.g. sport scholarship, art scholarship, academic scholarship), financial need, or tax credit scholarships that might be available.\n\n[citation needed]\n\nFunding for private schools is generally provided through student tuition, endowments, scholarship/voucher funds, and donations and grants from religious organizations or private individuals. Government funding for religious schools is either subject to restrictions or possibly forbidden, according to the courts' interpretation of the Establishment Clause of the First Amendment or individual state Blaine Amendments. Non-religious private schools theoretically could qualify for such funding without hassle, preferring the advantages of independent control of their student admissions and course content instead of the public funding they could get with charter status.\n\nUnder such a system, the government is only in charge of the school curriculum and teaching personnel while the lands still belonged to the schools. While Chinese primary schools were allowed to retain Chinese as the medium of instruction, Chinese secondary schools are required to change into English-medium schools. Over 60 schools converted to become National Type schools.\n\nThe other category of schools are those run and partly or fully funded by private individuals, private organizations and religious groups. The ones that accept government funds are called 'aided' schools. The private 'un-aided' schools are fully funded by private parties.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Private_school",
+          "start": 0,
+          "end": 628,
+          "text": "Private schools, also known as independent schools, non-governmental, or nonstate schools, are not administered by local, state or national governments; thus, they retain the right to select their students and are funded in whole or in part by charging their students tuition, rather than relying on mandatory taxation through public (government) funding; at some private schools students may be able to get a scholarship, which makes the cost cheaper, depending on a talent the student may have (e.g. sport scholarship, art scholarship, academic scholarship), financial need, or tax credit scholarships that might be available."
+        },
+        {
+          "rank": 2,
+          "article": "Private_school",
+          "start": 18044,
+          "end": 18735,
+          "text": "[citation needed]\n\nFunding for private schools is generally provided through student tuition, endowments, scholarship/voucher funds, and donations and grants from religious organizations or private individuals. Government funding for religious schools is either subject to restrictions or possibly forbidden, according to the courts' interpretation of the Establishment Clause of the First Amendment or individual state Blaine Amendments. Non-religious private schools theoretically could qualify for such funding without hassle, preferring the advantages of independent control of their student admissions and course content instead of the public funding they could get with charter status."
+        },
+        {
+          "rank": 3,
+          "article": "Private_school",
+          "start": 9825,
+          "end": 10475,
+          "text": "Under such a system, the government is only in charge of the school curriculum and teaching personnel while the lands still belonged to the schools. While Chinese primary schools were allowed to retain Chinese as the medium of instruction, Chinese secondary schools are required to change into English-medium schools. Over 60 schools converted to become National Type schools.\n\nThe other category of schools are those run and partly or fully funded by private individuals, private organizations and religious groups. The ones that accept government funds are called 'aided' schools. The private 'un-aided' schools are fully funded by private parties."
+        },
+        {
+          "rank": 4,
+          "article": "Victoria_(Australia)",
+          "start": 6986,
+          "end": 7592,
+          "text": "Public schools, also known as state or government schools, are funded and run directly by the Victoria Department of Education . Students do not pay tuition fees, but some extra costs are levied. Private fee-paying schools include parish schools run by the Roman Catholic Church and independent schools similar to British public schools. Independent schools are usually affiliated with Protestant churches. Victoria also has several private Jewish and Islamic primary and secondary schools. Private schools also receive some public funding. All schools must comply with government-set curriculum standards."
+        },
+        {
+          "rank": 5,
+          "article": "Private_school",
+          "start": 6578,
+          "end": 7154,
+          "text": "In India, private schools are called independent schools, but since some private schools receive financial aid from the government, it can be an aided or an unaided school. So, in a strict sense, a private school is an unaided independent school. For the purpose of this definition, only receipt of financial aid is considered, not land purchased from the government at a subsidized rate. It is within the power of both the union government and the state governments to govern schools since Education appears in the Concurrent list of legislative subjects in the constitution."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/57274e145951b619008f87e7.json"
+    }
+  ]
+}

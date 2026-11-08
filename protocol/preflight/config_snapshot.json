@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "seed": 42,
+  "data": {
+    "dataset_path": "data/dev-v1.1.json",
+    "dataset_sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+    "selection_manifest_path": "data/selection_manifest.json",
+    "corpus_path": "data/corpus.json",
+    "questions_path": "data/questions.json",
+    "articles": 20,
+    "retrieval_questions": 2000,
+    "generation_questions": 1000,
+    "retrieval_questions_per_article": 100,
+    "generation_questions_per_article": 50
+  },
+  "chunking": {
+    "strategies": [
+      "fixed",
+      "overlap",
+      "semantic"
+    ],
+    "max_words": 100,
+    "overlap_words": 20,
+    "word_count_rule": "whitespace",
+    "semantic_percentile": 90,
+    "semantic_threshold_scope": "article",
+    "sentence_splitter": "nltk_punkt_english"
+  },
+  "embedding": {
+    "name": "sentence-transformers/all-mpnet-base-v2",
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "normalize_embeddings": true,
+    "max_input_tokens": 384,
+    "overflow_policy": "error",
+    "batch_size": 32
+  },
+  "retrieval": {
+    "search_scope": "all_selected_articles",
+    "top_k": 5,
+    "report_hit_at": [
+      1,
+      3,
+      5
+    ],
+    "tie_break": "original_chunk_order"
+  },
+  "generation": {
+    "name": "google/flan-t5-large",
+    "revision": "0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a",
+    "context_top_k": 3,
+    "max_input_tokens": 512,
+    "max_new_tokens": 32,
+    "do_sample": false,
+    "num_beams": 1,
+    "batch_size": 1,
+    "context_policy": "ranked_prefix_whole_words",
+    "prompt_template": "Answer the question using only the context. Give a short answer.\n\nContext:\n{context}\n\nQuestion: {question}\nAnswer:"
+  },
+  "runtime": {
+    "device": "cpu",
+    "dtype": "float32"
+  }
+}

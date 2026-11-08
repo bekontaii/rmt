@@ -1,0 +1,19 @@
+{
+  "purpose": "full_final_experiment",
+  "status": "completed",
+  "created_at_utc": "2026-11-08T17:16:29.397613+00:00",
+  "moodle_upload_verified": false,
+  "expected_retrieval_records": 6000,
+  "expected_generated_answers": 3000,
+  "execution_launcher_sha256": "cc070ad2917fdc61eecddca0dc609c53e70898454dfc2b5a10b228b3a554e2a6",
+  "attempts": [
+    {
+      "started_at_utc": "2026-11-08T17:16:29.397652+00:00",
+      "status": "completed",
+      "completed_at_utc": "2026-11-08T17:46:10.560612+00:00"
+    }
+  ],
+  "retrieval_run": "final/retrieval_runs/20261108T171630_590183Z",
+  "generation_run": "final/generation_runs/20261108T171859_430505Z",
+  "completed_at_utc": "2026-11-08T17:46:10.560604+00:00"
+}

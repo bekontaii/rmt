@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-11-08T18:14:24.855509+00:00",
+  "status": "main_experiment_and_report_completed",
+  "retrieval_questions_per_method": 2000,
+  "generation_questions_per_method": 1000,
+  "methods": [
+    "fixed",
+    "overlap",
+    "semantic"
+  ],
+  "retrieval_records": 6000,
+  "generated_answers": 3000,
+  "report_sha256": "275523069553759c7c1698adaf7b71e69d271809d42b0094e568408ef643bdc1",
+  "report_pages": 16,
+  "results_discussion_words": 1877,
+  "all_original_sealed_files_unchanged": true,
+  "moodle_upload_verified": false,
+  "classmate_reproduction": "pending",
+  "public_repository": "https://github.com/bekontaii/rmt",
+  "results_file": "analysis/main_results/analysis.json",
+  "report_file": "Assignment4_Uzbekbayev_Kuanyshov.docx",
+  "team_members": [
+    "Bekarys Uzbekbayev",
+    "Yerassyl Kuanyshov"
+  ],
+  "repository_url": "https://github.com/bekontaii/rmt",
+  "external_reproduction": "Team-reported successful project testing by Yerassyl Kuanyshov on 8 November 2026 under Linux; exact commands and numerical equality not documented",
+  "team_test_date": "2026-11-08",
+  "team_test_operating_system": "Linux",
+  "team_protocol_file": "protocol/Protocol_Freeze_Uzbekbayev_Kuanyshov.docx",
+  "team_protocol_sha256": "75f7beb2d7c0b45c750312cd6f2cb254952fff0620325056322b8874d301aea3",
+  "repository_release_status": "Code upload, commit and assignment-4 tag not yet recorded"
+}

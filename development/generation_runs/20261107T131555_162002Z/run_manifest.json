@@ -1,0 +1,103 @@
+{
+  "purpose": "development_generation",
+  "status": "completed",
+  "run_id": "20261107T131555_162002Z",
+  "started_at_utc": "2026-11-07T13:15:55.162124+00:00",
+  "seed": 42,
+  "article_titles": [
+    "Warsaw",
+    "Martin_Luther",
+    "Teacher"
+  ],
+  "question_ids": [
+    "57335ddbd058e614000b5933",
+    "57339902d058e614000b5e73",
+    "57336755d058e614000b5a3f",
+    "56f8a6969e9bad19000a025b",
+    "56f827caa6d7ea1400e17439",
+    "56f8225ea6d7ea1400e173f4",
+    "56e7611500c9c71400d77056",
+    "56e7578a37bdd419002c3ea9",
+    "56e7542f00c9c71400d76fbd"
+  ],
+  "retrieval_source": "development/retrieval_runs/20261107T130640_973135Z",
+  "retrieval_manifest_sha256": "28950e06f604c8b05a418b741261cad35682421705f2acf5452d8df543a80a33",
+  "config_sha256": "599dadd69f1111274482e469412930d2a24b19ea9ecd40a3cd8d4e948e1f3927",
+  "retrieval_input_sha256": {
+    "config": "599dadd69f1111274482e469412930d2a24b19ea9ecd40a3cd8d4e948e1f3927",
+    "corpus": "84c7595e814ce223fa14311ea678441db13461951628039842f61db55f00cb60",
+    "questions": "dacf3bdaabefa427e4879f3121a36a0cd429babf3599f93a72ecfcff5f06d8c5",
+    "development_manifest": "48d1c58797bc6fda4eb7c1bd4982667844bf8a6e7c699dea494e3fd316648df3",
+    "final_manifest": "d14c4e7b237cca2932b64143ca00e53dedf5e30d399fbab9417b2afc9358dec8",
+    "raw_dataset": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9"
+  },
+  "retrieval_artifact_sha256": {
+    "config_snapshot.json": "599dadd69f1111274482e469412930d2a24b19ea9ecd40a3cd8d4e948e1f3927",
+    "corpus.json": "84c7595e814ce223fa14311ea678441db13461951628039842f61db55f00cb60",
+    "fixed/chunk_embeddings.npy": "4910f3bcacfcbb19c16b635388dc4d2df1810677d9eee1c70123db9261675c9a",
+    "fixed/chunks.json": "8ffc44f1c665f21d2a298208627a9f983d5e4a3582333b9ed26fbffc0bf84518",
+    "fixed/per_question.json": "8867e7c59ed340a8f6bb806692de6ae5735d17aec7c1f80edf6043f71c916603",
+    "fixed/summary.json": "4dd51e61a3209a785e744246135e660e563bbd55c3b7e5a366ef34322dded671",
+    "overlap/chunk_embeddings.npy": "2fb5aa78f948f812db50f98feff6fe79f531eb375e18c77838826f5224cd4644",
+    "overlap/chunks.json": "44116f997395e9da65a72f961b0580c61c45ff205090c5efe40f5da81b3a4f7a",
+    "overlap/per_question.json": "e03879f05e9b82e9abf397d61824cdcc51e53f1ed0ac0ad880e4b09725645197",
+    "overlap/summary.json": "61b0b56816372b6b40bf35326d2ea23e5be825aa35ccb45b26cc0189ba934f6e",
+    "query_embeddings.npy": "125dc9e9befe12da1ac71a8e5a50bb9df5449a9096ade1a461b39e5a9d88ae87",
+    "questions.json": "dacf3bdaabefa427e4879f3121a36a0cd429babf3599f93a72ecfcff5f06d8c5",
+    "selection_manifest.json": "48d1c58797bc6fda4eb7c1bd4982667844bf8a6e7c699dea494e3fd316648df3",
+    "semantic/chunk_embeddings.npy": "b82d97d8b964f94709c36c5d1ce88c64bcb50bf0f44a2398e4473907eabf41bb",
+    "semantic/chunks.json": "574bb24e88c45f1db8723e12e70b72b47168b5e182ff1eff83b767b9b65b7b51",
+    "semantic/per_question.json": "3950a305d67b54fe40d6186112285f05391aa48035357498e43b5df9e85f9c49",
+    "semantic/summary.json": "83cff2264b1d7816a8a15e9305c64e4cefc5ca02c32d1eb31a5a66be6aa1f8ef",
+    "source_snapshot/chunkers.py": "e0d15c2a12ea71edfb70ea5b4bc664a414b0c249eb443e50a1233097818faa29",
+    "source_snapshot/retrieval_metrics.py": "438ad750825d7654ab8934dfc7e6b12d66d2ad4648fcf5831286e54dd03b09de",
+    "source_snapshot/run_development_retrieval.py": "d7f344fcdb337307e880542379bf6cfbf420da47d69f7077c1e7951e450b2fa1",
+    "source_snapshot/semantic_chunker.py": "97916779e7ccdd14e6a4ce6b9aeed7caa1b58200b3eef0a962e204e1113d1939",
+    "source_snapshot/sentence_splitter.py": "e134794099f3eb97623ccb01a575c4fe33ab385d6d6bdc223c9a6f7f6cd9bf0b",
+    "summary.json": "a8469efa50d1b7909fc9dce651077c0bde39b8589e38a415c612338e94ec0e14"
+  },
+  "source_sha256": {
+    "run_development_generation.py": "f57bfb7c09f87fb9ee66bdd92e89e4d99bdc8577fcd309267c0cfd27c46a4b8a",
+    "prompt_builder.py": "4348b76c58f7685a7ebaaed0b9b15034aebfbce4e87c5cf4b3aeafadd4cc377d",
+    "metrics.py": "433810eb117694017dddd5ddf6319a60b56b2261566dfadb0c653dae15bb332d",
+    "retrieval_metrics.py": "438ad750825d7654ab8934dfc7e6b12d66d2ad4648fcf5831286e54dd03b09de"
+  },
+  "python_version": "3.12.16",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "package_versions": {
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2",
+    "sentencepiece": "0.2.1",
+    "huggingface-hub": "0.36.2"
+  },
+  "completed_records": 27,
+  "model": {
+    "name": "google/flan-t5-large",
+    "revision": "0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a",
+    "device": "cpu",
+    "dtype": "float32",
+    "tokenizer_use_fast": false,
+    "tokenizer_legacy": true
+  },
+  "completed_at_utc": "2026-11-07T13:16:15.882186+00:00",
+  "output_sha256": {
+    "config_snapshot.json": "599dadd69f1111274482e469412930d2a24b19ea9ecd40a3cd8d4e948e1f3927",
+    "corpus.json": "84c7595e814ce223fa14311ea678441db13461951628039842f61db55f00cb60",
+    "fixed/per_question.json": "6ff4e0554399b5ab8e5054d2ac24ee06086b4b4d3f4a5e55aea414e88ab4289a",
+    "fixed/summary.json": "c09cb32bc65bc83042cf6e92c1d95bff88ca69e5d72bfeecee0f323b011f6c01",
+    "overlap/per_question.json": "f1127251ae75361ab8d1a62ef529df5148564530b565e45aa0a322d24192b47a",
+    "overlap/summary.json": "f11ec60931f5136e0276e3781b40d3f7682d1335bf50c04dd7ed82be22315987",
+    "per_question.jsonl": "b0d0563a37a07c00f3b1c7a0548c3137934bbccabec8d6a61daf988737542697",
+    "questions.json": "dacf3bdaabefa427e4879f3121a36a0cd429babf3599f93a72ecfcff5f06d8c5",
+    "retrieval_run_manifest.json": "28950e06f604c8b05a418b741261cad35682421705f2acf5452d8df543a80a33",
+    "selection_manifest.json": "48d1c58797bc6fda4eb7c1bd4982667844bf8a6e7c699dea494e3fd316648df3",
+    "semantic/per_question.json": "d7dfcbd360cd482126589e69f3b3749abfb0d24a2330d1f4fddfe2d71f19d396",
+    "semantic/summary.json": "b4f17cccf7d6340a095bd729256832f66bf1a9e6bb47d9310ed8015f88174845",
+    "source_snapshot/metrics.py": "433810eb117694017dddd5ddf6319a60b56b2261566dfadb0c653dae15bb332d",
+    "source_snapshot/prompt_builder.py": "4348b76c58f7685a7ebaaed0b9b15034aebfbce4e87c5cf4b3aeafadd4cc377d",
+    "source_snapshot/retrieval_metrics.py": "438ad750825d7654ab8934dfc7e6b12d66d2ad4648fcf5831286e54dd03b09de",
+    "source_snapshot/run_development_generation.py": "f57bfb7c09f87fb9ee66bdd92e89e4d99bdc8577fcd309267c0cfd27c46a4b8a",
+    "summary.json": "8b0ce4f456949f58b6aafe336f1a06c9715bec09e5fc8426ddeae6a807304ea9"
+  }
+}

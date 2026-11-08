@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "numeric_mismatches": 0,
+  "absolute_tolerance": 1e-12,
+  "main_environment": {
+    "python": "3.12.16",
+    "numpy": "2.0.2"
+  },
+  "verification_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "scope": "Saved metrics, cluster intervals, permutation tests, H3, selection and timing aggregates; not a new model run or classmate test."
+}

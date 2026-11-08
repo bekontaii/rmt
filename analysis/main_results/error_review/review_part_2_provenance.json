@@ -1,0 +1,29 @@
+{
+  "coding_method": "AI-assisted qualitative coding",
+  "scope": "case_10 through case_19; all three methods",
+  "human_or_peer_review_claimed": false,
+  "references_or_scores_modified": false,
+  "source_case_sha256": {
+    "case_10.json": "aaba7489a66618671f929ebaf36f1876c5c870e07c9cc6c469fe4c6ca54a2ebf",
+    "case_11.json": "c511f5d352bb569bc8a5f35d3f7ae688412d2e5b1a4da72a2dea9707806975d3",
+    "case_12.json": "2e81d73fbee34ce2e42f1950a044d4023d8199f6eb6b77fb8e1df849e7b8184e",
+    "case_13.json": "1f13aedd727785139ef1441ac2798583bf5d74690f57e19db08b0d620c6fe6a2",
+    "case_14.json": "b166cb434fc11810c6758da31a246fef76822b509c3fb48deea3b2ed543fabb7",
+    "case_15.json": "053c8d405e2d30be4fa9a3ea54f2146e025d7d63c5ba17014137cc0fcbca85e6",
+    "case_16.json": "7f1b90b05149b42d01d9eabc0a7bc9905a22ce2e554762a46ba7844377426772",
+    "case_17.json": "77a216e7c27c144a8c81423a0b3c748a11b752587b82babe2e86119c932c89af",
+    "case_18.json": "d48918cfb2f7d57152c92e7af168e615e3a8e55a83ba6471b335ef3934779f80",
+    "case_19.json": "7f481247bdc9f8aade0d69c370e711fcb98597de3c57cb6c50150594575a9eb7"
+  },
+  "category_definitions_sha256": "3f21237cef01ea05cb5d0c5573823ba75ece3b9b2a1ebb04b522f594a8d503d8",
+  "output_sha256": "9b645254cad8dfb3a02b6240e4d763dfcd7e8b82dddbe22aea59988d8623a4bf",
+  "records": 30,
+  "failed": 21,
+  "category_counts": {
+    "ranking_miss_with_span_available": 10,
+    "correct": 9,
+    "extra_or_partial_wording": 6,
+    "annotation_or_alternative_answer_ambiguity": 3,
+    "wrong_entity_or_fact_selection": 2
+  }
+}

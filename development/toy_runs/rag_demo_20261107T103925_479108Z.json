@@ -1,0 +1,86 @@
+{
+  "run_type": "toy_development_demo",
+  "recorded_at_utc": "2026-11-07T10:39:25.479108+00:00",
+  "models": {
+    "embedding": {
+      "name": "sentence-transformers/all-mpnet-base-v2",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    },
+    "generator": {
+      "name": "google/flan-t5-large",
+      "revision": "0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a"
+    }
+  },
+  "documents": {
+    "Pets": "Cats and dogs are common household pets.",
+    "Programming": "Python is a programming language. Developers use Python to write computer programs.",
+    "Geography": "Paris is the capital city of France.",
+    "Plants": "Plants use sunlight to produce energy through photosynthesis."
+  },
+  "indexed_chunks": [
+    {
+      "article": "Pets",
+      "start": 0,
+      "end": 40,
+      "text": "Cats and dogs are common household pets."
+    },
+    {
+      "article": "Programming",
+      "start": 0,
+      "end": 83,
+      "text": "Python is a programming language. Developers use Python to write computer programs."
+    },
+    {
+      "article": "Geography",
+      "start": 0,
+      "end": 36,
+      "text": "Paris is the capital city of France."
+    },
+    {
+      "article": "Plants",
+      "start": 0,
+      "end": 61,
+      "text": "Plants use sunlight to produce energy through photosynthesis."
+    }
+  ],
+  "question": "Which programming language do developers use to write computer programs?",
+  "reference_answers": [
+    "Python"
+  ],
+  "retrieved_results": [
+    {
+      "chunk": {
+        "article": "Programming",
+        "start": 0,
+        "end": 83,
+        "text": "Python is a programming language. Developers use Python to write computer programs."
+      },
+      "score": 0.5766763687133789
+    },
+    {
+      "chunk": {
+        "article": "Plants",
+        "start": 0,
+        "end": 61,
+        "text": "Plants use sunlight to produce energy through photosynthesis."
+      },
+      "score": 0.14023557305335999
+    },
+    {
+      "chunk": {
+        "article": "Pets",
+        "start": 0,
+        "end": 40,
+        "text": "Cats and dogs are common household pets."
+      },
+      "score": 0.13100409507751465
+    }
+  ],
+  "prompt": "Answer the question using only the context. Give a short answer.\n\nContext:\nPython is a programming language. Developers use Python to write computer programs.\n\nPlants use sunlight to produce energy through photosynthesis.\n\nCats and dogs are common household pets.\n\nQuestion: Which programming language do developers use to write computer programs?\nAnswer:",
+  "input_tokens": 69,
+  "prediction": "Python",
+  "metrics": {
+    "exact_match": 1.0,
+    "f1": 1.0
+  }
+}

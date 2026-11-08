@@ -1,0 +1,16 @@
+{
+  "started_at_utc": "2026-11-08T17:16:28.767471+00:00",
+  "pid": 1766,
+  "command": [
+    "/usr/bin/caffeinate",
+    "-i",
+    "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/.venv/bin/python",
+    "-u",
+    "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/run_main_experiment.py",
+    "--execute-with-unverified-upload"
+  ],
+  "log": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/main_experiment_20261108T171628_765242Z.log",
+  "moodle_upload_verified": false,
+  "expected_retrieval_records": 6000,
+  "expected_generated_answers": 3000
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "status": "sealed_not_uploaded",
+  "sealed_at_utc": "2026-11-08T05:56:03.023129+00:00",
+  "inputs": {
+    "config": {
+      "path": "experiment_config.json",
+      "sha256": "1a412f35e0b79baac0437fd478d0baded4da52cffe071d39f48501f6df594a69"
+    },
+    "raw_dataset": {
+      "path": "data/dev-v1.1.json",
+      "sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9"
+    },
+    "selection_manifest": {
+      "path": "data/selection_manifest.json",
+      "sha256": "d14c4e7b237cca2932b64143ca00e53dedf5e30d399fbab9417b2afc9358dec8"
+    },
+    "corpus": {
+      "path": "data/corpus.json",
+      "sha256": "70918dd536c8857bc6c3effbfa3b6a0de0a74bb2503198d9407883e95693e03a"
+    },
+    "questions": {
+      "path": "data/questions.json",
+      "sha256": "c9f69b2febdab6f290873ff4ef8358b874a427b48513597ed8d714aafb9a22c2"
+    }
+  },
+  "source_sha256": {
+    "final_retrieval.py": "b5d335376114d2a3542c6996b28395e62e5766fa0d989d8668ae9109c579f3d6",
+    "final_generation.py": "5f64e863956260b99ee9b9e50a931535ce185d49532425784e4e6f8979bcd3b1",
+    "check_final_inputs.py": "4012213298c58eb768e218a05a9e5f8979c5d732ed27227b274d7f8b9401bd43",
+    "run_development_retrieval.py": "d7f344fcdb337307e880542379bf6cfbf420da47d69f7077c1e7951e450b2fa1",
+    "run_development_generation.py": "f57bfb7c09f87fb9ee66bdd92e89e4d99bdc8577fcd309267c0cfd27c46a4b8a",
+    "chunkers.py": "e0d15c2a12ea71edfb70ea5b4bc664a414b0c249eb443e50a1233097818faa29",
+    "semantic_chunker.py": "97916779e7ccdd14e6a4ce6b9aeed7caa1b58200b3eef0a962e204e1113d1939",
+    "sentence_splitter.py": "e134794099f3eb97623ccb01a575c4fe33ab385d6d6bdc223c9a6f7f6cd9bf0b",
+    "retrieval_metrics.py": "438ad750825d7654ab8934dfc7e6b12d66d2ad4648fcf5831286e54dd03b09de",
+    "prompt_builder.py": "4348b76c58f7685a7ebaaed0b9b15034aebfbce4e87c5cf4b3aeafadd4cc377d",
+    "metrics.py": "433810eb117694017dddd5ddf6319a60b56b2261566dfadb0c653dae15bb332d",
+    "freeze_gate.py": "9007fbbee5e467d91319c908739832b8085a6291d55b69f2567b8c2269d0514d",
+    "prepare_freeze.py": "c12433b8569313a0c64012c8da0a7bc9b68d72036fddab0755762e00fdf1a309",
+    "requirements.txt": "7eb60764aff26bd66b20249ddfd4037af3b6ff7e1d7b6abbc8b8abade3a6e119",
+    "requirements.lock.txt": "07f70f0600c1cab84900efa44b387fa5b3bd0226846fd89f671e52f31cd9efe8",
+    "analysis_plan.json": "ca66ed6fafe1f494ca53f74510e413ea80c3dd02776e5e281cd2b2b676af9546"
+  },
+  "protocol": {
+    "path": "protocol/Protocol_Freeze.docx",
+    "sha256": "d6f050101bd771f94d5360565d516813946f8eb82295d3c5f5580c440a9b0369"
+  },
+  "preflight": {
+    "report": {
+      "path": "protocol/preflight/report.json",
+      "sha256": "c1eb2384975ead59bd93dd0488cb23ae3c97e0cdd67866e448412199c6f7a8f5"
+    },
+    "config_snapshot": {
+      "path": "protocol/preflight/config_snapshot.json",
+      "sha256": "599dadd69f1111274482e469412930d2a24b19ea9ecd40a3cd8d4e948e1f3927"
+    },
+    "source_snapshot": {
+      "check_final_inputs.py": {
+        "path": "protocol/preflight/source_snapshot/check_final_inputs.py",
+        "sha256": "4012213298c58eb768e218a05a9e5f8979c5d732ed27227b274d7f8b9401bd43"
+      },
+      "chunkers.py": {
+        "path": "protocol/preflight/source_snapshot/chunkers.py",
+        "sha256": "e0d15c2a12ea71edfb70ea5b4bc664a414b0c249eb443e50a1233097818faa29"
+      },
+      "semantic_chunker.py": {
+        "path": "protocol/preflight/source_snapshot/semantic_chunker.py",
+        "sha256": "97916779e7ccdd14e6a4ce6b9aeed7caa1b58200b3eef0a962e204e1113d1939"
+      },
+      "sentence_splitter.py": {
+        "path": "protocol/preflight/source_snapshot/sentence_splitter.py",
+        "sha256": "e134794099f3eb97623ccb01a575c4fe33ab385d6d6bdc223c9a6f7f6cd9bf0b"
+      }
+    },
+    "resource_snapshot": {
+      "abbrev_types.txt": {
+        "path": "protocol/preflight/nltk_english/abbrev_types.txt",
+        "sha256": "92a3e070f43d9b4c5534758ca40ad7343b04e7e29bfe0c2eb658a39445a4f779"
+      },
+      "collocations.tab": {
+        "path": "protocol/preflight/nltk_english/collocations.tab",
+        "sha256": "8e2da1225e4dd2cc9dba261ee231ccb134859e21b46006e7f472c5ee269af0cf"
+      },
+      "ortho_context.tab": {
+        "path": "protocol/preflight/nltk_english/ortho_context.tab",
+        "sha256": "4bbcca25ed3d3f06c02402abf8419b9f033b8adc06e7b482eca4e45f81a5dc4c"
+      },
+      "sent_starters.txt": {
+        "path": "protocol/preflight/nltk_english/sent_starters.txt",
+        "sha256": "f3f8535483e1dba487241b764945168123bca3209a9645e59acd1225dc76edac"
+      }
+    }
+  },
+  "environment": {
+    "python_version": "3.12.16",
+    "package_versions": {
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2",
+      "sentencepiece": "0.2.1",
+      "nltk": "3.9.2",
+      "sentence-transformers": "5.1.2",
+      "numpy": "2.0.2",
+      "torch": "2.8.0"
+    },
+    "nltk_english_resource_sha256": {
+      "abbrev_types.txt": "92a3e070f43d9b4c5534758ca40ad7343b04e7e29bfe0c2eb658a39445a4f779",
+      "collocations.tab": "8e2da1225e4dd2cc9dba261ee231ccb134859e21b46006e7f472c5ee269af0cf",
+      "ortho_context.tab": "4bbcca25ed3d3f06c02402abf8419b9f033b8adc06e7b482eca4e45f81a5dc4c",
+      "sent_starters.txt": "f3f8535483e1dba487241b764945168123bca3209a9645e59acd1225dc76edac"
+    }
+  },
+  "upload_status": "not_registered",
+  "preparation_note": "Only configuration status changed to frozen; this record does not assert a Moodle upload or instructor approval"
+}

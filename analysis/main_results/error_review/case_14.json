@@ -1,0 +1,210 @@
+{
+  "review_index": 14,
+  "question_id": "5726dcbddd62a815002e9323",
+  "article": "Pharmacy",
+  "question": "What stature did pharmacists have in the pre-Heian Imperial court?",
+  "references": [
+    "status superior to all others in health-related fields such as physicians and acupuncturists",
+    "Ranked positions",
+    "status superior to all others in health-related fields"
+  ],
+  "answer_spans": [
+    [
+      3503,
+      3595
+    ],
+    [
+      3248,
+      3264
+    ],
+    [
+      3503,
+      3557
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "superior to all others in health-related fields",
+      "exact_match": 0.0,
+      "f1": 0.9333333333333333,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 10,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718). Ranked positions in the pre-Heian Imperial court were established; and this organizational structure remained largely intact until the Meiji Restoration (1868). In this highly stable hierarchy, the pharmacists—and even pharmacist assistants—were assigned status superior to all others in health-related fields such as physicians and acupuncturists. In the Imperial household, the pharmacist was even ranked above the two personal physicians of the Emperor.\n\nThe advances made in the Middle East in botany and chemistry led medicine in medieval Islam substantially to develop pharmacology. Muhammad\n\nThe word pharmacy is derived from its root word pharma which was a term used since the 15th–17th centuries. However, the original Greek roots from pharmakos imply sorcery or even poison. In addition to pharma responsibilities, the pharma offered general medical advice and a range of services that are now performed solely by other specialist practitioners, such as surgery and midwifery. The pharma (as it was referred to) often operated through a retail shop which, in addition to ingredients for medicines, sold tobacco and patent medicines. Often the place that did this was called an apothecary and several languages have\n\nthis as the dominant term, though their practices are more akin to a modern pharmacy, in English the term apothecary would today be seen as outdated or only approproriate if herbal remedies were on offer to a large extent. The pharmas also used many other herbs not listed. The Greek word Pharmakeia (Greek: φαρμακεία) derives from pharmakon (φάρμακον), meaning \"drug\", \"medicine\" (or \"poison\").[n 1]\n\nPharmacists are healthcare professionals with specialised education and training who perform various roles to ensure optimal health outcomes for their patients through the quality use of medicines. Pharmacists may also be small-business proprietors, owning the pharmacy",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Pharmacy",
+          "start": 3153,
+          "end": 3845,
+          "text": "in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718). Ranked positions in the pre-Heian Imperial court were established; and this organizational structure remained largely intact until the Meiji Restoration (1868). In this highly stable hierarchy, the pharmacists—and even pharmacist assistants—were assigned status superior to all others in health-related fields such as physicians and acupuncturists. In the Imperial household, the pharmacist was even ranked above the two personal physicians of the Emperor.\n\nThe advances made in the Middle East in botany and chemistry led medicine in medieval Islam substantially to develop pharmacology. Muhammad"
+        },
+        {
+          "rank": 2,
+          "article": "Pharmacy",
+          "start": 0,
+          "end": 626,
+          "text": "The word pharmacy is derived from its root word pharma which was a term used since the 15th–17th centuries. However, the original Greek roots from pharmakos imply sorcery or even poison. In addition to pharma responsibilities, the pharma offered general medical advice and a range of services that are now performed solely by other specialist practitioners, such as surgery and midwifery. The pharma (as it was referred to) often operated through a retail shop which, in addition to ingredients for medicines, sold tobacco and patent medicines. Often the place that did this was called an apothecary and several languages have"
+        },
+        {
+          "rank": 3,
+          "article": "Pharmacy",
+          "start": 627,
+          "end": 1298,
+          "text": "this as the dominant term, though their practices are more akin to a modern pharmacy, in English the term apothecary would today be seen as outdated or only approproriate if herbal remedies were on offer to a large extent. The pharmas also used many other herbs not listed. The Greek word Pharmakeia (Greek: φαρμακεία) derives from pharmakon (φάρμακον), meaning \"drug\", \"medicine\" (or \"poison\").[n 1]\n\nPharmacists are healthcare professionals with specialised education and training who perform various roles to ensure optimal health outcomes for their patients through the quality use of medicines. Pharmacists may also be small-business proprietors, owning the pharmacy"
+        },
+        {
+          "rank": 4,
+          "article": "Pharmacy",
+          "start": 1888,
+          "end": 2550,
+          "text": "to them to manage the pharmacy department and specialised areas in pharmacy practice allowing pharmacists the time to specialise in their expert field as medication consultants spending more time working with patients and in research. A pharmacy technician once qualified has to register as a professional on the General Pharmaceutical Council (GPhC) register. The GPhC is the governing body for pharmacy health care professionals and this is who regulates the practice of pharmacists and pharmacy technicians.\n\nIn Ancient Greece, Diocles of Carystus (4th century BC) was one of several men studying the medicinal properties of plants. He wrote several treatises"
+        },
+        {
+          "rank": 5,
+          "article": "Pharmacy",
+          "start": 3846,
+          "end": 4532,
+          "text": "ibn Zakarīya Rāzi (Rhazes) (865–915), for instance, acted to promote the medical uses of chemical compounds. Abu al-Qasim al-Zahrawi (Abulcasis) (936–1013) pioneered the preparation of medicines by sublimation and distillation. His Liber servitoris is of particular interest, as it provides the reader with recipes and explains how to prepare the `simples’ from which were compounded the complex drugs then generally used. Sabur Ibn Sahl (d 869), was, however, the first physician to initiate pharmacopoedia, describing a large variety of drugs and remedies for ailments. Al-Biruni (973–1050) wrote one of the most valuable Islamic works on pharmacology, entitled Kitab al-Saydalah (The"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/5726dcbddd62a815002e9323.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "superior to all others in health-related fields",
+      "exact_match": 0.0,
+      "f1": 0.9333333333333333,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 10,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "period (710–794), the men who fulfilled roles similar to those of modern pharmacists were highly respected. The place of pharmacists in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718). Ranked positions in the pre-Heian Imperial court were established; and this organizational structure remained largely intact until the Meiji Restoration (1868). In this highly stable hierarchy, the pharmacists—and even pharmacist assistants—were assigned status superior to all others in health-related fields such as physicians and acupuncturists. In the Imperial household, the pharmacist was even ranked above the two personal physicians of the Emperor.\n\nThe\n\nThe word pharmacy is derived from its root word pharma which was a term used since the 15th–17th centuries. However, the original Greek roots from pharmakos imply sorcery or even poison. In addition to pharma responsibilities, the pharma offered general medical advice and a range of services that are now performed solely by other specialist practitioners, such as surgery and midwifery. The pharma (as it was referred to) often operated through a retail shop which, in addition to ingredients for medicines, sold tobacco and patent medicines. Often the place that did this was called an apothecary and several languages have\n\nmedicines, sold tobacco and patent medicines. Often the place that did this was called an apothecary and several languages have this as the dominant term, though their practices are more akin to a modern pharmacy, in English the term apothecary would today be seen as outdated or only approproriate if herbal remedies were on offer to a large extent. The pharmas also used many other herbs not listed. The Greek word Pharmakeia (Greek: φαρμακεία) derives from pharmakon (φάρμακον), meaning \"drug\", \"medicine\" (or \"poison\").[n 1]\n\nPharmacists are healthcare professionals with specialised education and training who perform various roles to ensure optimal",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Pharmacy",
+          "start": 3020,
+          "end": 3709,
+          "text": "period (710–794), the men who fulfilled roles similar to those of modern pharmacists were highly respected. The place of pharmacists in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718). Ranked positions in the pre-Heian Imperial court were established; and this organizational structure remained largely intact until the Meiji Restoration (1868). In this highly stable hierarchy, the pharmacists—and even pharmacist assistants—were assigned status superior to all others in health-related fields such as physicians and acupuncturists. In the Imperial household, the pharmacist was even ranked above the two personal physicians of the Emperor.\n\nThe"
+        },
+        {
+          "rank": 2,
+          "article": "Pharmacy",
+          "start": 0,
+          "end": 626,
+          "text": "The word pharmacy is derived from its root word pharma which was a term used since the 15th–17th centuries. However, the original Greek roots from pharmakos imply sorcery or even poison. In addition to pharma responsibilities, the pharma offered general medical advice and a range of services that are now performed solely by other specialist practitioners, such as surgery and midwifery. The pharma (as it was referred to) often operated through a retail shop which, in addition to ingredients for medicines, sold tobacco and patent medicines. Often the place that did this was called an apothecary and several languages have"
+        },
+        {
+          "rank": 3,
+          "article": "Pharmacy",
+          "start": 499,
+          "end": 1153,
+          "text": "medicines, sold tobacco and patent medicines. Often the place that did this was called an apothecary and several languages have this as the dominant term, though their practices are more akin to a modern pharmacy, in English the term apothecary would today be seen as outdated or only approproriate if herbal remedies were on offer to a large extent. The pharmas also used many other herbs not listed. The Greek word Pharmakeia (Greek: φαρμακεία) derives from pharmakon (φάρμακον), meaning \"drug\", \"medicine\" (or \"poison\").[n 1]\n\nPharmacists are healthcare professionals with specialised education and training who perform various roles to ensure optimal"
+        },
+        {
+          "rank": 4,
+          "article": "Pharmacy",
+          "start": 3577,
+          "end": 4262,
+          "text": "and acupuncturists. In the Imperial household, the pharmacist was even ranked above the two personal physicians of the Emperor.\n\nThe advances made in the Middle East in botany and chemistry led medicine in medieval Islam substantially to develop pharmacology. Muhammad ibn Zakarīya Rāzi (Rhazes) (865–915), for instance, acted to promote the medical uses of chemical compounds. Abu al-Qasim al-Zahrawi (Abulcasis) (936–1013) pioneered the preparation of medicines by sublimation and distillation. His Liber servitoris is of particular interest, as it provides the reader with recipes and explains how to prepare the `simples’ from which were compounded the complex drugs then generally"
+        },
+        {
+          "rank": 5,
+          "article": "Pharmacy",
+          "start": 4137,
+          "end": 4776,
+          "text": "the reader with recipes and explains how to prepare the `simples’ from which were compounded the complex drugs then generally used. Sabur Ibn Sahl (d 869), was, however, the first physician to initiate pharmacopoedia, describing a large variety of drugs and remedies for ailments. Al-Biruni (973–1050) wrote one of the most valuable Islamic works on pharmacology, entitled Kitab al-Saydalah (The Book of Drugs), in which he detailed the properties of drugs and outlined the role of pharmacy and the functions and duties of the pharmacist. Avicenna, too, described no less than 700 preparations, their properties, modes of action, and their"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/5726dcbddd62a815002e9323.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "superior to all others",
+      "exact_match": 0.0,
+      "f1": 0.6666666666666666,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 5,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "In this highly stable hierarchy, the pharmacists—and even pharmacist assistants—were assigned status superior to all others in health-related fields such as physicians and acupuncturists. In the Imperial household, the pharmacist was even ranked above the two personal physicians of the Emperor.\n\nThe advances made in the Middle East in botany and chemistry led medicine in medieval Islam substantially to develop pharmacology. Muhammad ibn Zakarīya Rāzi (Rhazes) (865–915), for instance, acted to promote the medical uses of chemical compounds. Abu al-Qasim al-Zahrawi (Abulcasis) (936–1013) pioneered the preparation of medicines by sublimation and distillation.\n\nThe word pharmacy is derived from its root word pharma which was a term used since the 15th–17th centuries. However, the original Greek roots from pharmakos imply sorcery or even poison. In addition to pharma responsibilities, the pharma offered general medical advice and a range of services that are now performed solely by other specialist practitioners, such as surgery and midwifery. The pharma (as it was referred to) often operated through a retail shop which, in addition to ingredients for medicines, sold tobacco and patent medicines.\n\nIn Japan, at the end of the Asuka period (538–710) and the early Nara period (710–794), the men who fulfilled roles similar to those of modern pharmacists were highly respected. The place of pharmacists in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718).",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "Pharmacy",
+          "start": 3409,
+          "end": 4073,
+          "text": "In this highly stable hierarchy, the pharmacists—and even pharmacist assistants—were assigned status superior to all others in health-related fields such as physicians and acupuncturists. In the Imperial household, the pharmacist was even ranked above the two personal physicians of the Emperor.\n\nThe advances made in the Middle East in botany and chemistry led medicine in medieval Islam substantially to develop pharmacology. Muhammad ibn Zakarīya Rāzi (Rhazes) (865–915), for instance, acted to promote the medical uses of chemical compounds. Abu al-Qasim al-Zahrawi (Abulcasis) (936–1013) pioneered the preparation of medicines by sublimation and distillation."
+        },
+        {
+          "rank": 2,
+          "article": "Pharmacy",
+          "start": 0,
+          "end": 544,
+          "text": "The word pharmacy is derived from its root word pharma which was a term used since the 15th–17th centuries. However, the original Greek roots from pharmakos imply sorcery or even poison. In addition to pharma responsibilities, the pharma offered general medical advice and a range of services that are now performed solely by other specialist practitioners, such as surgery and midwifery. The pharma (as it was referred to) often operated through a retail shop which, in addition to ingredients for medicines, sold tobacco and patent medicines."
+        },
+        {
+          "rank": 3,
+          "article": "Pharmacy",
+          "start": 2950,
+          "end": 3247,
+          "text": "In Japan, at the end of the Asuka period (538–710) and the early Nara period (710–794), the men who fulfilled roles similar to those of modern pharmacists were highly respected. The place of pharmacists in society was expressly defined in the Taihō Code (701) and re-stated in the Yōrō Code (718)."
+        },
+        {
+          "rank": 4,
+          "article": "Pharmacy",
+          "start": 4074,
+          "end": 4675,
+          "text": "His Liber servitoris is of particular interest, as it provides the reader with recipes and explains how to prepare the `simples’ from which were compounded the complex drugs then generally used. Sabur Ibn Sahl (d 869), was, however, the first physician to initiate pharmacopoedia, describing a large variety of drugs and remedies for ailments. Al-Biruni (973–1050) wrote one of the most valuable Islamic works on pharmacology, entitled Kitab al-Saydalah (The Book of Drugs), in which he detailed the properties of drugs and outlined the role of pharmacy and the functions and duties of the pharmacist."
+        },
+        {
+          "rank": 5,
+          "article": "Pharmacy",
+          "start": 545,
+          "end": 1022,
+          "text": "Often the place that did this was called an apothecary and several languages have this as the dominant term, though their practices are more akin to a modern pharmacy, in English the term apothecary would today be seen as outdated or only approproriate if herbal remedies were on offer to a large extent. The pharmas also used many other herbs not listed. The Greek word Pharmakeia (Greek: φαρμακεία) derives from pharmakon (φάρμακον), meaning \"drug\", \"medicine\" (or \"poison\")."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/5726dcbddd62a815002e9323.json"
+    }
+  ]
+}

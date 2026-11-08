@@ -1,0 +1,210 @@
+{
+  "review_index": 21,
+  "question_id": "5729f1c13f37b319004785ea",
+  "article": "Economic_inequality",
+  "question": "Who is the author of the book, \"Knowledge and Decisions\"?",
+  "references": [
+    "Thomas Sowell",
+    "Thomas Sowell",
+    "Thomas Sowell"
+  ],
+  "answer_spans": [
+    [
+      13549,
+      13562
+    ],
+    [
+      13549,
+      13562
+    ],
+    [
+      13549,
+      13562
+    ]
+  ],
+  "methods": [
+    {
+      "strategy": "fixed",
+      "prediction": "Thomas Sowell",
+      "exact_match": 1.0,
+      "f1": 1.0,
+      "hit_at_3": 1.0,
+      "visible_evidence_hit": 1.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "Nobel Prize winning novelist Saul Bellow, political philosopher and author Allan Bloom, cancer researchers Charles Brenton Huggins and Janet Rowley, astronomer Gerard Kuiper, one of the most important figures in the early development of the discipline of linguistics Edward Sapir, and the founder of McKinsey & Co., James O. McKinsey.\n\nCurrent faculty include the anthropologist Marshall Sahlins, historian Dipesh Chakrabarty, paleontologists Neil Shubin and Paul Sereno, evolutionary biologist Jerry Coyne, Nobel prize winning physicist Yoichiro Nambu, Nobel prize winning physicist James Cronin, Nobel Prize winning economists Eugene Fama, James Heckman, Lars Peter Hansen, Roger Myerson and Robert Lucas, Jr., Freakonomics\n\na major advisor to Republican U.S. President Ronald Reagan and Conservative British Prime Minister Margaret Thatcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomas Sowell is also an alumnus.\n\nOther\n\nfavor of males in the labor market. Several factors other than discrimination may contribute to this gap. On average, women are more likely than men to consider factors other than pay when looking for work, and may be less willing to travel or relocate. Thomas Sowell, in his book Knowledge and Decisions, claims that this difference is due to women not taking jobs due to marriage or pregnancy, but income studies show that that does not explain the entire difference. A U.S. Census's report stated that in US once other factors are accounted for there is still a difference in",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "University_of_Chicago",
+          "start": 30859,
+          "end": 31584,
+          "text": "Nobel Prize winning novelist Saul Bellow, political philosopher and author Allan Bloom, cancer researchers Charles Brenton Huggins and Janet Rowley, astronomer Gerard Kuiper, one of the most important figures in the early development of the discipline of linguistics Edward Sapir, and the founder of McKinsey & Co., James O. McKinsey.\n\nCurrent faculty include the anthropologist Marshall Sahlins, historian Dipesh Chakrabarty, paleontologists Neil Shubin and Paul Sereno, evolutionary biologist Jerry Coyne, Nobel prize winning physicist Yoichiro Nambu, Nobel prize winning physicist James Cronin, Nobel Prize winning economists Eugene Fama, James Heckman, Lars Peter Hansen, Roger Myerson and Robert Lucas, Jr., Freakonomics"
+        },
+        {
+          "rank": 2,
+          "article": "University_of_Chicago",
+          "start": 28696,
+          "end": 29400,
+          "text": "a major advisor to Republican U.S. President Ronald Reagan and Conservative British Prime Minister Margaret Thatcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomas Sowell is also an alumnus.\n\nOther"
+        },
+        {
+          "rank": 3,
+          "article": "Economic_inequality",
+          "start": 13295,
+          "end": 13873,
+          "text": "favor of males in the labor market. Several factors other than discrimination may contribute to this gap. On average, women are more likely than men to consider factors other than pay when looking for work, and may be less willing to travel or relocate. Thomas Sowell, in his book Knowledge and Decisions, claims that this difference is due to women not taking jobs due to marriage or pregnancy, but income studies show that that does not explain the entire difference. A U.S. Census's report stated that in US once other factors are accounted for there is still a difference in"
+        },
+        {
+          "rank": 4,
+          "article": "University_of_Chicago",
+          "start": 25193,
+          "end": 25839,
+          "text": "about the relative merits and meanings of latkes and hamantashen.\n\nIn business, notable alumni include Microsoft CEO Satya Nadella, Oracle Corporation founder and the third richest man in America Larry Ellison, Goldman Sachs and MF Global CEO as well as former Governor of New Jersey Jon Corzine, McKinsey & Company founder and author of the first management accounting textbook James O. McKinsey, Arley D. Cathey, Bloomberg L.P. CEO Daniel Doctoroff, Credit Suisse CEO Brady Dougan, Morningstar, Inc. founder and CEO Joe Mansueto, Chicago Cubs owner and chairman Thomas S. Ricketts, and NBA commissioner Adam Silver.\n\nNotable alumni in the field"
+        },
+        {
+          "rank": 5,
+          "article": "University_of_Chicago",
+          "start": 31585,
+          "end": 31983,
+          "text": "author and noted economist Steven Levitt, current governor of India's central bank Raghuram Rajan, the 74th United States Secretary of the Treasury and former Goldman Sachs Chairman and CEO Hank Paulson, former Chairman of President Barack Obama's Council of Economic Advisors Austan Goolsbee, Shakespeare scholar David Bevington, and renowned political scientists John Mearsheimer and Robert Pape."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/fixed/answers/5729f1c13f37b319004785ea.json"
+    },
+    {
+      "strategy": "overlap",
+      "prediction": "Allan Bloom",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "have also included Egyptologist James Henry Breasted, mathematician Alberto Calderón, Nobel prize winning economist and classical liberalism defender Friedrich Hayek, meteorologist Ted Fujita, chemists Glenn T. Seaborg, the developer of the actinide concept and Nobel Prize winner Yuan T. Lee, Nobel Prize winning novelist Saul Bellow, political philosopher and author Allan Bloom, cancer researchers Charles Brenton Huggins and Janet Rowley, astronomer Gerard Kuiper, one of the most important figures in the early development of the discipline of linguistics Edward Sapir, and the founder of McKinsey & Co., James O. McKinsey.\n\nCurrent faculty include the anthropologist Marshall Sahlins, historian Dipesh Chakrabarty,\n\nformer Governor of New Jersey Jon Corzine, McKinsey & Company founder and author of the first management accounting textbook James O. McKinsey, Arley D. Cathey, Bloomberg L.P. CEO Daniel Doctoroff, Credit Suisse CEO Brady Dougan, Morningstar, Inc. founder and CEO Joe Mansueto, Chicago Cubs owner and chairman Thomas S. Ricketts, and NBA commissioner Adam Silver.\n\nNotable alumni in the field of government and politics include the founder of modern community organizing Saul Alinsky, Obama campaign advisor and top political advisor to President Bill Clinton David Axelrod, Attorney General and federal judge Robert Bork, Attorney General Ramsey Clark, Prohibition agent Eliot\n\nthe Treasury and former Goldman Sachs Chairman and CEO Hank Paulson, former Chairman of President Barack Obama's Council of Economic Advisors Austan Goolsbee, Shakespeare scholar David Bevington, and renowned political scientists John Mearsheimer and Robert Pape.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "University_of_Chicago",
+          "start": 30565,
+          "end": 31285,
+          "text": "have also included Egyptologist James Henry Breasted, mathematician Alberto Calderón, Nobel prize winning economist and classical liberalism defender Friedrich Hayek, meteorologist Ted Fujita, chemists Glenn T. Seaborg, the developer of the actinide concept and Nobel Prize winner Yuan T. Lee, Nobel Prize winning novelist Saul Bellow, political philosopher and author Allan Bloom, cancer researchers Charles Brenton Huggins and Janet Rowley, astronomer Gerard Kuiper, one of the most important figures in the early development of the discipline of linguistics Edward Sapir, and the founder of McKinsey & Co., James O. McKinsey.\n\nCurrent faculty include the anthropologist Marshall Sahlins, historian Dipesh Chakrabarty,"
+        },
+        {
+          "rank": 2,
+          "article": "University_of_Chicago",
+          "start": 25447,
+          "end": 26124,
+          "text": "former Governor of New Jersey Jon Corzine, McKinsey & Company founder and author of the first management accounting textbook James O. McKinsey, Arley D. Cathey, Bloomberg L.P. CEO Daniel Doctoroff, Credit Suisse CEO Brady Dougan, Morningstar, Inc. founder and CEO Joe Mansueto, Chicago Cubs owner and chairman Thomas S. Ricketts, and NBA commissioner Adam Silver.\n\nNotable alumni in the field of government and politics include the founder of modern community organizing Saul Alinsky, Obama campaign advisor and top political advisor to President Bill Clinton David Axelrod, Attorney General and federal judge Robert Bork, Attorney General Ramsey Clark, Prohibition agent Eliot"
+        },
+        {
+          "rank": 3,
+          "article": "University_of_Chicago",
+          "start": 31720,
+          "end": 31983,
+          "text": "the Treasury and former Goldman Sachs Chairman and CEO Hank Paulson, former Chairman of President Barack Obama's Council of Economic Advisors Austan Goolsbee, Shakespeare scholar David Bevington, and renowned political scientists John Mearsheimer and Robert Pape."
+        },
+        {
+          "rank": 4,
+          "article": "University_of_Chicago",
+          "start": 28845,
+          "end": 29533,
+          "text": "and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomas Sowell is also an alumnus.\n\nOther prominent alumni include anthropologists David Graeber and Donald Johanson, who is best known for discovering the fossil of a female"
+        },
+        {
+          "rank": 5,
+          "article": "University_of_Chicago",
+          "start": 26546,
+          "end": 27257,
+          "text": "of the New York Times bestseller Before I Fall Lauren Oliver, Pulitzer Prize winning novelist Philip Roth, Canadian-born Pulitzer Prize and Nobel Prize for Literature winning writer Saul Bellow, political philosopher, literary critic and author of the New York Times bestseller \"The Closing of the American Mind\" Allan Bloom, ''The Good War\" author Studs Terkel, American writer, essayist, filmmaker, teacher, and political activist Susan Sontag, analytic philosopher and Stanford University Professor of Comparative Literature Richard Rorty, and American writer and satirist Kurt Vonnegut are notable alumni.\n\nIn the arts and entertainment, minimalist composer Philip Glass, dancer, choreographer and leader in"
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/overlap/answers/5729f1c13f37b319004785ea.json"
+    },
+    {
+      "strategy": "semantic",
+      "prediction": "Allan Bloom",
+      "exact_match": 0.0,
+      "f1": 0.0,
+      "hit_at_3": 0.0,
+      "visible_evidence_hit": 0.0,
+      "corpus_coverage": 1,
+      "context_truncated": false,
+      "output_diagnostics": {
+        "generated_token_count": 4,
+        "count_includes_eos": true,
+        "output_has_eos": true,
+        "output_reached_max_new_tokens": false,
+        "output_may_be_length_limited": false,
+        "max_new_tokens": 32,
+        "decoder_start_token_id": 0,
+        "eos_token_ids": [
+          1
+        ]
+      },
+      "visible_context": "Past faculty have also included Egyptologist James Henry Breasted, mathematician Alberto Calderón, Nobel prize winning economist and classical liberalism defender Friedrich Hayek, meteorologist Ted Fujita, chemists Glenn T. Seaborg, the developer of the actinide concept and Nobel Prize winner Yuan T. Lee, Nobel Prize winning novelist Saul Bellow, political philosopher and author Allan Bloom, cancer researchers Charles Brenton Huggins and Janet Rowley, astronomer Gerard Kuiper, one of the most important figures in the early development of the discipline of linguistics Edward Sapir, and the founder of McKinsey & Co., James O. McKinsey.\n\nPaul Wolfowitz.\n\nIn literature, author of the New York Times bestseller Before I Fall Lauren Oliver, Pulitzer Prize winning novelist Philip Roth, Canadian-born Pulitzer Prize and Nobel Prize for Literature winning writer Saul Bellow, political philosopher, literary critic and author of the New York Times bestseller \"The Closing of the American Mind\" Allan Bloom, ''The Good War\" author Studs Terkel, American writer, essayist, filmmaker, teacher, and political activist Susan Sontag, analytic philosopher and Stanford University Professor of Comparative Literature Richard Rorty, and American writer and satirist Kurt Vonnegut are notable alumni.\n\nIn business, notable alumni include Microsoft CEO Satya Nadella, Oracle Corporation founder and the third richest man in America Larry Ellison, Goldman Sachs and MF Global CEO as well as former Governor of New Jersey Jon Corzine, McKinsey & Company founder and author of the first management accounting textbook James O. McKinsey, Arley D. Cathey, Bloomberg L.P. CEO Daniel Doctoroff, Credit Suisse CEO Brady Dougan, Morningstar, Inc. founder and CEO Joe Mansueto, Chicago Cubs owner and chairman Thomas S. Ricketts, and NBA commissioner Adam Silver.",
+      "retrieved": [
+        {
+          "rank": 1,
+          "article": "University_of_Chicago",
+          "start": 30552,
+          "end": 31193,
+          "text": "Past faculty have also included Egyptologist James Henry Breasted, mathematician Alberto Calderón, Nobel prize winning economist and classical liberalism defender Friedrich Hayek, meteorologist Ted Fujita, chemists Glenn T. Seaborg, the developer of the actinide concept and Nobel Prize winner Yuan T. Lee, Nobel Prize winning novelist Saul Bellow, political philosopher and author Allan Bloom, cancer researchers Charles Brenton Huggins and Janet Rowley, astronomer Gerard Kuiper, one of the most important figures in the early development of the discipline of linguistics Edward Sapir, and the founder of McKinsey & Co., James O. McKinsey."
+        },
+        {
+          "rank": 2,
+          "article": "University_of_Chicago",
+          "start": 26507,
+          "end": 27155,
+          "text": "Paul Wolfowitz.\n\nIn literature, author of the New York Times bestseller Before I Fall Lauren Oliver, Pulitzer Prize winning novelist Philip Roth, Canadian-born Pulitzer Prize and Nobel Prize for Literature winning writer Saul Bellow, political philosopher, literary critic and author of the New York Times bestseller \"The Closing of the American Mind\" Allan Bloom, ''The Good War\" author Studs Terkel, American writer, essayist, filmmaker, teacher, and political activist Susan Sontag, analytic philosopher and Stanford University Professor of Comparative Literature Richard Rorty, and American writer and satirist Kurt Vonnegut are notable alumni."
+        },
+        {
+          "rank": 3,
+          "article": "University_of_Chicago",
+          "start": 25260,
+          "end": 25810,
+          "text": "In business, notable alumni include Microsoft CEO Satya Nadella, Oracle Corporation founder and the third richest man in America Larry Ellison, Goldman Sachs and MF Global CEO as well as former Governor of New Jersey Jon Corzine, McKinsey & Company founder and author of the first management accounting textbook James O. McKinsey, Arley D. Cathey, Bloomberg L.P. CEO Daniel Doctoroff, Credit Suisse CEO Brady Dougan, Morningstar, Inc. founder and CEO Joe Mansueto, Chicago Cubs owner and chairman Thomas S. Ricketts, and NBA commissioner Adam Silver."
+        },
+        {
+          "rank": 4,
+          "article": "University_of_Chicago",
+          "start": 28607,
+          "end": 29288,
+          "text": "In economics, notable Nobel Memorial Prize in Economic Sciences winners Milton Friedman, a major advisor to Republican U.S. President Ronald Reagan and Conservative British Prime Minister Margaret Thatcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates."
+        },
+        {
+          "rank": 5,
+          "article": "University_of_Chicago",
+          "start": 29289,
+          "end": 30014,
+          "text": "American economist, social theorist, political philosopher, and author Thomas Sowell is also an alumnus.\n\nOther prominent alumni include anthropologists David Graeber and Donald Johanson, who is best known for discovering the fossil of a female hominid australopithecine known as \"Lucy\" in the Afar Triangle region, psychologist John B. Watson, American psychologist who established the psychological school of behaviorism, communication theorist Harold Innis, chess grandmaster Samuel Reshevsky, and conservative international relations scholar and White House Coordinator of Security Planning for the National Security Council Samuel P. Huntington.\n\nNotable faculty in physics have included the speed of light calculator A."
+        }
+      ],
+      "source_record": "/Users/bekarysuzbekbaev/Downloads/rag_chunking/assignment4/final/generation_runs/20261108T171859_430505Z/semantic/answers/5729f1c13f37b319004785ea.json"
+    }
+  ]
+}

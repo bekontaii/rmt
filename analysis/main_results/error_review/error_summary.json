@@ -1,0 +1,18 @@
+{
+  "selected_unique_questions": 30,
+  "reviewed_records": 90,
+  "failed_records": 61,
+  "correct_records": 29,
+  "category_counts": {
+    "chunk_boundary_or_length_cap_loss": 0,
+    "ranking_miss_with_span_available": 37,
+    "evidence_removed_by_prompt_packing": 0,
+    "wrong_entity_or_fact_selection": 3,
+    "extra_or_partial_wording": 11,
+    "name_spelling_or_unicode_mismatch": 5,
+    "annotation_or_alternative_answer_ambiguity": 5,
+    "output_length_limit": 0
+  },
+  "coding_method": "AI-assisted qualitative coding; student verification and any external reproduction are not claimed",
+  "global_metrics_changed": false
+}

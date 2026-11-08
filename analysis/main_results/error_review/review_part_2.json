@@ -1,0 +1,272 @@
+[
+  {
+    "question_id": "572ff5fcb2c2fd140056865b",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Waal is returned; the indexed Oude Rijn reference appears at rank four, outside the supplied top three.",
+    "possible_cause": "Relevant reference evidence ranked below the generation cutoff.",
+    "example_short": "Waal → Oude Rijn"
+  },
+  {
+    "question_id": "572ff5fcb2c2fd140056865b",
+    "strategy": "overlap",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Oude Rijn matches an accepted reference and is present in the visible Katwijk passage.",
+    "possible_cause": "Not applicable.",
+    "example_short": "Oude Rijn → Oude Rijn"
+  },
+  {
+    "question_id": "572ff5fcb2c2fd140056865b",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Oude Rijn matches an accepted reference in the visible passage describing the Katwijk sluice.",
+    "possible_cause": "Not applicable.",
+    "example_short": "Oude Rijn → Oude Rijn"
+  },
+  {
+    "question_id": "5727f05b4b864d1900164069",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "The response includes education but adds housing, pensions and health care; the accepted references name education.",
+    "possible_cause": "Response granularity and broader service wording may affect strict lexical scoring.",
+    "example_short": "housing, pensions, education and health care → education"
+  },
+  {
+    "question_id": "5727f05b4b864d1900164069",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Luxury items is returned; the complete education reference exists in the index but is absent from the top three.",
+    "possible_cause": "Relevant reference evidence was not supplied in the retrieved context.",
+    "example_short": "luxury items → education"
+  },
+  {
+    "question_id": "5727f05b4b864d1900164069",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Luxury items is returned from context contrasting richer consumers; the indexed education reference is absent from the top three.",
+    "possible_cause": "The retrieved passages emphasize consumption rather than the reference education passage.",
+    "example_short": "luxury items → education"
+  },
+  {
+    "question_id": "56de49a8cffd8e1900b4b7a9",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "NBC is returned from broadcasting passages; the indexed Normans reference Maciot de Bethencourt is absent from the supplied top three.",
+    "possible_cause": "The underspecified question may contribute to cross-article retrieval.",
+    "example_short": "NBC → Maciot de Bethencourt"
+  },
+  {
+    "question_id": "56de49a8cffd8e1900b4b7a9",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Woods is returned from a broadcasting sale passage; the indexed Normans reference is absent from the supplied top three.",
+    "possible_cause": "The underspecified question may contribute to cross-article retrieval.",
+    "example_short": "Woods → Maciot de Bethencourt"
+  },
+  {
+    "question_id": "56de49a8cffd8e1900b4b7a9",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Woods is returned from broadcasting sale passages; no supplied passage contains the indexed Maciot de Bethencourt reference.",
+    "possible_cause": "The underspecified question may contribute to cross-article retrieval.",
+    "example_short": "Woods → Maciot de Bethencourt"
+  },
+  {
+    "question_id": "57287c2bff5b5019007da26f",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Higher economic inequality is returned; complete wealth references exist in the index but none occurs in the supplied top three.",
+    "possible_cause": "Retrieved entrepreneurship passages differ from the reference wealth-accumulation passage.",
+    "example_short": "higher economic inequality → wealth"
+  },
+  {
+    "question_id": "57287c2bff5b5019007da26f",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "annotation_or_alternative_answer_ambiguity",
+    "observation": "The visible context says employer competition drives up wages, a plausible answer to the broad question; frozen references instead target wealth accumulation.",
+    "possible_cause": "Question underspecification and annotation scope may contribute.",
+    "example_short": "Competition amongst employers → wealth"
+  },
+  {
+    "question_id": "57287c2bff5b5019007da26f",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "annotation_or_alternative_answer_ambiguity",
+    "observation": "The visible context says employer competition drives up wages, making the response plausible for the broad question despite disagreement with frozen wealth references.",
+    "possible_cause": "Question underspecification and annotation scope may contribute.",
+    "example_short": "Competition amongst employers → wealth"
+  },
+  {
+    "question_id": "5726dcbddd62a815002e9323",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "The response reproduces the superiority description but omits status from the closest accepted reference; evidence remains visible.",
+    "possible_cause": "Response granularity differs from the accepted wording.",
+    "example_short": "superior to all others in health-related fields → status superior to all others in health-related fields"
+  },
+  {
+    "question_id": "5726dcbddd62a815002e9323",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "The response reproduces the superiority description but omits status from the closest accepted reference; evidence remains visible.",
+    "possible_cause": "Response granularity differs from the accepted wording.",
+    "example_short": "superior to all others in health-related fields → status superior to all others in health-related fields"
+  },
+  {
+    "question_id": "5726dcbddd62a815002e9323",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "Superior to all others omits status and the health-related-fields qualifier present in the accepted reference and visible context.",
+    "possible_cause": "The response gives only part of the accepted expression.",
+    "example_short": "superior to all others → status superior to all others in health-related fields"
+  },
+  {
+    "question_id": "56d2051ce7d4791d00902609",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "wrong_entity_or_fact_selection",
+    "observation": "The visible context gives the base rate as $5,000,000; $0 conflicts with the accepted $5 million amount.",
+    "possible_cause": "Nearby free-advertisement wording may contribute; internal selection is unverified.",
+    "example_short": "$0 → $5 million"
+  },
+  {
+    "question_id": "56d2051ce7d4791d00902609",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "wrong_entity_or_fact_selection",
+    "observation": "The visible context states $5,000,000, whereas the prediction $500,000 is ten times smaller than the accepted amount.",
+    "possible_cause": "Numeric extraction or answer selection may contribute; the internal cause is unverified.",
+    "example_short": "$500,000 → $5 million"
+  },
+  {
+    "question_id": "56d2051ce7d4791d00902609",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "annotation_or_alternative_answer_ambiguity",
+    "observation": "The prediction $5,000,000 is numerically equivalent to the accepted $5 million and stated in visible context; lexical scoring gives zero.",
+    "possible_cause": "Equivalent numeric notation is not normalized by the frozen scorer.",
+    "example_short": "$5,000,000 → $5 million"
+  },
+  {
+    "question_id": "56bf6e7a3aeaaa14008c9621",
+    "strategy": "fixed",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Verizon Wireless customers exactly matches an accepted reference and the visible streaming restriction.",
+    "possible_cause": "Not applicable.",
+    "example_short": "Verizon Wireless customers → Verizon Wireless customers"
+  },
+  {
+    "question_id": "56bf6e7a3aeaaa14008c9621",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "Verizon Wireless omits customers from one accepted reference and adds Wireless relative to the shorter Verizon reference.",
+    "possible_cause": "Answer granularity differs from the accepted reference forms.",
+    "example_short": "Verizon Wireless → Verizon Wireless customers"
+  },
+  {
+    "question_id": "56bf6e7a3aeaaa14008c9621",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Verizon Wireless customers exactly matches an accepted reference and the visible streaming restriction.",
+    "possible_cause": "Not applicable.",
+    "example_short": "Verizon Wireless customers → Verizon Wireless customers"
+  },
+  {
+    "question_id": "56de52614396321400ee27fc",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "extra_or_partial_wording",
+    "observation": "Latin monastery names the type but omits Sant'Eufemia, the distinguishing place in the accepted references; that place remains visible.",
+    "possible_cause": "The response identifies a type rather than the distinguishing location.",
+    "example_short": "Latin monastery → Latin monastery at Sant'Eufemia."
+  },
+  {
+    "question_id": "56de52614396321400ee27fc",
+    "strategy": "overlap",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Sant'Eufemia matches an accepted reference and the visible monastery-establishment passage.",
+    "possible_cause": "Not applicable.",
+    "example_short": "Sant'Eufemia → Sant'Eufemia"
+  },
+  {
+    "question_id": "56de52614396321400ee27fc",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Sant'Eufemia matches an accepted reference and the visible monastery-establishment passage.",
+    "possible_cause": "Not applicable.",
+    "example_short": "Sant'Eufemia → Sant'Eufemia"
+  },
+  {
+    "question_id": "57113c6da58dae1900cd6d32",
+    "strategy": "fixed",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "First century AD matches an accepted reference explicitly stated in the visible steam-engine history passage.",
+    "possible_cause": "Not applicable.",
+    "example_short": "first century AD → first century AD"
+  },
+  {
+    "question_id": "57113c6da58dae1900cd6d32",
+    "strategy": "overlap",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "16th is returned; the indexed first-century reference is at rank four and absent from the supplied top three.",
+    "possible_cause": "The relevant historical-origin passage ranked below the generation cutoff.",
+    "example_short": "16th → first century AD"
+  },
+  {
+    "question_id": "57113c6da58dae1900cd6d32",
+    "strategy": "semantic",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "First century AD matches an accepted reference explicitly stated in the visible history passage.",
+    "possible_cause": "Not applicable.",
+    "example_short": "first century AD → first century AD"
+  },
+  {
+    "question_id": "57115ff82419e314009555c5",
+    "strategy": "fixed",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Cranks is returned; the indexed static discs definition is absent from the supplied top three.",
+    "possible_cause": "The retrieved mechanical-component passages do not supply the reference definition.",
+    "example_short": "cranks → static discs"
+  },
+  {
+    "question_id": "57115ff82419e314009555c5",
+    "strategy": "overlap",
+    "failed": false,
+    "primary_category": "correct",
+    "observation": "Static discs matches an accepted reference and the visible parenthetical definition of stators.",
+    "possible_cause": "Not applicable.",
+    "example_short": "static discs → static discs"
+  },
+  {
+    "question_id": "57115ff82419e314009555c5",
+    "strategy": "semantic",
+    "failed": true,
+    "primary_category": "ranking_miss_with_span_available",
+    "observation": "Cranks is returned from a piston passage; the indexed stator definition is absent from the supplied top three.",
+    "possible_cause": "The retrieved mechanical-component passages do not supply the reference definition.",
+    "example_short": "cranks → static discs"
+  }
+]

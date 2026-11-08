@@ -1,0 +1,785 @@
+[
+  {
+    "id": "57335ddbd058e614000b5933",
+    "article": "Warsaw",
+    "question": "What type of forested areas can be found on the highest terrace?",
+    "answers": [
+      "pine",
+      "pine",
+      "pine"
+    ],
+    "answer_spans": [
+      [
+        25027,
+        25031
+      ],
+      [
+        25027,
+        25031
+      ],
+      [
+        25027,
+        25031
+      ]
+    ],
+    "for_generation": true,
+    "retrieved_results": [
+      {
+        "rank": 1,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 24739,
+          "end": 25040,
+          "text": "There are several levels of the plain Vistula terraces (flooded as well as former flooded once) and only small part and not so visible moraine escarpment. Aeolian sand with a number of dunes parted by peat swamps or small ponds cover the highest terrace. These are mainly forested areas (pine forest).",
+          "chunk_id": "semantic:00055"
+        },
+        "score": 0.6331355571746826
+      },
+      {
+        "rank": 2,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 24134,
+          "end": 24738,
+          "text": "The plain moraine plateau has only a few natural and artificial ponds and also groups of clay pits. The pattern of the Vistula terraces is asymmetrical. The left side consist mainly of two levels: the highest one contains former flooded terraces and the lowest one the flood plain terrace. The contemporary flooded terrace still has visible valleys and ground depressions with water systems coming from the Vistula old – riverbed. They consist of still quite natural streams and lakes as well as the pattern of drainage ditches. The right side of Warsaw has a different pattern of geomorphological forms.",
+          "chunk_id": "semantic:00054"
+        },
+        "score": 0.4947721064090729
+      },
+      {
+        "rank": 3,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 1785,
+          "end": 2271,
+          "text": "Its central French-styled area corresponds to the ancient, baroque forms of the palace. The eastern section of the park, closest to the Palace, is the two-level garden with a terrace facing the pond. The park around the Królikarnia Palace is situated on the old escarpment of the Vistula. The park has lanes running on a few levels deep into the ravines on both sides of the palace.\n\nThere are 13 natural reserves in Warsaw – among others, Bielany Forest, Kabaty Woods, Czerniaków Lake.",
+          "chunk_id": "semantic:00007"
+        },
+        "score": 0.47695404291152954
+      },
+      {
+        "rank": 4,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 29912,
+          "end": 30516,
+          "text": "The flora of the city may be considered very rich in species. The species richness is mainly due to the location of Warsaw within the border region of several big floral regions comprising substantial proportions of close-to-wilderness areas (natural forests, wetlands along the Vistula) as well as arable land, meadows and forests. Bielany Forest, located within the borders of Warsaw, is the remaining part of the Masovian Primeval Forest. Bielany Forest nature reserve is connected with Kampinos Forest. It is home to rich fauna and flora. Within the forest there are three cycling and walking trails.",
+          "chunk_id": "semantic:00065"
+        },
+        "score": 0.4764106273651123
+      },
+      {
+        "rank": 5,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 524,
+          "end": 692,
+          "text": "The Saxon Garden, covering the area of 15.5 ha, was formally a royal garden. There are over 100 different species of trees and the avenues are a place to sit and relax.",
+          "chunk_id": "semantic:00001"
+        },
+        "score": 0.4555622339248657
+      }
+    ],
+    "retrieval_metrics": {
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0
+    }
+  },
+  {
+    "id": "57339902d058e614000b5e73",
+    "article": "Warsaw",
+    "question": "Who designed the garden for the University Library?",
+    "answers": [
+      "Irena Bajerska",
+      "Irena Bajerska",
+      "Irena Bajerska"
+    ],
+    "answer_spans": [
+      [
+        4728,
+        4742
+      ],
+      [
+        4728,
+        4742
+      ],
+      [
+        4728,
+        4742
+      ]
+    ],
+    "for_generation": true,
+    "retrieved_results": [
+      {
+        "rank": 1,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 4685,
+          "end": 5003,
+          "text": "The University Library garden, designed by Irena Bajerska, was opened on 12 June 2002. It is one of the largest and most beautiful roof gardens in Europe with an area of more than 10,000 m2 (107,639.10 sq ft), and plants covering 5,111 m2 (55,014.35 sq ft). As the university garden it is open to the public every day.",
+          "chunk_id": "semantic:00015"
+        },
+        "score": 0.7415931224822998
+      },
+      {
+        "rank": 2,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 29072,
+          "end": 29336,
+          "text": "Other green spaces in the city include the Botanic Garden and the University Library garden. They have extensive botanical collection of rare domestic and foreign plants, while a palm house in the New Orangery displays plants of subtropics from all over the world.",
+          "chunk_id": "semantic:00063"
+        },
+        "score": 0.534069299697876
+      },
+      {
+        "rank": 3,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 524,
+          "end": 692,
+          "text": "The Saxon Garden, covering the area of 15.5 ha, was formally a royal garden. There are over 100 different species of trees and the avenues are a place to sit and relax.",
+          "chunk_id": "semantic:00001"
+        },
+        "score": 0.43315112590789795
+      },
+      {
+        "rank": 4,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 4548,
+          "end": 4657,
+          "text": "The building was designed by architects Marek Budzyński and Zbigniew Badowski and opened on 15 December 1999.",
+          "chunk_id": "semantic:00013"
+        },
+        "score": 0.40108612179756165
+      },
+      {
+        "rank": 5,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 27593,
+          "end": 28199,
+          "text": "Exceptional examples of the bourgeois architecture of the later periods were not restored by the communist authorities after the war (like mentioned Kronenberg Palace and Insurance Company Rosja building) or they were rebuilt in socialist realism style (like Warsaw Philharmony edifice originally inspired by Palais Garnier in Paris). Despite that the Warsaw University of Technology building (1899–1902) is the most interesting of the late 19th-century architecture. Some 19th-century buildings in the Praga district (the Vistula’s right bank) have been restored although many have been poorly maintained.",
+          "chunk_id": "semantic:00060"
+        },
+        "score": 0.3603985607624054
+      }
+    ],
+    "retrieval_metrics": {
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0
+    }
+  },
+  {
+    "id": "57336755d058e614000b5a3f",
+    "article": "Warsaw",
+    "question": "What is a popular strolling destination for the Varsovians?",
+    "answers": [
+      "Krasiński Palace Garden",
+      "Krasiński Palace Garden",
+      "Krasiński Palace Garden"
+    ],
+    "answer_spans": [
+      [
+        1103,
+        1126
+      ],
+      [
+        1103,
+        1126
+      ],
+      [
+        1103,
+        1126
+      ]
+    ],
+    "for_generation": true,
+    "retrieved_results": [
+      {
+        "rank": 1,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 853,
+          "end": 1181,
+          "text": "Within the central area of the park one can still find old trees dating from that period: maidenhair tree, black walnut, Turkish hazel and Caucasian wingnut trees. With its benches, flower carpets, a pond with ducks on and a playground for kids, the Krasiński Palace Garden is a popular strolling destination for the Varsovians.",
+          "chunk_id": "semantic:00004"
+        },
+        "score": 0.5747705698013306
+      },
+      {
+        "rank": 2,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 29912,
+          "end": 30516,
+          "text": "The flora of the city may be considered very rich in species. The species richness is mainly due to the location of Warsaw within the border region of several big floral regions comprising substantial proportions of close-to-wilderness areas (natural forests, wetlands along the Vistula) as well as arable land, meadows and forests. Bielany Forest, located within the borders of Warsaw, is the remaining part of the Masovian Primeval Forest. Bielany Forest nature reserve is connected with Kampinos Forest. It is home to rich fauna and flora. Within the forest there are three cycling and walking trails.",
+          "chunk_id": "semantic:00065"
+        },
+        "score": 0.402182936668396
+      },
+      {
+        "rank": 3,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 29337,
+          "end": 29910,
+          "text": "Besides, within the city borders, there are also: Pole Mokotowskie (a big park in the northern Mokotów, where was the first horse racetrack and then the airport), Park Ujazdowski (close to the Sejm and John Lennon street), Park of Culture and Rest in Powsin, by the southern city border, Park Skaryszewski by the right Vistula bank, in Praga. The oldest park in Praga, the Praga Park, was established in 1865–1871 and designed by Jan Dobrowolski. In 1927 a zoological garden (Ogród Zoologiczny) was established on the park grounds, and in 1952 a bear run, still open today.",
+          "chunk_id": "semantic:00064"
+        },
+        "score": 0.38722383975982666
+      },
+      {
+        "rank": 4,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 7414,
+          "end": 7999,
+          "text": "Several commemorative events take place every year. Gatherings of thousands of people on the banks of the Vistula on Midsummer’s Night for a festival called Wianki (Polish for Wreaths) have become a tradition and a yearly event in the programme of cultural events in Warsaw. The festival traces its roots to a peaceful pagan ritual where maidens would float their wreaths of herbs on the water to predict when they would be married, and to whom. By the 19th century this tradition had become a festive event, and it continues today. The city council organize concerts and other events.",
+          "chunk_id": "semantic:00020"
+        },
+        "score": 0.33974069356918335
+      },
+      {
+        "rank": 5,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 12859,
+          "end": 13460,
+          "text": "The city is a significant centre of research and development, BPO, ITO, as well as of the Polish media industry. The Warsaw Stock Exchange is one of the largest and most important in Central and Eastern Europe. Frontex, the European Union agency for external border security, has its headquarters in Warsaw. It has been said that Warsaw, together with Frankfurt, London, Paris and Barcelona is one of the cities with the highest number of skyscrapers in the European Union. Warsaw has also been called \"Eastern Europe’s chic cultural capital with thriving art and club scenes and serious restaurants\".",
+          "chunk_id": "semantic:00032"
+        },
+        "score": 0.33888882398605347
+      }
+    ],
+    "retrieval_metrics": {
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0
+    }
+  },
+  {
+    "id": "56f8a6969e9bad19000a025b",
+    "article": "Martin_Luther",
+    "question": "What do the Ten Commandments teach Christians how to do?",
+    "answers": [
+      "ought to live",
+      "live",
+      "how the Christian ought to live"
+    ],
+    "answer_spans": [
+      [
+        51451,
+        51464
+      ],
+      [
+        51460,
+        51464
+      ],
+      [
+        51433,
+        51464
+      ]
+    ],
+    "for_generation": true,
+    "retrieved_results": [
+      {
+        "rank": 1,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 51220,
+          "end": 51528,
+          "text": "On the other hand, Luther also points out that the Ten Commandments – when considered not as God's condemning judgment but as an expression of his eternal will, that is, of the natural law – also positively teach how the Christian ought to live. This has traditionally been called the \"third use of the law.\"",
+          "chunk_id": "semantic:00196"
+        },
+        "score": 0.5713279843330383
+      },
+      {
+        "rank": 2,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 51529,
+          "end": 51955,
+          "text": "For Luther, also Christ's life, when understood as an example, is nothing more than an illustration of the Ten Commandments, which a Christian should follow in his or her vocations on a daily basis.\n\nThe Ten Commandments, and the beginnings of the renewed life of Christians accorded to them by the sacrament of baptism, are a present foreshadowing of the believers' future angel-like life in heaven in the midst of this life.",
+          "chunk_id": "semantic:00197"
+        },
+        "score": 0.5148916840553284
+      },
+      {
+        "rank": 3,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 50814,
+          "end": 51218,
+          "text": "Simply refusing to preach the Ten Commandments among Christians – thereby, as it were, removing the three letters l-a-w from the church – does not eliminate the accusing law. Claiming that the law – in any form – should not be preached to Christians anymore would be tantamount to asserting that Christians are no longer sinners in themselves and that the church consists only of essentially holy people.",
+          "chunk_id": "semantic:00195"
+        },
+        "score": 0.5118542909622192
+      },
+      {
+        "rank": 4,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 23517,
+          "end": 23982,
+          "text": "First, in choosing violence over lawful submission to the secular government, they were ignoring Christ's counsel to \"Render unto Caesar the things that are Caesar's\"; St. Paul had written in his epistle to the Romans 13:1–7 that all authorities are appointed by God and therefore should not be resisted. This reference from the Bible forms the foundation for the doctrine known as the Divine Right of Kings, or, in the German case, the divine right of the princes.",
+          "chunk_id": "semantic:00136"
+        },
+        "score": 0.44591018557548523
+      },
+      {
+        "rank": 5,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 30808,
+          "end": 31455,
+          "text": "\"Merciful God, what misery I have seen,\" Luther wrote, \"the common people knowing nothing at all of Christian doctrine ... and unfortunately many pastors are well-nigh unskilled and incapable of teaching.\"\n\nLuther devised the catechism as a method of imparting the basics of Christianity to the congregations. In 1529, he wrote the Large Catechism, a manual for pastors and teachers, as well as a synopsis, the Small Catechism, to be memorised by the people themselves. The catechisms provided easy-to-understand instructional and devotional material on the Ten Commandments, the Apostles' Creed, the Lord's Prayer, baptism, and the Lord's Supper.",
+          "chunk_id": "semantic:00151"
+        },
+        "score": 0.44579386711120605
+      }
+    ],
+    "retrieval_metrics": {
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0
+    }
+  },
+  {
+    "id": "56f827caa6d7ea1400e17439",
+    "article": "Martin_Luther",
+    "question": "How was the fate of Luther decided?",
+    "answers": [
+      "private conferences",
+      "private conferences",
+      "conferences"
+    ],
+    "answer_spans": [
+      [
+        16834,
+        16853
+      ],
+      [
+        16834,
+        16853
+      ],
+      [
+        16842,
+        16853
+      ]
+    ],
+    "for_generation": true,
+    "retrieved_results": [
+      {
+        "rank": 1,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 4907,
+          "end": 5221,
+          "text": "He left law school, sold his books, and entered a closed Augustinian cloister in Erfurt on 17 July 1505. One friend blamed the decision on Luther's sadness over the deaths of two friends. Luther himself seemed saddened by the move. Those who attended a farewell supper walked him to the door of the Black Cloister.",
+          "chunk_id": "semantic:00092"
+        },
+        "score": 0.6690618991851807
+      },
+      {
+        "rank": 2,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 0,
+          "end": 427,
+          "text": "Martin Luther (/ˈluːθər/ or /ˈluːðər/; German: [ˈmaɐ̯tiːn ˈlʊtɐ] ( listen); 10 November 1483 – 18 February 1546) was a German professor of theology, composer, priest, former monk and a seminal figure in the Protestant Reformation. Luther came to reject several teachings and practices of the Late Medieval Catholic Church. He strongly disputed the claim that freedom from God's punishment for sin could be purchased with money.",
+          "chunk_id": "semantic:00081"
+        },
+        "score": 0.653095006942749
+      },
+      {
+        "rank": 3,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 16892,
+          "end": 17477,
+          "text": "The Emperor presented the final draft of the Edict of Worms on 25 May 1521, declaring Luther an outlaw, banning his literature, and requiring his arrest: \"We want him to be apprehended and punished as a notorious heretic.\" It also made it a crime for anyone in Germany to give Luther food or shelter. It permitted anyone to kill Luther without legal consequence.\n\nLuther's disappearance during his return trip back to Wittenberg was planned. Frederick III had him intercepted on his way home in the forest near Wittenberg by masked horsemen who were made to appear as armed highwaymen.",
+          "chunk_id": "semantic:00121"
+        },
+        "score": 0.6511460542678833
+      },
+      {
+        "rank": 4,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 428,
+          "end": 966,
+          "text": "He proposed an academic discussion of the power and usefulness of indulgences in his Ninety-Five Theses of 1517. His refusal to retract all of his writings at the demand of Pope Leo X in 1520 and the Holy Roman Emperor Charles V at the Diet of Worms in 1521 resulted in his excommunication by the Pope and condemnation as an outlaw by the Emperor.\n\nLuther taught that salvation and subsequently eternal life is not earned by good deeds but is received only as a free gift of God's grace through faith in Jesus Christ as redeemer from sin.",
+          "chunk_id": "semantic:00082"
+        },
+        "score": 0.6383677124977112
+      },
+      {
+        "rank": 5,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 65298,
+          "end": 65834,
+          "text": "An apoplectic stroke deprived him of his speech, and he died shortly afterwards at 2:45 a.m. on 18 February 1546, aged 62, in Eisleben, the city of his birth. He was buried in the Castle Church in Wittenberg, beneath the pulpit. The funeral was held by his friends Johannes Bugenhagen and Philipp Melanchthon. A year later, troops of Luther's adversary Charles V, Holy Roman Emperor entered the town, but were ordered by Charles not to disturb the grave.\n\nA piece of paper was later found on which Luther had written his last statement.",
+          "chunk_id": "semantic:00229"
+        },
+        "score": 0.6328509449958801
+      }
+    ],
+    "retrieval_metrics": {
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0
+    }
+  },
+  {
+    "id": "56f8225ea6d7ea1400e173f4",
+    "article": "Martin_Luther",
+    "question": "Who presided over the assembly?",
+    "answers": [
+      "Emperor Charles V",
+      "Emperor Charles V",
+      "Emperor Charles V"
+    ],
+    "answer_spans": [
+      [
+        15616,
+        15633
+      ],
+      [
+        15616,
+        15633
+      ],
+      [
+        15616,
+        15633
+      ]
+    ],
+    "for_generation": true,
+    "retrieved_results": [
+      {
+        "rank": 1,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 15376,
+          "end": 15745,
+          "text": "On 18 April 1521, Luther appeared as ordered before the Diet of Worms. This was a general assembly of the estates of the Holy Roman Empire that took place in Worms, a town on the Rhine. It was conducted from 28 January to 25 May 1521, with Emperor Charles V presiding. Prince Frederick III, Elector of Saxony, obtained a safe conduct for Luther to and from the meeting.",
+          "chunk_id": "semantic:00114"
+        },
+        "score": 0.41393303871154785
+      },
+      {
+        "rank": 2,
+        "chunk": {
+          "article": "Warsaw",
+          "start": 33736,
+          "end": 34314,
+          "text": "Like most legislative bodies, the City Council divides itself into committees which have the oversight of various functions of the city government. Bills passed by a simple majority are sent to the mayor (the President of Warsaw), who may sign them into law. If the mayor vetoes a bill, the Council has 30 days to override the veto by a two-thirds majority vote.\n\nThe mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990.",
+          "chunk_id": "semantic:00072"
+        },
+        "score": 0.3439502716064453
+      },
+      {
+        "rank": 3,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 42633,
+          "end": 43217,
+          "text": "Francis Blackburne in 1765 argued that John Jortin misread this and other passages from Luther, while Gottfried Fritschel pointed out in 1867 that it actually refers to the soul of a man \"in this life\" (homo enim in hac vita) tired from his daily labour (defatigus diurno labore) who at night enters his bedchamber (sub noctem intrat in cubiculum suum) and whose sleep is interrupted by dreams.\n\nIn October 1529, Philip I, Landgrave of Hesse, convoked an assembly of German and Swiss theologians at the Marburg Colloquy, to establish doctrinal unity in the emerging Protestant states.",
+          "chunk_id": "semantic:00176"
+        },
+        "score": 0.34085971117019653
+      },
+      {
+        "rank": 4,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 15747,
+          "end": 16253,
+          "text": "Johann Eck, speaking on behalf of the Empire as assistant of the Archbishop of Trier, presented Luther with copies of his writings laid out on a table and asked him if the books were his, and whether he stood by their contents. Luther confirmed he was their author, but requested time to think about the answer to the second question. He prayed, consulted friends, and gave his response the next day:\n\nAt the end of this speech, Luther raised his arm \"in the traditional salute of a knight winning a bout.\"",
+          "chunk_id": "semantic:00115"
+        },
+        "score": 0.3212774991989136
+      },
+      {
+        "rank": 5,
+        "chunk": {
+          "article": "Martin_Luther",
+          "start": 44324,
+          "end": 44825,
+          "text": "On his table Luther wrote the words \"Hoc est corpus meum\" (\"This is my body\") in chalk, to continually indicate his firm stance.\n\nDespite the disagreements on the Eucharist, the Marburg Colloquy paved the way for the signing in 1530 of the Augsburg Confession, and for the formation of the Schmalkaldic League the following year by leading Protestant nobles such as John of Saxony, Philip of Hesse, and George, Margrave of Brandenburg-Ansbach. The Swiss cities, however, did not sign these agreements.",
+          "chunk_id": "semantic:00181"
+        },
+        "score": 0.3067511022090912
+      }
+    ],
+    "retrieval_metrics": {
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0
+    }
+  },
+  {
+    "id": "56e7611500c9c71400d77056",
+    "article": "Teacher",
+    "question": "What is the atmosphere in a school using popularly based authority?",
+    "answers": [
+      "persuasion and negotiation",
+      "persuasion and negotiation",
+      "persuasion and negotiation"
+    ],
+    "answer_spans": [
+      [
+        11704,
+        11730
+      ],
+      [
+        11704,
+        11730
+      ],
+      [
+        11704,
+        11730
+      ]
+    ],
+    "for_generation": true,
+    "retrieved_results": [
+      {
+        "rank": 1,
+        "chunk": {
+          "article": "Teacher",
+          "start": 11587,
+          "end": 11792,
+          "text": "Primarily because rules and regulations are made by the community as a whole, thence the school atmosphere is one of persuasion and negotiation, rather than confrontation since there is no one to confront.",
+          "chunk_id": "semantic:00258"
+        },
+        "score": 0.6484902501106262
+      },
+      {
+        "rank": 2,
+        "chunk": {
+          "article": "Teacher",
+          "start": 11041,
+          "end": 11586,
+          "text": "The result of this is that motivated students, facing demanding university entrance examinations, receive disproportionate resources. Given the emphasis on attainment of university places, administrators and governors may regard this policy as appropriate.\n\nSudbury model democratic schools claim that popularly based authority can maintain order more effectively than dictatorial authority for governments and schools alike. They also claim that in these schools the preservation of public order is easier and more efficient than anywhere else.",
+          "chunk_id": "semantic:00257"
+        },
+        "score": 0.6184237003326416
+      },
+      {
+        "rank": 3,
+        "chunk": {
+          "article": "Teacher",
+          "start": 9754,
+          "end": 10362,
+          "text": "[citation needed] Such individuals claim that many problems with modern schooling stem from the weakness in school discipline and if teachers exercised firm control over the classroom they would be able to teach more efficiently. This viewpoint is supported by the educational attainment of countries—in East Asia for instance—that combine strict discipline with high standards of education.[citation needed]\n\nIt's not clear, however that this stereotypical view reflects the reality of East Asian classrooms or that the educational goals in these countries are commensurable with those in Western countries.",
+          "chunk_id": "semantic:00255"
+        },
+        "score": 0.5378778576850891
+      },
+      {
+        "rank": 4,
+        "chunk": {
+          "article": "Teacher",
+          "start": 11793,
+          "end": 12272,
+          "text": "Sudbury model democratic schools' proponents argue that a school that has good, clear laws, fairly and democratically passed by the entire school community, and a good judicial system for enforcing these laws, is a school in which community discipline prevails, and in which an increasingly sophisticated concept of law and order develops, against other schools today, where rules are arbitrary, authority is absolute, punishment is capricious, and due process of law is unknown.",
+          "chunk_id": "semantic:00259"
+        },
+        "score": 0.5161606073379517
+      },
+      {
+        "rank": 5,
+        "chunk": {
+          "article": "Teacher",
+          "start": 10363,
+          "end": 11040,
+          "text": "In Japan, for example, although average attainment on standardized tests may exceed those in Western countries, classroom discipline and behavior is highly problematic. Although, officially, schools have extremely rigid codes of behavior, in practice many teachers find the students unmanageable and do not enforce discipline at all.\n\nWhere school class sizes are typically 40 to 50 students, maintaining order in the classroom can divert the teacher from instruction, leaving little opportunity for concentration and focus on what is being taught. In response, teachers may concentrate their attention on motivated students, ignoring attention-seeking and disruptive students.",
+          "chunk_id": "semantic:00256"
+        },
+        "score": 0.5075052380561829
+      }
+    ],
+    "retrieval_metrics": {
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0
+    }
+  },
+  {
+    "id": "56e7578a37bdd419002c3ea9",
+    "article": "Teacher",
+    "question": "What was the usual type of school discipline?",
+    "answers": [
+      "corporal punishment",
+      "corporal punishment",
+      "corporal"
+    ],
+    "answer_spans": [
+      [
+        7188,
+        7207
+      ],
+      [
+        7188,
+        7207
+      ],
+      [
+        7188,
+        7196
+      ]
+    ],
+    "for_generation": true,
+    "retrieved_results": [
+      {
+        "rank": 1,
+        "chunk": {
+          "article": "Teacher",
+          "start": 7106,
+          "end": 7576,
+          "text": "Throughout the history of education the most common form of school discipline was corporal punishment. While a child was in school, a teacher was expected to act as a substitute parent, with all the normal forms of parental discipline open to them.\n\nIn past times, corporal punishment (spanking or paddling or caning or strapping or birching the student in order to cause physical pain) was one of the most common forms of school discipline throughout much of the world.",
+          "chunk_id": "semantic:00250"
+        },
+        "score": 0.7165678143501282
+      },
+      {
+        "rank": 2,
+        "chunk": {
+          "article": "Teacher",
+          "start": 8728,
+          "end": 9236,
+          "text": "It requires the pupil to remain in school at a given time in the school day (such as lunch, recess or after school); or even to attend school on a non-school day, e.g. \"Saturday detention\" held at some schools. During detention, students normally have to sit in a classroom and do work, write lines or a punishment essay, or sit quietly.\n\nA modern example of school discipline in North America and Western Europe relies upon the idea of an assertive teacher who is prepared to impose their will upon a class.",
+          "chunk_id": "semantic:00253"
+        },
+        "score": 0.5832716822624207
+      },
+      {
+        "rank": 3,
+        "chunk": {
+          "article": "Teacher",
+          "start": 9237,
+          "end": 9754,
+          "text": "Positive reinforcement is balanced with immediate and fair punishment for misbehavior and firm, clear boundaries define what is appropriate and inappropriate behavior. Teachers are expected to respect their students; sarcasm and attempts to humiliate pupils are seen as falling outside of what constitutes reasonable discipline.[verification needed]\n\nWhilst this is the consensus viewpoint amongst the majority of academics, some teachers and parents advocate a more assertive and confrontational style of discipline.",
+          "chunk_id": "semantic:00254"
+        },
+        "score": 0.5697738528251648
+      },
+      {
+        "rank": 4,
+        "chunk": {
+          "article": "Teacher",
+          "start": 8112,
+          "end": 8727,
+          "text": "Corporal punishment in American schools is administered to the seat of the student's trousers or skirt with a specially made wooden paddle. This often used to take place in the classroom or hallway, but nowadays the punishment is usually given privately in the principal's office.\n\nOfficial corporal punishment, often by caning, remains commonplace in schools in some Asian, African and Caribbean countries. For details of individual countries see School corporal punishment.\n\nCurrently detention is one of the most common punishments in schools in the United States, the UK, Ireland, Singapore and other countries.",
+          "chunk_id": "semantic:00252"
+        },
+        "score": 0.5588253736495972
+      },
+      {
+        "rank": 5,
+        "chunk": {
+          "article": "Teacher",
+          "start": 10363,
+          "end": 11040,
+          "text": "In Japan, for example, although average attainment on standardized tests may exceed those in Western countries, classroom discipline and behavior is highly problematic. Although, officially, schools have extremely rigid codes of behavior, in practice many teachers find the students unmanageable and do not enforce discipline at all.\n\nWhere school class sizes are typically 40 to 50 students, maintaining order in the classroom can divert the teacher from instruction, leaving little opportunity for concentration and focus on what is being taught. In response, teachers may concentrate their attention on motivated students, ignoring attention-seeking and disruptive students.",
+          "chunk_id": "semantic:00256"
+        },
+        "score": 0.5514643788337708
+      }
+    ],
+    "retrieval_metrics": {
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0
+    }
+  },
+  {
+    "id": "56e7542f00c9c71400d76fbd",
+    "article": "Teacher",
+    "question": "In what areas does most of the learning take place?",
+    "answers": [
+      "self-study and problem solving",
+      "classroom",
+      "in self-study and problem solving"
+    ],
+    "answer_spans": [
+      [
+        5083,
+        5113
+      ],
+      [
+        4481,
+        4490
+      ],
+      [
+        5080,
+        5113
+      ]
+    ],
+    "for_generation": true,
+    "retrieved_results": [
+      {
+        "rank": 1,
+        "chunk": {
+          "article": "Teacher",
+          "start": 4651,
+          "end": 5154,
+          "text": "First, teaching itself can be taught in many different ways, hence, using a pedagogy of teaching styles. Second, the pedagogy of the learners comes into play when a teacher assesses the pedagogic diversity of his/her students and differentiates for the individual students accordingly. For example, an experienced teacher and parent described the place of a teacher in learning as follows: \"The real bulk of learning takes place in self-study and problem solving with a lot of feedback around that loop.",
+          "chunk_id": "semantic:00243"
+        },
+        "score": 0.4867372512817383
+      },
+      {
+        "rank": 2,
+        "chunk": {
+          "article": "Teacher",
+          "start": 4001,
+          "end": 4650,
+          "text": "The objective is typically a course of study, lesson plan, or a practical skill. A teacher may follow standardized curricula as determined by the relevant authority. The teacher may interact with students of different ages, from infants to adults, students with different abilities and students with learning disabilities.\n\nTeaching using pedagogy also involve assessing the educational levels of the students on particular skills. Understanding the pedagogy of the students in a classroom involves using differentiated instruction as well as supervision to meet the needs of all students in the classroom. Pedagogy can be thought of in two manners.",
+          "chunk_id": "semantic:00242"
+        },
+        "score": 0.42031416296958923
+      },
+      {
+        "rank": 3,
+        "chunk": {
+          "article": "Teacher",
+          "start": 636,
+          "end": 1253,
+          "text": "A teacher's role may vary among cultures. Teachers may provide instruction in literacy and numeracy, craftsmanship or vocational training, the arts, religion, civics, community roles, or life skills.\n\nIn some countries, formal education can take place through home schooling. Informal learning may be assisted by a teacher occupying a transient or ongoing role, such as a family member, or by anyone with knowledge or skills in the wider community setting.\n\nReligious and spiritual teachers, such as gurus, mullahs, rabbis, pastors/youth pastors and lamas, may teach religious texts such as the Quran, Torah or Bible.",
+          "chunk_id": "semantic:00236"
+        },
+        "score": 0.41527435183525085
+      },
+      {
+        "rank": 4,
+        "chunk": {
+          "article": "Teacher",
+          "start": 3188,
+          "end": 3830,
+          "text": "A teacher who teaches on an individual basis may be described as a tutor.\n\nThe objective is typically accomplished through either an informal or formal approach to learning, including a course of study and lesson plan that teaches skills, knowledge and/or thinking skills. Different ways to teach are often referred to as pedagogy. When deciding what teaching method to use teachers consider students' background knowledge, environment, and their learning goals as well as standardized curricula as determined by the relevant authority. Many times, teachers assist in learning outside of the classroom by accompanying students on field trips.",
+          "chunk_id": "semantic:00240"
+        },
+        "score": 0.405581533908844
+      },
+      {
+        "rank": 5,
+        "chunk": {
+          "article": "Teacher",
+          "start": 6156,
+          "end": 6581,
+          "text": "However, alternative approaches for primary education do exist. One of these, sometimes referred to as a \"platoon\" system, involves placing a group of students together in one class that moves from one specialist to another for every subject. The advantage here is that students learn from teachers who specialize in one subject and who tend to be more knowledgeable in that one area than a teacher who teaches many subjects.",
+          "chunk_id": "semantic:00247"
+        },
+        "score": 0.3847790062427521
+      }
+    ],
+    "retrieval_metrics": {
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0
+    }
+  }
+]

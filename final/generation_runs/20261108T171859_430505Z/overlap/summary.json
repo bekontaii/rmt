@@ -1,0 +1,13 @@
+{
+  "n_questions": 1000,
+  "exact_match": 0.699,
+  "f1": 0.7696388314101699,
+  "hit_at_3": 0.801,
+  "visible_evidence_hit": 0.801,
+  "context_truncated_count": 85,
+  "output_may_be_length_limited_count": 3,
+  "mean_generated_tokens": 5.308,
+  "answer_pipeline_total_s": 573.1303239671979,
+  "answer_pipeline_mean_s": 0.5731303239671979,
+  "timing_scope": "Prompt packing, tokenization, generation, decoding and scoring; observed CPU time, not pure model latency or a dedicated benchmark"
+}

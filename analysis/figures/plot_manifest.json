@@ -1,0 +1,223 @@
+{
+  "source_analysis": "/Users/bekarysuzbekbaev/Documents/Codex/2026-10-17/lfdf/outputs/manual_a4_steps/report_tools/final_analysis/analysis.json",
+  "source_sha256": "9c4d91f7610226e1ea84f79f854febc3297c0262d433b11ab7ef089a33be9fdf",
+  "plot_script_sha256": "50bcac9de7f2cd3dba9f1b0344887d3f7cb6bebabca7e5c17599659fc36bc5a0",
+  "reportlab_version": "4.4.9",
+  "canvas_inches": [
+    8,
+    5
+  ],
+  "png_pixels": [
+    1760,
+    1100
+  ],
+  "png_dpi": 220,
+  "word_insert_inches": [
+    6,
+    3.75
+  ],
+  "renderer": "ReportLab VerticalBarChart + ReportLab renderSVG + bundled Node Sharp",
+  "figures": {
+    "figure1_retrieval": {
+      "png": "/Users/bekarysuzbekbaev/Documents/Codex/2026-10-17/lfdf/outputs/manual_a4_steps/report_tools/final_plots/figure1_retrieval.png",
+      "png_sha256": "268c549fce8146363bfd0e12cde6313d5f745ca8c1e9f5ffed5f1237b20500d0",
+      "svg": "/Users/bekarysuzbekbaev/Documents/Codex/2026-10-17/lfdf/outputs/manual_a4_steps/report_tools/final_plots/figure1_retrieval.svg",
+      "svg_sha256": "0e9f67c3ece09cd4f5b8f211f031c1c45d4fdb3eb59c265e0f5ce5180f31ac22",
+      "caption": "Figure 1. Answer-span Hit@1, Hit@3 and Hit@5 on 2,000 paired retrieval questions per method. Bars show observed percentages; whiskers are marginal 95% percentile intervals from 2,000 whole-article bootstrap draws (20 article clusters; seed 42), conditional on the fixed corpus and models.",
+      "coordinate_trace": [
+        {
+          "metric": "hit_at_1",
+          "strategy": "fixed",
+          "estimate": 54.85,
+          "ci_low": 51.19874999999999,
+          "ci_high": 58.400000000000006,
+          "bar_center_x": 66.88888888888889,
+          "bar_top_y": 190.737,
+          "ci_low_y": 181.90097499999996,
+          "ci_high_y": 199.328
+        },
+        {
+          "metric": "hit_at_1",
+          "strategy": "overlap",
+          "estimate": 59.24999999999999,
+          "ci_low": 55.64875,
+          "ci_high": 62.9,
+          "bar_center_x": 116.66666666666667,
+          "bar_top_y": 201.385,
+          "ci_low_y": 192.669975,
+          "ci_high_y": 210.218
+        },
+        {
+          "metric": "hit_at_1",
+          "strategy": "semantic",
+          "estimate": 63.45000000000002,
+          "ci_low": 59.15000000000001,
+          "ci_high": 67.55000000000001,
+          "bar_center_x": 166.44444444444443,
+          "bar_top_y": 211.54900000000004,
+          "ci_low_y": 201.14300000000003,
+          "ci_high_y": 221.47100000000003
+        },
+        {
+          "metric": "hit_at_3",
+          "strategy": "fixed",
+          "estimate": 77.60000000000001,
+          "ci_low": 74.74999999999999,
+          "ci_high": 80.25,
+          "bar_center_x": 251.22222222222223,
+          "bar_top_y": 245.792,
+          "ci_low_y": 238.89499999999995,
+          "ci_high_y": 252.20499999999998
+        },
+        {
+          "metric": "hit_at_3",
+          "strategy": "overlap",
+          "estimate": 80.80000000000001,
+          "ci_low": 77.75000000000001,
+          "ci_high": 83.75125000000001,
+          "bar_center_x": 301.0,
+          "bar_top_y": 253.53600000000003,
+          "ci_low_y": 246.15500000000003,
+          "ci_high_y": 260.67802500000005
+        },
+        {
+          "metric": "hit_at_3",
+          "strategy": "semantic",
+          "estimate": 83.24999999999999,
+          "ci_low": 79.80000000000001,
+          "ci_high": 86.35125,
+          "bar_center_x": 350.77777777777777,
+          "bar_top_y": 259.4649999999999,
+          "ci_low_y": 251.116,
+          "ci_high_y": 266.97002499999996
+        },
+        {
+          "metric": "hit_at_5",
+          "strategy": "fixed",
+          "estimate": 83.75,
+          "ci_low": 81.05,
+          "ci_high": 86.25,
+          "bar_center_x": 435.55555555555554,
+          "bar_top_y": 260.67499999999995,
+          "ci_low_y": 254.141,
+          "ci_high_y": 266.725
+        },
+        {
+          "metric": "hit_at_5",
+          "strategy": "overlap",
+          "estimate": 87.05000000000001,
+          "ci_low": 84.59875,
+          "ci_high": 89.4,
+          "bar_center_x": 485.3333333333333,
+          "bar_top_y": 268.66100000000006,
+          "ci_low_y": 262.728975,
+          "ci_high_y": 274.348
+        },
+        {
+          "metric": "hit_at_5",
+          "strategy": "semantic",
+          "estimate": 88.75,
+          "ci_low": 86.30000000000001,
+          "ci_high": 90.99999999999999,
+          "bar_center_x": 535.1111111111111,
+          "bar_top_y": 272.775,
+          "ci_low_y": 266.846,
+          "ci_high_y": 278.21999999999997
+        }
+      ],
+      "raster_info": {
+        "format": "png",
+        "width": 1760,
+        "height": 1100,
+        "channels": 3,
+        "premultiplied": false,
+        "hasAlpha": false,
+        "size": 111999
+      }
+    },
+    "figure2_generation": {
+      "png": "/Users/bekarysuzbekbaev/Documents/Codex/2026-10-17/lfdf/outputs/manual_a4_steps/report_tools/final_plots/figure2_generation.png",
+      "png_sha256": "3e8813dc7d3c4b8fb14570d14fc5c869a73b64b9f367f2645a9698ea1c987cf1",
+      "svg": "/Users/bekarysuzbekbaev/Documents/Codex/2026-10-17/lfdf/outputs/manual_a4_steps/report_tools/final_plots/figure2_generation.svg",
+      "svg_sha256": "3b48f5a3080c0199f920f500e8b83b7a0ea2f300053376688c0139b88ce45957",
+      "caption": "Figure 2. Exact match and mean token F1 on 1,000 paired generation questions per method. Bars show observed percentages; whiskers are marginal 95% percentile intervals from 2,000 whole-article bootstrap draws (20 article clusters; seed 42), conditional on the fixed corpus and models.",
+      "coordinate_trace": [
+        {
+          "metric": "exact_match",
+          "strategy": "fixed",
+          "estimate": 68.2,
+          "ci_low": 63.79999999999999,
+          "ci_high": 72.29999999999998,
+          "bar_center_x": 81.41666666666667,
+          "bar_top_y": 223.044,
+          "ci_low_y": 212.39599999999996,
+          "ci_high_y": 232.96599999999995
+        },
+        {
+          "metric": "exact_match",
+          "strategy": "overlap",
+          "estimate": 69.9,
+          "ci_low": 66.4,
+          "ci_high": 73.5025,
+          "bar_center_x": 160.25,
+          "bar_top_y": 227.15800000000002,
+          "ci_low_y": 218.68800000000002,
+          "ci_high_y": 235.87605
+        },
+        {
+          "metric": "exact_match",
+          "strategy": "semantic",
+          "estimate": 74.30000000000001,
+          "ci_low": 69.9,
+          "ci_high": 78.4,
+          "bar_center_x": 239.08333333333331,
+          "bar_top_y": 237.806,
+          "ci_low_y": 227.15800000000002,
+          "ci_high_y": 247.728
+        },
+        {
+          "metric": "f1",
+          "strategy": "fixed",
+          "estimate": 74.93664139219982,
+          "ci_low": 71.59821138597515,
+          "ci_high": 78.14137913048957,
+          "bar_center_x": 362.9166666666667,
+          "bar_top_y": 239.34667216912356,
+          "ci_low_y": 231.26767155405986,
+          "ci_high_y": 247.10213749578475
+        },
+        {
+          "metric": "f1",
+          "strategy": "overlap",
+          "estimate": 76.96388314101698,
+          "ci_low": 74.27222606349316,
+          "ci_high": 79.73964721955366,
+          "bar_center_x": 441.75,
+          "bar_top_y": 244.2525972012611,
+          "ci_low_y": 237.73878707365344,
+          "ci_high_y": 250.96994627131986
+        },
+        {
+          "metric": "f1",
+          "strategy": "semantic",
+          "estimate": 80.71100894409804,
+          "ci_low": 77.60941419164233,
+          "ci_high": 83.81421344692923,
+          "bar_center_x": 520.5833333333333,
+          "bar_top_y": 253.32064164471726,
+          "ci_low_y": 245.81478234377443,
+          "ci_high_y": 260.8303965415687
+        }
+      ],
+      "raster_info": {
+        "format": "png",
+        "width": 1760,
+        "height": 1100,
+        "channels": 3,
+        "premultiplied": false,
+        "hasAlpha": false,
+        "size": 86564
+      }
+    }
+  }
+}
