@@ -1,0 +1,170 @@
+{
+  "input_sha256": {
+    "retrieval_table.csv": "a1f8c24d207709ba1684a29a9b4400c411c16f48f9c6c9c1c2fe190c1e4dd678",
+    "generation_table.csv": "6ff45eaa245b9948d27f2e3c279c786bb4073bde9d36d7515e449b5efbeed58d",
+    "retrieval_article_metrics.csv": "c47f00148123adf5610a4271da4116e464efbb0f4c2e4965840b6997ac082301",
+    "analysis.json": "9c4d91f7610226e1ea84f79f854febc3297c0262d433b11ab7ef089a33be9fdf"
+  },
+  "figures": {
+    "fig1_pipeline": {
+      "type": "diagram",
+      "values": "configuration from experiment_config.json"
+    },
+    "fig2_retrieval_hitk": {
+      "source": "retrieval_table.csv",
+      "values_pct_mean_lo_hi": {
+        "fixed_hit_at_1": [
+          54.85,
+          51.2,
+          58.4
+        ],
+        "overlap_hit_at_1": [
+          59.25,
+          55.65,
+          62.9
+        ],
+        "semantic_hit_at_1": [
+          63.45,
+          59.15,
+          67.55
+        ],
+        "fixed_hit_at_3": [
+          77.6,
+          74.75,
+          80.25
+        ],
+        "overlap_hit_at_3": [
+          80.8,
+          77.75,
+          83.75
+        ],
+        "semantic_hit_at_3": [
+          83.25,
+          79.8,
+          86.35
+        ],
+        "fixed_hit_at_5": [
+          83.75,
+          81.05,
+          86.25
+        ],
+        "overlap_hit_at_5": [
+          87.05,
+          84.6,
+          89.4
+        ],
+        "semantic_hit_at_5": [
+          88.75,
+          86.3,
+          91.0
+        ]
+      }
+    },
+    "fig3_generation_em_f1": {
+      "source": "generation_table.csv",
+      "values_pct_mean_lo_hi": {
+        "fixed_exact_match": [
+          68.2,
+          63.8,
+          72.3
+        ],
+        "overlap_exact_match": [
+          69.9,
+          66.4,
+          73.5
+        ],
+        "semantic_exact_match": [
+          74.3,
+          69.9,
+          78.4
+        ],
+        "fixed_f1": [
+          74.94,
+          71.6,
+          78.14
+        ],
+        "overlap_f1": [
+          76.96,
+          74.27,
+          79.74
+        ],
+        "semantic_f1": [
+          80.71,
+          77.61,
+          83.81
+        ]
+      }
+    },
+    "fig4_evidence_accounting": {
+      "source": "retrieval_table.csv + analysis.json:efficiency",
+      "counts": {
+        "fixed": {
+          "top3_hit": 1552,
+          "ranking_miss": 429,
+          "index_miss": 19
+        },
+        "overlap": {
+          "top3_hit": 1616,
+          "ranking_miss": 384,
+          "index_miss": 0
+        },
+        "semantic": {
+          "top3_hit": 1665,
+          "ranking_miss": 333,
+          "index_miss": 2
+        }
+      }
+    },
+    "fig5_article_differences": {
+      "source": "retrieval_article_metrics.csv",
+      "semantic_minus_fixed_pp": {
+        "Economic_inequality": -4.0,
+        "Computational_complexity_theory": -2.0,
+        "Rhine": 1.0,
+        "American_Broadcasting_Company": 3.0,
+        "French_and_Indian_War": 3.0,
+        "Pharmacy": 4.0,
+        "Steam_engine": 5.0,
+        "Private_school": 5.0,
+        "University_of_Chicago": 5.0,
+        "United_Methodist_Church": 5.0,
+        "Force": 6.0,
+        "Victoria_(Australia)": 6.0,
+        "Oxygen": 7.0,
+        "Super_Bowl_50": 8.0,
+        "Normans": 9.0,
+        "Genghis_Khan": 9.0,
+        "Geology": 9.0,
+        "Newcastle_upon_Tyne": 10.0,
+        "Nikola_Tesla": 12.0,
+        "Victoria_and_Albert_Museum": 12.0
+      },
+      "overlap_minus_fixed_pp": {
+        "Economic_inequality": 0.0,
+        "Computational_complexity_theory": -2.0,
+        "Rhine": 4.0,
+        "American_Broadcasting_Company": -3.0,
+        "French_and_Indian_War": 2.0,
+        "Pharmacy": 5.0,
+        "Steam_engine": 5.0,
+        "Private_school": 7.0,
+        "University_of_Chicago": -1.0,
+        "United_Methodist_Church": 1.0,
+        "Force": 6.0,
+        "Victoria_(Australia)": 5.0,
+        "Oxygen": 2.0,
+        "Super_Bowl_50": 4.0,
+        "Normans": 7.0,
+        "Genghis_Khan": 8.0,
+        "Geology": 5.0,
+        "Newcastle_upon_Tyne": 1.0,
+        "Nikola_Tesla": 4.0,
+        "Victoria_and_Albert_Museum": 4.0
+      },
+      "semantic_better_articles": 18,
+      "overlap_better_articles": 16,
+      "mean_semantic_minus_fixed_pp": 5.65,
+      "mean_overlap_minus_fixed_pp": 3.2
+    }
+  }
+}

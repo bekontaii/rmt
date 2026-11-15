@@ -1,68 +1,107 @@
-# Document chunking in a local RAG pipeline
+# Document Chunking, Evidence Coverage, and Answer Accuracy in SQuAD RAG
 
-Bekarys Uzbekbayev and Yerassyl Kuanyshov, SE-2415 — Research Methods and Tools, Assignment 4.
+Bekarys Uzbekbayev and Yerassyl Kuanyshov — Astana IT University, SE-2415
+Research Methods and Tools, Final Project. Release tag: **`final`**.
 
-Repository: https://github.com/bekontaii/rmt
+This repository contains everything needed to check and regenerate the results of the
+manuscript in [`paper/`](paper/). The study compares three ways of splitting documents
+for a retrieval-augmented question-answering pipeline:
 
-The team reports that Yerassyl Kuanyshov tested the project successfully
-on 8 November 2026 under Linux. Machine specifications, package versions,
-exact commands and the numerical comparison log were not supplied;
-Appendix C records the confirmation at that level of detail.
-The public repository has been created; code upload and the assignment-4 tag
-are being prepared.
+| Condition | Rule |
+| --- | --- |
+| Fixed-size (simple baseline) | consecutive windows of at most 100 words |
+| Overlap (literature baseline) | 100-word windows, 20 words shared between neighbours |
+| Semantic (proposed) | Punkt sentences grouped by MPNet similarity; break at the article's 90th-percentile distance or at 100 words |
 
-The main experiment compares fixed chunks of 100 words, 100-word chunks with
-20-word overlap, and semantic chunks with a 100-word cap. The same MPNet
-encoder and FLAN-T5-Large generator are used for all three conditions.
+All conditions use the same 20 SQuAD 1.1 articles, the same 2,000 retrieval questions
+(1,000 of them also answered by the generator), `sentence-transformers/all-mpnet-base-v2`
+for retrieval and `google/flan-t5-large` for generation, at pinned revisions.
 
-The fixed sample contains 20 SQuAD 1.1 articles, 2,000 retrieval questions and
-1,000 generation questions. Each question is paired across conditions:
-6,000 retrieval records and 3,000 generated answers. Development pilot data
-are separate and must not be combined with these main results.
+**Main result.** Answer-span Hit@3 = 77.60% (fixed), 80.80% (overlap), 83.25% (semantic);
+omnibus Holm-adjusted p = 0.000040. Exact Match = 68.20% / 69.90% / 74.30%.
 
-## Protocol evidence and execution
+---
 
-`protocol/sealed_plan.json` records the prospective local seal. The original
-data, model revisions, numerical source files, prompts, scoring rules and
-analysis plan are checked against its hashes before execution and at
-completion. They remain unchanged.
+## 1. Repository map
 
-Moodle submission is **unverified**. The user reported 8 November 2026 at
-10:00 Asia/Almaty, earlier than the local seal at 10:56. No Moodle receipt or
-comparison of uploaded bytes resolves that chronology. The user subsequently
-explicitly requested execution without further waiting. The additional
-`run_main_experiment.py` launcher records this deviation before inference.
-The record at `protocol/freeze_manifest.json` has status
-`execution_requested_upload_unverified`; it is not an upload receipt and does
-not establish compliance with the assignment's prior-upload requirement.
-The original receipt-dependent runners and `freeze_gate.py` are preserved.
+| Path | Content |
+| --- | --- |
+| `paper/` | Preprint of the final manuscript (PDF), slides (PDF), Journal Fit Statement, cover letter, readiness checklist. The journal-template version is used only for submission, as the MDPI template licence does not allow posting it online. |
+| `data/selection_manifest.json` | Frozen article and question IDs (seed 42) |
+| `data/corpus.json`, `data/questions.json` | Article texts with offsets; questions with answer spans |
+| `experiment_config.json` | Every setting: chunk sizes, model names and revisions, prompt, decoding |
+| `analysis_plan.json` | Frozen statistical plan (tests, draws, Holm, practical flag, H3 rules) |
+| `protocol/` | Protocol documents and the local seal (`sealed_plan.json`, file hashes) |
+| `final/retrieval_runs/20261108T171630_590183Z/` | Main retrieval run: chunks, top-5 rankings, Hit@k per question |
+| `final/generation_runs/20261108T171859_430505Z/` | Main generation run: 3,000 answers with prompts, token IDs, scores, timing, checksums |
+| `final/main_experiment_*.log` | Timestamped log of the main run (8 Nov 2026, 17:16–17:46 UTC) |
+| `analysis/main_results/` | Published tables, statistics (`analysis.json`), per-question metrics, error review |
+| `analysis/paper_figures/` | Figures 1–5 of the manuscript (PNG 600 dpi + PDF) and `figure_sources.json` |
+| `reproduction/` | Independent reproduction records |
+| `*.py` | Pipeline code (see Section 6) |
 
-## Environment and data
+## 2. Reproducing the paper (tables and figures)
 
-Inference uses Python 3.12.16, CPU float32 and the versions pinned in
-`requirements.lock.txt`. The observed main machine is an Apple M5 Mac with
-16 GiB RAM. To create the environment on a compatible machine:
+Every number in the Results section is stored in a file below and is regenerated by the
+command in the last column. Commands run from the repository root.
+
+| Manuscript item | Source file(s) | Regenerate with |
+| --- | --- | --- |
+| Table 1 (related studies) | literature only | — |
+| Table 2 — Hit@1/3/5 with 95% CIs | `analysis/main_results/retrieval_table.csv` | `analyze_results.py` (2.1) |
+| Table 3 — paired Hit@3 contrasts, p-values | `analysis/main_results/paired_differences.csv`, `analysis.json` → `primary_tests` | `analyze_results.py` (2.1) |
+| Table 4 — EM, F1, raw/visible Hit@3 | `analysis/main_results/generation_table.csv` | `analyze_results.py` (2.1) |
+| Table 5 — index miss, ranking miss, packing | `analysis.json` → `efficiency`; `generation_table.csv` | `analyze_results.py` (2.1) |
+| Table 6 — fragments, words, MiB, timing | `analysis.json` → `efficiency`, `runtime` | `analyze_results.py` (2.1) |
+| H3 (92.68% vs 15.68% F1, +77.00 pp) | `analysis.json` → `H3` | `analyze_results.py` (2.1) |
+| Article-level results (Section 4.4) | `retrieval_article_metrics.csv`, `generation_article_metrics.csv` | `analyze_results.py` (2.1) |
+| Error review (61 coded cases) | `analysis/main_results/error_review/` | sample: `analyze_results.py`; codes: reviewed file |
+| Figures 1–5 | `analysis/paper_figures/*.png`, `figure_sources.json` | `make_paper_figures.py` (2.2) |
+
+### 2.1 Recompute all statistics from the saved runs (no models needed, ~1 minute)
 
 ```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.lock.txt
-python -c "import nltk; nltk.download('punkt_tab', raise_on_error=True)"
-python download_models.py
+python -m pip install "numpy==2.0.2"          # any recent NumPy also reproduces the tables
+python analyze_results.py \
+  --retrieval-run final/retrieval_runs/20261108T171630_590183Z \
+  --generation-run final/generation_runs/20261108T171859_430505Z \
+  --out analysis/recheck --allow-unverified-upload
+python compare_analysis.py --published analysis/main_results --recomputed analysis/recheck
 ```
 
-The integrity checks require the recorded Python patch version, package
-versions and English Punkt resource bytes. Platform differences must be
-recorded rather than silently accepted as the original environment.
+`analyze_results.py` verifies every hash, identifier, and span before computing anything,
+then recomputes Hit@k, EM, F1, bootstrap intervals, the permutation and sign-flip tests,
+Holm correction, and H3. `compare_analysis.py` prints `IDENTICAL`/`DIFFERENT` for each
+table and statistical section. Expected final line: `ALL MAIN RESULTS REPRODUCED EXACTLY`.
+(The `--out` folder must not exist yet and must be inside the repository.)
+The flag `--allow-unverified-upload` only records that a course-submission receipt for the
+protocol was not archived; it does not relax any data, hash, or completeness check.
 
-The source is the public SQuAD 1.1 development file. Its SHA256 is
-`95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9`.
-The provided `data/selection_manifest.json` fixes the exact article and
-question IDs. Use the saved corpus and questions; do not redraw the sample.
-`download_data.py` provides the original data access step for a clean copy.
-Model names, pinned revisions and all settings are in `experiment_config.json`.
+### 2.2 Regenerate the manuscript figures
 
-## Validate without inference
+```bash
+python -m pip install "matplotlib==3.11.2" "pandas==3.0.5"
+python make_paper_figures.py --analysis analysis/main_results --out analysis/paper_figures_check
+```
+
+`figure_sources.json` lists the SHA-256 of every input file and every value drawn.
+
+## 3. Environment
+
+The main run used an Apple M5 Mac (16 GiB RAM), CPU, float32, Python 3.12.16, and the
+versions pinned in `requirements.lock.txt` (PyTorch 2.8.0, Transformers 4.57.6,
+Sentence Transformers 5.1.2, NumPy 2.0.2).
+
+```bash
+python3.12 -m venv .venv && source .venv/bin/activate
+python -m pip install -r requirements.lock.txt
+python -c "import nltk; nltk.download('punkt_tab', raise_on_error=True)"
+python download_models.py          # pinned revisions from experiment_config.json
+```
+
+Fresh inference checks (Section 5) require these exact versions; Section 2.1 does not.
+
+## 4. Validate the frozen inputs without inference
 
 ```bash
 python run_main_experiment.py --check-only
@@ -70,120 +109,72 @@ python final_retrieval.py --check-only
 python final_generation.py --check-config
 ```
 
-These commands validate metadata and local provenance; they do not generate
-answers. Cached models are required for the actual offline main run.
+## 5. Re-running inference
 
-## Main execution and recovery
-
-The actual main experiment is orchestrated by:
-
-```bash
-python -u run_main_experiment.py --execute-with-unverified-upload
-```
-
-This explicitly disclosed route does not claim a verified Moodle upload.
-The pipeline first saves complete retrieval outputs and then generates the
-1,000 answers for each method. `final/pipeline_manifest.json` and the
-timestamped `final/main_experiment_*.log` show progress. Every generated
-answer has its own checkpoint, prompt, token IDs, reference scores, timing
-and checksum. Retain all failed or interrupted attempts.
-
-The main retrieval run is:
-`final/retrieval_runs/20261108T171630_590183Z`.
-The main generation run is:
-`final/generation_runs/20261108T171859_430505Z`.
-
-To resume that generation run, or verify its completed checkpoints without
-regenerating already saved answers:
-
-```bash
-python -u run_main_experiment.py --execute-with-unverified-upload \
-  --resume-generation final/generation_runs/20261108T171859_430505Z
-```
-
-Use the resume command after interruption. A fresh launch without the resume
-argument can create a separate generation run; it must not be treated as the
-same attempt or used to select favourable outputs.
-
-## Analysis and report
-
-The primary metric is answer-span Hit@3 over 2,000 questions. Exact Match,
-token F1 and visible evidence coverage use the fixed 1,000-question subset.
-The frozen `analysis_plan.json` specifies article-cluster bootstrap intervals,
-100,000-draw permutation/sign-flip tests and Holm correction. H3 is an
-exploratory association, not a causal claim.
-
-The completed analysis package includes `analyze_results.py`. After both
-main manifests show `completed`, run:
-
-```bash
-python analyze_results.py \
-  --retrieval-run final/retrieval_runs/20261108T171630_590183Z \
-  --generation-run final/generation_runs/20261108T171859_430505Z \
-  --out analysis/main_results \
-  --allow-unverified-upload
-```
-
-The output folder must be new. The flag discloses missing Moodle evidence;
-it does not relax completeness, identity, source-hash or metric checks.
-Tables, raw per-question metrics, intervals, tests, figures and the
-prespecified 30-question error-review sample are derived from saved results.
-Error coding must be reviewed separately and must never change reference
-answers or global scores.
-
-The reported team test is attributed to Yerassyl Kuanyshov. Detailed test
-metadata and numerical equality of the main table are not yet documented.
-Record the real commit and `assignment-4` tag after uploading the code.
-Internal numerical verification remains separate from the teammate report.
-
-The prepared subset helper can first be checked without loading models:
+Fresh 60-answer subset (one generation question per article × 3 strategies), compared with
+the saved answers; writes only to a new folder under `reproduction/`:
 
 ```bash
 python reproduce_subset.py \
   --retrieval-run final/retrieval_runs/20261108T171630_590183Z \
   --generation-run final/generation_runs/20261108T171859_430505Z \
-  --check-only
+  --operator "Full name" --execute --out reproduction/<YYYYMMDD_name>
 ```
 
-For a real fresh subset run, use the same paths with `--execute` and supply
-the actual operator's name through `--operator`. The helper selects the first
-generation question in each article, generates 60 separate answers, and keeps
-them under `reproduction/`. It reports matches and differences without
-overwriting the main run or automatically claiming that the operator is an
-independent classmate. Record the actual person, environment, commands and
-outcome in Appendix C after the run.
+Full main experiment (about 30 minutes on the original CPU):
 
-## Rights
+```bash
+python -u run_main_experiment.py --execute-with-unverified-upload
+```
 
-The code in this study is distributed under `LICENSE`. SQuAD, article texts,
-model weights and third-party libraries retain their own rights and terms:
+A fresh launch creates a new run folder; the published runs above are never overwritten.
 
-- Dataset: https://rajpurkar.github.io/SQuAD-explorer/
-- Encoder: https://huggingface.co/sentence-transformers/all-mpnet-base-v2
-- Generator: https://huggingface.co/google/flan-t5-large
+## 6. Code overview
 
-The code licence does not relicense those third-party materials. Environment
-folders, downloaded model weights and private credentials are excluded from
-the reproducibility archive.
+| Step | File |
+| --- | --- |
+| Download data / models | `download_data.py`, `download_models.py` |
+| Sample 20 articles and questions (seed 42) | `select_data.py` |
+| Build corpus with answer offsets; validate spans | `prepare_corpus.py`, `validate_data.py` |
+| Fixed and overlapping windows | `chunkers.py` |
+| Sentence splitting; semantic grouping | `sentence_splitter.py`, `semantic_chunker.py` |
+| Embedding, cosine ranking, Hit@k | `final_retrieval.py`, `retrieval_metrics.py` |
+| Prompt packing (512 tokens), generation | `prompt_builder.py`, `final_generation.py` |
+| EM and token F1 (SQuAD normalization) | `metrics.py` |
+| Orchestration and logging | `run_main_experiment.py` |
+| Statistics, tables, error-review sample | `analyze_results.py` |
+| Integrity checks of the frozen inputs | `prepare_freeze.py`, `freeze_gate.py`, `check_final_inputs.py` |
+| Development pilot (3 articles, 9 questions; not used in results) | `development/`, `run_development_*.py` |
 
-## Paper figure source
+## 7. Independent reproduction
 
-`plot_final.py` is the exact ReportLab plotting source for the figures embedded
-in the Word report. The generated vector SVGs and PNGs are retained in
-`analysis/figures/`, together with the coordinate and source-hash manifest.
-The paper rendering used the bundled ReportLab, Node.js and Sharp paths
-recorded in that helper; `requirements-figures.txt` pins its Python library.
-On another machine those optional rendering paths must be adapted. The
-main `analyze_results.py` command regenerates the numerical figure data and
-equivalent charts using the pinned base environment, without requiring the
-optional paper renderer. This rendering difference does not change any score,
-interval or statistical test.
+See [`REPRODUCTION.md`](REPRODUCTION.md). Records by people outside the author team are
+stored in `reproduction/` and summarised in the manuscript's Data Availability Statement.
 
-## Team submission documents
+## 8. Protocol and provenance
 
-The current report is `Assignment4_Uzbekbayev_Kuanyshov.docx`. The updated
-team protocol copy is `protocol/Protocol_Freeze_Uzbekbayev_Kuanyshov.docx`.
-These author metadata changes were recorded after execution. The original
-`protocol/Protocol_Freeze.docx`, local seal, execution manifests and numerical
-results remain unchanged. `protocol/team_metadata_amendment.json` records
-the version link and the team-reported testing statement.
+Data selection, model revisions, prompt, scoring rules, and the analysis plan were sealed
+locally with SHA-256 hashes before inference (`protocol/sealed_plan.json`) and re-checked at
+completion. A course-submission receipt for the protocol document was not archived, so the
+main run used the disclosed `--execute-with-unverified-upload` route; no frozen input,
+model revision, or analysis rule was changed. Author metadata in the protocol copy
+(`protocol/Protocol_Freeze_Uzbekbayev_Kuanyshov.docx`) was updated after execution; the
+original sealed document is kept unchanged.
+
+## 9. Licences and data availability
+
+- Code: MIT License (`LICENSE`).
+- SQuAD 1.1: CC BY-SA 4.0, https://rajpurkar.github.io/SQuAD-explorer/ (a copy of the
+  development file is included for exact reproduction; its SHA-256 is
+  `95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9`).
+- Models (not redistributed; downloaded at pinned revisions, both Apache 2.0):
+  https://huggingface.co/sentence-transformers/all-mpnet-base-v2 ·
+  https://huggingface.co/google/flan-t5-large
+- The repository contains no personal data, credentials, or confidential material.
+  Virtual environments and model weights are excluded.
+
+## 10. Citation
+
+Uzbekbayev, B.; Kuanyshov, Y. Document Chunking, Evidence Coverage, and Answer Accuracy in
+SQuAD Retrieval-Augmented Generation. Manuscript, Astana IT University, 2026.
+Code and data: https://github.com/bekontaii/rmt (release `final`).
