@@ -61,7 +61,7 @@ command in the last column. Commands run from the repository root.
 ### 2.1 Recompute all statistics from the saved runs (no models needed, ~1 minute)
 
 ```bash
-python -m pip install "numpy==2.0.2"          # any recent NumPy also reproduces the tables
+python -m pip install "numpy==2.0.2" pillow   # any recent NumPy also reproduces the tables
 python analyze_results.py \
   --retrieval-run final/retrieval_runs/20261108T171630_590183Z \
   --generation-run final/generation_runs/20261108T171859_430505Z \
@@ -73,7 +73,8 @@ python compare_analysis.py --published analysis/main_results --recomputed analys
 then recomputes Hit@k, EM, F1, bootstrap intervals, the permutation and sign-flip tests,
 Holm correction, and H3. `compare_analysis.py` prints `IDENTICAL`/`DIFFERENT` for each
 table and statistical section. Expected final line: `ALL MAIN RESULTS REPRODUCED EXACTLY`.
-(The `--out` folder must not exist yet and must be inside the repository.)
+(The `--out` folder must not exist yet and must be inside the repository. On Windows, clone
+with `-c core.autocrlf=false` and set `PYTHONUTF8=1`; see `REPRODUCTION.md`.)
 The flag `--allow-unverified-upload` only records that a course-submission receipt for the
 protocol was not archived; it does not relax any data, hash, or completeness check.
 

@@ -19,7 +19,7 @@ git clone https://github.com/bekontaii/rmt.git
 cd rmt
 git rev-parse HEAD                      # copy this commit hash into your record
 python3 --version                       # copy into your record
-python3 -m pip install numpy
+python3 -m pip install numpy pillow
 python3 analyze_results.py \
   --retrieval-run final/retrieval_runs/20261108T171630_590183Z \
   --generation-run final/generation_runs/20261108T171859_430505Z \
@@ -40,13 +40,26 @@ python3 make_paper_figures.py --analysis analysis/recheck --out analysis/figures
 
 Open `analysis/figures_check/fig2_retrieval_hitk.png` and compare it with Figure 2 of the paper.
 
-**On Google Colab:** run the same commands in cells, each prefixed with `!` (and `%cd rmt`
-instead of `cd rmt`).
+**Recommended: Google Colab.** Open colab.research.google.com → New notebook and run the
+same commands in cells, each prefixed with `!` (use `%cd rmt` instead of `cd rmt`). This
+avoids all operating-system issues below.
+
+**On Windows** (tested on Windows 11, Python 3.14):
+
+- Clone with `git clone -c core.autocrlf=false https://github.com/bekontaii/rmt.git`.
+  Otherwise Git converts line endings and the hash checks stop with
+  `Artifact hash mismatch` (fresh clones after release `final` are protected by
+  `.gitattributes`, but the flag does no harm).
+- Run `set PYTHONUTF8=1` (cmd), `$env:PYTHONUTF8=1` (PowerShell) or
+  `export PYTHONUTF8=1` (Git Bash) before `analyze_results.py`, otherwise a non-English
+  system locale causes `UnicodeDecodeError`.
+- Use `py` or `python` instead of `python3`.
 
 ## Level 2 (optional) — generate 60 fresh answers and compare with the saved ones
 
 This re-runs FLAN-T5-Large on one question per article for all three strategies, using the
-saved retrieval results. It requires the exact Python version and packages of the main run
+saved retrieval results. It requires Linux, macOS, WSL, or Colab: on native Windows the
+scripts stop at `import fcntl` and at a path-separator check. It requires the exact Python version and packages of the main run
 (the script refuses to run otherwise).
 
 ```bash
